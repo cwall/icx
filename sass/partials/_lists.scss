@@ -357,7 +357,7 @@
   @include flex-box();
   padding: 20px;
   flex-flow: row wrap;
-  @include flex(1 33%);
+  @include flex(1 50%);
   
   .box {
     @include flex(1);
@@ -371,6 +371,7 @@
     @include flex(1);
     @include flex-box();
     flex-flow: row wrap;
+    @include columns(2);
 
     span {
       @include flex(1 100%);
@@ -378,6 +379,7 @@
     &:first-child {
       font-size: 8em;
       @include flex(0);
+      @include columns(1);
     }
   }
 }

@@ -347,11 +347,11 @@
   display: flex;
   padding: 20px;
   flex-flow: row wrap;
-  -webkit-box-flex: 1 33%;
-  -moz-box-flex: 1 33%;
-  -ms-flex: 1 33%;
-  -webkit-flex: 1 33%;
-  flex: 1 33%; }
+  -webkit-box-flex: 1 50%;
+  -moz-box-flex: 1 50%;
+  -ms-flex: 1 50%;
+  -webkit-flex: 1 50%;
+  flex: 1 50%; }
   .data-card .box {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -380,7 +380,10 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2; }
     .data-card .cell span {
       -webkit-box-flex: 1 100%;
       -moz-box-flex: 1 100%;
@@ -393,7 +396,10 @@
       -moz-box-flex: 0;
       -ms-flex: 0;
       -webkit-flex: 0;
-      flex: 0; }
+      flex: 0;
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1; }
 
 @font-face {
   font-family: "insurecx";

@@ -64,6 +64,12 @@
   transition: $prop $time $ease;
 }
 
+@mixin columns ($col: 1) {
+  -webkit-column-count: $col;
+  -moz-column-count: $col; 
+  column-count: $col;
+}
+
 @mixin gradient($start-color, $end-color, $orientation)
  {
  background: $start-color;
