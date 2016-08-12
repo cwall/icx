@@ -1,0 +1,555 @@
+//foundation.scss
+@import 'partials/brand';
+@import 'partials/mixins';
+@import 'partials/buttons';
+@import 'partials/lists';
+@import 'partials/tables';
+@import 'partials/icons';
+
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Slab', serif;
+
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100%;
+  position: relative;
+  background-color: #eef1f6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+strong {
+  font-family: 'Roboto Slab', serif; 
+  color: $black;
+}
+
+#cx-base-temp {
+  max-width: 1366px;
+  min-width: 300px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  background-color: $white;
+  @include transition(all, .2s, ease-in-out);
+  @include radius(5px);
+
+  .base {
+    width: 100%;
+    @include flex-box();
+    min-height: 768px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+
+    .profile {
+      @include flex(1 150px);
+      min-height: 100%;
+      height: auto;
+      color: #2d384a;
+      min-height: 100%;
+      z-index: 1;
+      position: relative;
+      box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4);
+      
+
+      .menu {
+        height: 8px;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: block;
+        background-color: $red;
+        margin: 0;
+        @include transition(all, .2s, ease-in-out);
+        padding: 0 10px;
+        position: relative;
+
+        .menu-btn {
+          visibility: hidden;
+          opacity: 0;
+          width: 45px;
+          height: 30px;
+          border: none;
+          background-color: transparent;
+          display: inline-block;
+          position: absolute;
+          margin: auto;
+          top:0;
+          right: 20px;
+          bottom: 0;
+          vertical-align: middle;
+          @include transition(all, .2s, ease-in-out);
+          cursor: pointer;
+          outline: none;
+
+          span {
+            display: block;
+            width: 100%;
+            background-color: $white;
+            height: 1px;
+            margin-bottom: 10px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+
+          &:hover {
+            span {
+              box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+            }
+          }
+        }
+
+        svg {
+          visibility: hidden;
+          opacity: 0;
+          @include transition(all,.5s, ease-in);
+        }
+      }
+
+      .collapse-card {
+        position: relative;
+        //right: 10px;
+        //top: 15px;
+        cursor: pointer;
+        @include transition(all, .2s, ease-in-out);
+        color: $black;
+        font-size: 1.4em;
+        font-family: 'insurecx' !important;
+        font-style: normal;
+        float: right;
+        vertical-align: middle;
+
+        // &:before {
+        //   content: "\72";
+        // }
+
+        &:hover {
+          color: $red;
+        }
+
+        // &.active {
+        //   &:before {
+        //     content: "";
+        //   }
+        // }
+      }
+    }
+
+    .card {
+      height: auto;
+      min-height: 50px;
+      @include flex(1 100%);
+      border-bottom: 1px solid #eef1f6;
+      padding: 12px;
+      overflow: hidden;
+      @include transition(all, .2s, ease-in-out);
+
+      .collapse {
+        height: 0px;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 1.5em;
+        margin: 10px 0;
+        color: $red;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      .overview-title {
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: .8em;
+        letter-spacing: 1px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+      }
+    }
+
+    main {
+      @include flex(8);
+      min-height: 100%;
+      //background-color: $base;
+      //border-left: 1px solid $red;
+      border-top: 8px solid $purple;
+
+      header {
+        @include flex-box();
+        flex-flow: row wrap;
+        background-color: #f6f6fd;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        min-height: 80px;
+        margin-bottom: 10px;
+
+        input[type="search"] {
+          width: 100%;
+          font-size: 1.3em;
+          background-color: #fff;
+          @include radius(5px);
+          margin: 0;
+          padding: 10px 0;
+          border: none;
+          @include transition(all, .2s, ease-in-out);
+          outline: none;
+          color: #c55e74;
+          //box-shadow: 0px 4px 4px -4px rgba(0,0,0,0);
+          border: 1px solid transparent;
+
+          &:focus {
+            box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.4);
+            background-color: $white;
+            color: $red;
+            border-color: $red;
+          }
+        }
+
+        .box {
+          @include flex(1 100%);
+        }
+
+        a {
+          color: $white;
+        }
+      }
+    }
+
+    .row {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      height: auto;
+      min-height: .1;
+      @include flex-box();
+      flex-flow: row wrap;
+
+      .box {
+        @include flex(1);
+        padding: 15px;
+
+        &-full {
+          @include flex(1 0 100%);
+
+          h2 {
+            margin: 10px 0;
+            padding: 0 20px;
+          }
+        }
+      }
+    }
+  }
+
+  nav {
+    padding: 20px 0;
+
+    a {
+      color: $black;
+      text-decoration: none;
+      @include transition(all,.2s, ease-in);
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: none;
+        color: $red;
+      }
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      width: 100%;
+      @include flex-box();
+      flex-flow: column wrap;
+
+      li {
+         @include flex(1 0 100%);
+         justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: .8em;
+        letter-spacing: 1px;
+        display: block;
+        margin: 0;
+        padding: 15px 10px;
+        font-family: 'Roboto', sans-serif;
+        vertical-align: middle;
+        position: relative;
+        margin-bottom: 5px;
+        //border-bottom: 1px solid $base;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        [class^="icx-"] {
+          font-size: 1.8em;
+          padding-right: 5px;
+          vertical-align: middle;
+          line-height: 0;
+        }
+
+
+        &.active {
+          background-color: $base;
+          font-weight: 500;
+          color: $red;
+          &::after {
+            width: 100%;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+             @include gradient(#fffbf, $white, horizontal);
+            margin: auto;
+            vertical-align: middle;
+            z-index: -1;
+            border-left: 1px solid $red;
+            z-index: 2;
+          }
+
+          [class^="icx-"] {
+            color: $red;
+          }
+
+          a {
+            color: $red;
+            pointer-events: none;
+            cursor: default;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+.ui {
+  &.table {
+    width: 100%;
+    background: #FFF;
+    margin: 1em 0;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: none;
+    border-radius: .28571429rem;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    border-collapse: separate;
+    border-spacing: 0;
+
+    thead, tfoot {
+      th {
+        cursor: auto;
+        background: #F9FAFB;
+        text-align: inherit;
+        color: $black;
+        padding: .92857143em .78571429em;
+        vertical-align: inherit;
+        font-style: none;
+        font-weight: 700;
+        text-transform: none;
+        border-bottom: 1px solid rgba(34,36,38,.1);
+        border-left: none;
+      }
+    }
+
+    tr {
+      td {
+        border-left: 1px solid #e6e6e6;
+        border-top: 1px solid #e6e6e6;
+        padding: .825em;
+        text-align: inherit;
+        
+        &:first-child {
+          border-left: none;
+        }
+      }
+
+      &:first-child {
+        td {
+          border-top: none;
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: block;
+
+  li {
+    display: inline;
+
+    a {
+      color: $red;
+      position: relative;
+      float: left;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      color: #337ab7;
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+
+    &:first-child {
+     a {
+         @include radius(6px 0 0 6px);
+      }
+    }
+    &:last-child {
+      a {
+          @include radius(0 6px 6px 0);
+        }
+    }
+  }
+}
+
+@media screen and (min-width: 791px) and (max-width: 990px) {}
+@media screen and (min-width: 601px) and (max-width: 790px) {
+  #cx-base-temp {
+    .base {
+      
+      .row {
+        flex-flow: column wrap;
+        .box {
+          @include flex(1 0 100%);
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  #cx-base-temp {
+    max-width: 100%;
+    min-width: 300px;
+
+    .base {
+      // @include flex-direction(column);
+      display: block !important;
+      height: auto;
+      min-height: 100px;
+      
+      .profile {
+        @include flex(none);
+        min-height: 100px;
+        height: auto;
+        display: block;
+
+        .menu {
+          height: 60px;
+          z-index: 50;
+
+          .menu-btn {
+            visibility: visible;
+            opacity: 1;
+          }
+
+          svg {
+            visibility: visible;
+            opacity: 1;
+            width: 160px;
+            height: auto;
+            padding: 18px 20px;
+
+            .cx {
+              fill: $purple;
+            }
+
+            .insure {
+              fill: $white;
+            }
+          }
+        }
+      }
+
+      main {
+        @include flex(none);
+        min-height: 100px;
+        height: auto;
+        display: block;
+      }
+      
+      .row {
+        flex-flow: column wrap;
+        .box {
+          @include flex(1 0 100%);
+        }
+      }
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: -800px;
+      background-color: $white;
+      z-index: 30;
+      padding-top: 80px;
+      font-size: 1.4em;
+      min-width: 300px;
+      width: 100%;
+
+      &.mobile {
+        left: 0;
+      }
+
+      ul {
+
+        li {
+          padding: 15px 10px;
+          border-bottom: 1px solid $base;
+          margin: 0;
+
+          a {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .card-info {
+    display: none;
+  }
+
+  .stats {
+    padding: 20px !important;
+    height: 190px;
+
+    li {
+      &.stat {
+        h3 {
+          font-size: 4em;
+        }
+      }
+    }
+  }
+}

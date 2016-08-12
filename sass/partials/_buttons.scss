@@ -1,0 +1,23 @@
+@import 'brand';
+@import 'mixins';
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: inset 0px -2px 1px rgba(0, 0, 0, 0.3);
+  background-color: #e60000;
+  font-weight: bold;
+  color: $white;
+  @include radius(3px);
+  padding: 10px 14px;
+  @include transition(all, 100ms, ease-in);
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $white;
+    background-color: #aa0000;
+  }
+}
