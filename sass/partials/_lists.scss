@@ -45,6 +45,18 @@
     @include flex(1 0 100%);
     display: block;
     padding: 5px 0;
+    font-size: .825em;
+    
+    a {
+      color: $red;
+    }
+    strong, span {
+      display: inline-block;
+    }
+
+    span.active {
+      color: $green;
+    }
   }
 }
 
@@ -62,10 +74,22 @@
 
   li {
     @inclue flex(1 0 auto);
-    font-size: .7em;
+    font-size: .725em;
     position: relative;
     padding: 5px 15px;
+    
+    a {
+      color: $red;
+      background-color: #fbfbfb;
+      padding: 5px 8px;
+      @include radius(3px);
+      @include transition(all,.2s,ease-in);
 
+      &:hover {
+        font-weight: bold;
+      }
+    }
+    
     &::after {
       content:"\203A";
       right: 0;
@@ -76,6 +100,7 @@
       color: $purple;
       display: inline-table;
     }
+
     &:first-child {
       padding-left: 0;
     }
@@ -89,14 +114,11 @@
 
       a {
         pointer-events: none;
-        color: $purple;
+        color: $white;
         text-decoration: none;
         font-weight: bold;
+        background-color: $purple;
       }
-    }
-
-    a {
-      color: $red;
     }
   }
 }
@@ -332,7 +354,7 @@
       background-color: $red;
 
       h3 {
-        font-size: 7em;
+        font-size: 3em;
         font-weight: bold;
         line-height: 0;
         margin: 0;

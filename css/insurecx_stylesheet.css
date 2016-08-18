@@ -75,7 +75,14 @@
     -webkit-flex: 1 0 100%;
     flex: 1 0 100%;
     display: block;
-    padding: 5px 0; }
+    padding: 5px 0;
+    font-size: .825em; }
+    .card-info li a {
+      color: #db2a50; }
+    .card-info li strong, .card-info li span {
+      display: inline-block; }
+    .card-info li span.active {
+      color: #6ED32D; }
 
 .breadcrumbs {
   display: -webkit-box;
@@ -98,9 +105,24 @@
   flex: 1 100%; }
   .breadcrumbs li {
     @inclue flex(1 0 auto);
-    font-size: .7em;
+    font-size: .725em;
     position: relative;
     padding: 5px 15px; }
+    .breadcrumbs li a {
+      color: #db2a50;
+      background-color: #fbfbfb;
+      padding: 5px 8px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in; }
+      .breadcrumbs li a:hover {
+        font-weight: bold; }
     .breadcrumbs li::after {
       content: "\203A";
       right: 0;
@@ -119,11 +141,10 @@
         content: ""; }
       .breadcrumbs li:last-child a {
         pointer-events: none;
-        color: #2e1244;
+        color: #fff;
         text-decoration: none;
-        font-weight: bold; }
-    .breadcrumbs li a {
-      color: #db2a50; }
+        font-weight: bold;
+        background-color: #2e1244; }
 
 .wf {
   min-height: 0;
@@ -318,7 +339,7 @@
       padding: 0;
       background-color: #db2a50; }
       .stats li.stat h3 {
-        font-size: 7em;
+        font-size: 3em;
         font-weight: bold;
         line-height: 0;
         margin: 0;
@@ -710,7 +731,7 @@ body {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: #eef1f6;
+  background-color: #151515;
   font-family: 'Roboto', sans-serif;
   font-size: 16px; }
 
@@ -719,7 +740,8 @@ h1, h2, h3, h4, h5, h6 {
 
 strong {
   font-family: 'Roboto Slab', serif;
-  color: #151515; }
+  color: #151515;
+  font-weight: bold; }
 
 #cx-base-temp {
   max-width: 1366px;
@@ -760,7 +782,11 @@ strong {
       min-height: 100%;
       z-index: 1;
       position: relative;
-      box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4); }
+      box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4);
+      -webkit-border-radius: 5px 0 0;
+      -moz-border-radius: 5px 0 0;
+      -ms-border-radius: 5px 0 0;
+      border-radius: 5px 0 0; }
       #cx-base-temp .base .profile .menu {
         height: 8px;
         position: relative;
