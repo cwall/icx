@@ -67,7 +67,8 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-flow: column wrap; }
+  flex-flow: column wrap;
+  text-align: center; }
   .card-info li {
     -webkit-box-flex: 1 0 100%;
     -moz-box-flex: 1 0 100%;
@@ -75,7 +76,7 @@
     -webkit-flex: 1 0 100%;
     flex: 1 0 100%;
     display: block;
-    padding: 5px 0;
+    padding: 3px 0;
     font-size: .825em; }
     .card-info li a {
       color: #db2a50; }
@@ -307,7 +308,7 @@
   flex: 1 0 25%;
   height: 250px;
   flex-flow: column nowrap;
-  color: #fff;
+  color: #d3d3d3;
   text-align: center;
   padding: 20px;
   padding-right: 0;
@@ -316,34 +317,34 @@
   .stats:last-child {
     padding-right: 20px; }
   .stats li {
-    padding: 10px; }
+    padding: 10px;
+    background-color: #6fbcdf;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1; }
     .stats li.identify {
       text-transform: uppercase;
       color: #fff;
-      -webkit-box-flex: 1;
-      -moz-box-flex: 1;
-      -ms-flex: 1;
-      -webkit-flex: 1;
-      flex: 1;
       -webkit-border-radius: 5px 5px 0 0;
       -moz-border-radius: 5px 5px 0 0;
       -ms-border-radius: 5px 5px 0 0;
-      border-radius: 5px 5px 0 0;
-      background-color: #db2a50; }
+      border-radius: 5px 5px 0 0; }
     .stats li.stat {
       -webkit-box-flex: 2;
       -moz-box-flex: 2;
       -ms-flex: 2;
       -webkit-flex: 2;
       flex: 2;
-      padding: 0;
-      background-color: #db2a50; }
+      padding: 0; }
       .stats li.stat h3 {
         font-size: 3em;
-        font-weight: bold;
+        font-weight: normal;
         line-height: 0;
         margin: 0;
-        padding: 20px 0; }
+        padding: 20px 0;
+        font-family: 'Roboto', sans-serif; }
     .stats li.title {
       -webkit-box-flex: 1;
       -moz-box-flex: 1;
@@ -736,7 +737,7 @@ body {
   font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 strong {
   font-family: 'Roboto Slab', serif;
@@ -759,6 +760,42 @@ strong {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px; }
+  #cx-base-temp .menu-btn {
+    visibility: hidden;
+    opacity: 0;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #F8AB22;
+    display: inline-block;
+    position: fixed;
+    margin: auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    padding: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 200;
+    vertical-align: middle;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    outline: none; }
+    #cx-base-temp .menu-btn span {
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      height: 1px;
+      margin-bottom: 10px; }
+      #cx-base-temp .menu-btn span:last-child {
+        margin-bottom: 0; }
+    #cx-base-temp .menu-btn:hover span {
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); }
   #cx-base-temp .base {
     width: 100%;
     display: -webkit-box;
@@ -769,7 +806,12 @@ strong {
     min-height: 768px;
     height: auto;
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden; }
     #cx-base-temp .base .profile {
       -webkit-box-flex: 1 150px;
       -moz-box-flex: 1 150px;
@@ -783,66 +825,10 @@ strong {
       z-index: 1;
       position: relative;
       box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4);
-      -webkit-border-radius: 5px 0 0;
-      -moz-border-radius: 5px 0 0;
-      -ms-border-radius: 5px 0 0;
-      border-radius: 5px 0 0; }
-      #cx-base-temp .base .profile .menu {
-        height: 8px;
-        position: relative;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        display: block;
-        background-color: #db2a50;
-        margin: 0;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-        padding: 0 10px;
-        position: relative; }
-        #cx-base-temp .base .profile .menu .menu-btn {
-          visibility: hidden;
-          opacity: 0;
-          width: 45px;
-          height: 30px;
-          border: none;
-          background-color: transparent;
-          display: inline-block;
-          position: absolute;
-          margin: auto;
-          top: 0;
-          right: 20px;
-          bottom: 0;
-          vertical-align: middle;
-          -webkit-transition: all 0.2s ease-in-out;
-          -moz-transition: all 0.2s ease-in-out;
-          -o-transition: all 0.2s ease-in-out;
-          -ms-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
-          cursor: pointer;
-          outline: none; }
-          #cx-base-temp .base .profile .menu .menu-btn span {
-            display: block;
-            width: 100%;
-            background-color: #fff;
-            height: 1px;
-            margin-bottom: 10px; }
-            #cx-base-temp .base .profile .menu .menu-btn span:last-child {
-              margin-bottom: 0; }
-          #cx-base-temp .base .profile .menu .menu-btn:hover span {
-            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); }
-        #cx-base-temp .base .profile .menu svg {
-          visibility: hidden;
-          opacity: 0;
-          -webkit-transition: all 0.5s ease-in;
-          -moz-transition: all 0.5s ease-in;
-          -o-transition: all 0.5s ease-in;
-          -ms-transition: all 0.5s ease-in;
-          transition: all 0.5s ease-in; }
+      -webkit-border-radius: 5px 0 0 0;
+      -moz-border-radius: 5px 0 0 0;
+      -ms-border-radius: 5px 0 0 0;
+      border-radius: 5px 0 0 0; }
       #cx-base-temp .base .profile .collapse-card {
         position: relative;
         cursor: pointer;
@@ -882,29 +868,34 @@ strong {
         opacity: 0; }
       #cx-base-temp .base .card h2 {
         font-weight: 400;
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin: 10px 0;
-        color: #db2a50;
+        color: #151515;
         line-height: 1;
         text-transform: uppercase; }
-      #cx-base-temp .base .card .overview-title {
-        text-transform: uppercase;
-        font-weight: 100;
-        font-size: .8em;
-        letter-spacing: 1px;
+      #cx-base-temp .base .card .avatar {
+        margin: 10px auto;
         display: block;
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', sans-serif;
-        width: 100%; }
+        width: 80px;
+        height: 80px; }
+      #cx-base-temp .base .card .ident {
+        margin: 0 auto;
+        display: block;
+        text-align: center; }
+        #cx-base-temp .base .card .ident h2, #cx-base-temp .base .card .ident h3 {
+          margin: 0;
+          padding: 0;
+          text-transform: uppercase; }
+        #cx-base-temp .base .card .ident h3 {
+          font-size: .8em;
+          margin: 3px 0; }
     #cx-base-temp .base main {
       -webkit-box-flex: 8;
       -moz-box-flex: 8;
       -ms-flex: 8;
       -webkit-flex: 8;
       flex: 8;
-      min-height: 100%;
-      border-top: 8px solid #2e1244; }
+      min-height: 100%; }
       #cx-base-temp .base main header {
         display: -webkit-box;
         display: -moz-box;
@@ -962,6 +953,8 @@ strong {
       display: -webkit-flex;
       display: flex;
       flex-flow: row wrap; }
+      #cx-base-temp .base .row:nth-child(2n+1) {
+        background-color: #f5f5f6; }
       #cx-base-temp .base .row .box {
         -webkit-box-flex: 1;
         -moz-box-flex: 1;
@@ -1151,21 +1144,7 @@ strong {
         height: auto;
         display: block; }
         #cx-base-temp .base .profile .menu {
-          height: 60px;
           z-index: 50; }
-          #cx-base-temp .base .profile .menu .menu-btn {
-            visibility: visible;
-            opacity: 1; }
-          #cx-base-temp .base .profile .menu svg {
-            visibility: visible;
-            opacity: 1;
-            width: 160px;
-            height: auto;
-            padding: 18px 20px; }
-            #cx-base-temp .base .profile .menu svg .cx {
-              fill: #2e1244; }
-            #cx-base-temp .base .profile .menu svg .insure {
-              fill: #fff; }
       #cx-base-temp .base main {
         -webkit-box-flex: none;
         -moz-box-flex: none;

@@ -22,7 +22,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 strong {
@@ -41,6 +41,46 @@ strong {
   @include transition(all, .2s, ease-in-out);
   @include radius(5px);
 
+  .menu-btn {
+    visibility: hidden;
+    opacity: 0;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #F8AB22;
+    display: inline-block;
+    position: fixed;
+    margin: auto;
+    @include radius(100%);
+    padding: 20px;
+    //top:0;
+    right: 20px;
+    bottom: 20px;
+    z-index: 200;
+    vertical-align: middle;
+    @include transition(all, .2s, ease-in-out);
+    cursor: pointer;
+    outline: none;
+
+    span {
+      display: block;
+      width: 100%;
+      background-color: $white;
+      height: 1px;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &:hover {
+      span {
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+      }
+    }
+  }
+
   .base {
     width: 100%;
     @include flex-box();
@@ -48,7 +88,9 @@ strong {
     height: auto;
     position: relative;
     z-index: 2;
-
+    @include radius(5px);
+    overflow: hidden;
+    
     .profile {
       @include flex(1 150px);
       min-height: 100%;
@@ -58,65 +100,28 @@ strong {
       z-index: 1;
       position: relative;
       box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4);
-      @include radius(5px 0 0);
+      @include radius(5px 0 0 0);
 
-      .menu {
-        height: 8px;
-        position: relative;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        display: block;
-        background-color: $red;
-        margin: 0;
-        @include transition(all, .2s, ease-in-out);
-        padding: 0 10px;
-        position: relative;
+      // .menu {
+      //   height: 8px;
+      //   position: relative;
+      //   top: 0;
+      //   left: 0;
+      //   right: 0;
+      //   width: 100%;
+      //   display: block;
+      //   background-color: $red;
+      //   margin: 0;
+      //   @include transition(all, .2s, ease-in-out);
+      //   padding: 0 10px;
+      //   position: relative;
 
-        .menu-btn {
-          visibility: hidden;
-          opacity: 0;
-          width: 45px;
-          height: 30px;
-          border: none;
-          background-color: transparent;
-          display: inline-block;
-          position: absolute;
-          margin: auto;
-          top:0;
-          right: 20px;
-          bottom: 0;
-          vertical-align: middle;
-          @include transition(all, .2s, ease-in-out);
-          cursor: pointer;
-          outline: none;
-
-          span {
-            display: block;
-            width: 100%;
-            background-color: $white;
-            height: 1px;
-            margin-bottom: 10px;
-
-            &:last-child {
-              margin-bottom: 0;
-            }
-          }
-
-          &:hover {
-            span {
-              box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
-            }
-          }
-        }
-
-        svg {
-          visibility: hidden;
-          opacity: 0;
-          @include transition(all,.5s, ease-in);
-        }
-      }
+      //   svg {
+      //     visibility: hidden;
+      //     opacity: 0;
+      //     @include transition(all,.5s, ease-in);
+      //   }
+      // }
 
       .collapse-card {
         position: relative;
@@ -165,32 +170,41 @@ strong {
 
       h2 {
         font-weight: 400;
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin: 10px 0;
-        color: $red;
+        color: $black;
         line-height: 1;
         text-transform: uppercase;
       }
 
-      .overview-title {
-        text-transform: uppercase;
-        font-weight: 100;
-        font-size: .8em;
-        letter-spacing: 1px;
+      .avatar {
+        margin: 10px auto;
         display: block;
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', sans-serif;
-        width: 100%;
+        width: 80px;
+        height: 80px;
+      }
+
+      .ident {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+
+        h2,h3 {
+          margin: 0;
+          padding: 0;
+          text-transform: uppercase;
+        }
+
+        h3 {
+          font-size: .8em;
+          margin: 3px 0;
+        }
       }
     }
 
     main {
       @include flex(8);
       min-height: 100%;
-      //background-color: $base;
-      //border-left: 1px solid $red;
-      border-top: 8px solid $purple;
 
       header {
         @include flex-box();
@@ -242,6 +256,10 @@ strong {
       min-height: .1;
       @include flex-box();
       flex-flow: row wrap;
+
+      &:nth-child(2n+1) {
+        background-color: #f5f5f6;
+      }
 
       .box {
         @include flex(1);
@@ -466,29 +484,29 @@ strong {
         display: block;
 
         .menu {
-          height: 60px;
+          //height: 60px;
           z-index: 50;
 
-          .menu-btn {
-            visibility: visible;
-            opacity: 1;
-          }
+          // .menu-btn {
+          //   visibility: visible;
+          //   opacity: 1;
+          // }
 
-          svg {
-            visibility: visible;
-            opacity: 1;
-            width: 160px;
-            height: auto;
-            padding: 18px 20px;
+          // svg {
+          //   visibility: visible;
+          //   opacity: 1;
+          //   width: 160px;
+          //   height: auto;
+          //   padding: 18px 20px;
 
-            .cx {
-              fill: $purple;
-            }
+          //   .cx {
+          //     fill: $purple;
+          //   }
 
-            .insure {
-              fill: $white;
-            }
-          }
+          //   .insure {
+          //     fill: $white;
+          //   }
+          // }
         }
       }
 

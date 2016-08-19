@@ -40,11 +40,12 @@
   @include transition(all,.2s,ease-out);
   @include flex-box();
   flex-flow: column wrap;
+  text-align: center;
 
   li {
     @include flex(1 0 100%);
     display: block;
-    padding: 5px 0;
+    padding: 3px 0;
     font-size: .825em;
     
     a {
@@ -326,12 +327,13 @@
   @include flex(1 0 25%);
   height: 250px;
   flex-flow: column nowrap;
-  color: $white;
+  color: $gray;
   text-align: center;
   padding: 20px;
   padding-right: 0;
   justify-content: space-between;
   width: 100%;
+
 
   &:last-child {
     padding-right: 20px;
@@ -339,26 +341,26 @@
 
   li {
     padding: 10px;
+    background-color: #6fbcdf;
+    @include flex(1);
 
     &.identify {
       text-transform: uppercase;
       color: $white;
-      @include flex(1);
       @include radius(5px 5px 0 0);
-      background-color: $red;
     }
 
     &.stat {
       @include flex(2);
       padding: 0;      
-      background-color: $red;
 
       h3 {
         font-size: 3em;
-        font-weight: bold;
+        font-weight: normal;
         line-height: 0;
         margin: 0;
         padding: 20px 0;
+        font-family: 'Roboto', sans-serif;
       }
     }
 
