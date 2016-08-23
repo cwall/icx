@@ -277,7 +277,9 @@ strong {
           &.lead {
             h2 {
               margin: 0;
-              padding: 0 15px;
+              padding: 0 15px 20px;
+              width: 100%;
+              border-bottom: 1px solid #e6e6e6;
             }
           }
         }
