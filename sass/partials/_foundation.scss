@@ -466,6 +466,70 @@ address {
   }
 }
 
+.ui-menu {
+  width: 200px;
+  font-size: .8em;
+
+  .value-base {
+    width: 100%;
+    background-color: $white;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    text-align: left;
+    display: block;
+    min-height: 22px;
+    position: relative;
+  }
+
+  i {
+    font-style: normal;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    @include transition(all,.3s,ease-in);
+    outline: none;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  .options {
+    display: block;
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+    li {
+      width: 100%;
+      border: 1px solid $white;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      button {
+        border: none;
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        min-height: 22px;
+        color: $white;
+        background-color: $red;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 791px) and (max-width: 990px) {}
 @media screen and (min-width: 601px) and (max-width: 790px) {
   #cx-base-temp {
