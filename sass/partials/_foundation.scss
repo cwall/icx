@@ -16,7 +16,7 @@ body {
   min-height: 100%;
   position: relative;
   //background-color: #eef1f6;
-  background-color: $black;
+  background-color: #c1cdef;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -95,38 +95,17 @@ strong {
       @include flex(1 150px);
       min-height: 100%;
       height: auto;
-      color: #2d384a;
+      //color: #2d384a;
+      background-color: #220835;
+      color: $white;
       min-height: 100%;
       z-index: 1;
       position: relative;
       box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4);
       @include radius(5px 0 0 0);
 
-      // .menu {
-      //   height: 8px;
-      //   position: relative;
-      //   top: 0;
-      //   left: 0;
-      //   right: 0;
-      //   width: 100%;
-      //   display: block;
-      //   background-color: $red;
-      //   margin: 0;
-      //   @include transition(all, .2s, ease-in-out);
-      //   padding: 0 10px;
-      //   position: relative;
-
-      //   svg {
-      //     visibility: hidden;
-      //     opacity: 0;
-      //     @include transition(all,.5s, ease-in);
-      //   }
-      // }
-
       .collapse-card {
         position: relative;
-        //right: 10px;
-        //top: 15px;
         cursor: pointer;
         @include transition(all, .2s, ease-in-out);
         color: $black;
@@ -136,19 +115,9 @@ strong {
         float: right;
         vertical-align: middle;
 
-        // &:before {
-        //   content: "\72";
-        // }
-
         &:hover {
           color: $red;
         }
-
-        // &.active {
-        //   &:before {
-        //     content: "";
-        //   }
-        // }
       }
     }
 
@@ -205,6 +174,7 @@ strong {
     main {
       @include flex(8);
       min-height: 100%;
+      padding: 20px;
 
       header {
         @include flex-box();
@@ -256,11 +226,11 @@ strong {
       min-height: .1;
       @include flex-box();
       flex-flow: row wrap;
-      //align-items: flex-start;
+      border-bottom: 1px solid $base;
 
-      &:nth-child(2n+1) {
-        background-color: #f6f6fd;
-      }
+      // &:nth-child(2n+1) {
+      //   background-color: #f6f6fd;
+      // }
 
       .box {
         @include flex(1 2 25%);
@@ -291,10 +261,11 @@ strong {
     padding: 20px 0;
 
     a {
-      color: $black;
+      color: $white;
       text-decoration: none;
       @include transition(all,.2s, ease-in);
       cursor: pointer;
+      font-weight: 100;
 
       &:hover {
         text-decoration: none;
@@ -324,7 +295,6 @@ strong {
         vertical-align: middle;
         position: relative;
         margin-bottom: 5px;
-        //border-bottom: 1px solid $base;
 
         &:last-child {
           border-bottom: none;
@@ -342,6 +312,7 @@ strong {
           background-color: $base;
           font-weight: 500;
           color: $red;
+
           &::after {
             width: 100%;
             content: "";
@@ -514,17 +485,109 @@ address {
       &:last-child {
         border-bottom: none;
       }
+    }
+  }
+}
+
+.workflow {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  @include flex-box;
+  flex-flow: row wrap;
+  
+
+  li {
+    @include flex(1 0 22%);
+    text-align: left;
+    padding: 15px;
+    @include radius(5px);
+    background-color: $white;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid $base;
+
+    &.lead, &:first-child {
+      @include flex(1 0 100%);
+      font-family: 'Roboto Slab';
+      background-color: transparent;
+      padding: 0;
+      margin: 0 0 10px 0;
+      border: none;
+      
+      &:after {
+        content: "";
+      }
+    }
+    &:after {
+      content:"\00bb";
+      position: absolute;
+      top: 45%;
+      bottom: 45%;
+      right: -15px;
+      margin: auto;
+      color: $red;
+    }
+
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+    &.status {
+      &.completed {
+        color: $green;
+      }
+
+      &.failed {
+        color: $red;
+      }
+
+      &.active {
+        color: $blue;
+      }
+    }
+    
+    b {
+      cursor: pointer;
+      display: block;
+      color: $red;
+
+      &::before {
+        content:"\203A";
+        margin-right: 5px;
+      }
+    }
+    .viewDesc {
+      display: none;
+      border-top: 1px solid $base;
+      padding-top: 10px;
 
       button {
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+    
+    strong {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-size: .8em;
+
+      li {
+        padding: 0;
+        margin: 0 0 5px 0;
         border: none;
-        width: 100%;
-        padding: 20px;
-        text-align: left;
-        min-height: 22px;
-        color: $white;
-        background-color: $red;
-        cursor: pointer;
-        outline: none;
+        &:after {
+          content: none;
+        }
       }
     }
   }
@@ -654,4 +717,30 @@ address {
       }
     }
   }
+
+  .workflow {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  @include flex-box;
+  flex-flow: row wrap;
+  
+
+  li {
+    @include flex(1 0 100%);
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+
+    &:after {
+      left: 45%;
+      right: 45%;
+      top: initial;
+      bottom: -37px;
+      margin: auto;
+      color: $red;
+      transform: rotate(90deg);
+    }
+  }
+}
 }
