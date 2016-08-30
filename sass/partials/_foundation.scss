@@ -95,13 +95,12 @@ strong {
       @include flex(1 150px);
       min-height: 100%;
       height: auto;
-      //color: #2d384a;
-      background-color: #220835;
-      color: $white;
+      color: #2d384a;
+      background-color: $white;
       min-height: 100%;
       z-index: 1;
       position: relative;
-      box-shadow: 2px -2px 2px -2px rgba(0, 0, 0, 0.4);
+      box-shadow: 3px 0px 13px 0px rgba(0,0,0,0.1);
       @include radius(5px 0 0 0);
 
       .collapse-card {
@@ -261,7 +260,7 @@ strong {
     padding: 20px 0;
 
     a {
-      color: $white;
+      color: $black;
       text-decoration: none;
       @include transition(all,.2s, ease-in);
       cursor: pointer;
@@ -270,6 +269,7 @@ strong {
       &:hover {
         text-decoration: none;
         color: $red;
+        font-weight: bold;
       }
     }
 
@@ -282,19 +282,27 @@ strong {
       flex-flow: column wrap;
 
       li {
-         @include flex(1 0 100%);
-         justify-content: space-between;
+        @include flex(1 0 100%);
+        justify-content: space-between;
         text-transform: uppercase;
         font-weight: 100;
         font-size: .8em;
         letter-spacing: 1px;
         display: block;
         margin: 0;
-        padding: 15px 10px;
+        padding: 20px 10px 20px 15px;
+        border-left: 3px solid $base;
+        border-bottom: 1px solid $base;
         font-family: 'Roboto', sans-serif;
         vertical-align: middle;
         position: relative;
-        margin-bottom: 5px;
+         @include transition(all,.2s, ease-in);
+        //margin-bottom: 5px;
+
+        &:hover {
+          background-color: #F9EFEA;
+          border-left-color: $red;
+        }
 
         &:last-child {
           border-bottom: none;
@@ -309,10 +317,10 @@ strong {
 
 
         &.active {
-          background-color: $base;
+          //background-color: $base;
           font-weight: 500;
-          color: $red;
-
+          color: $black;
+          border-left: 3px solid $red;
           &::after {
             width: 100%;
             content: "";
@@ -320,12 +328,11 @@ strong {
             top: 0;
             left: 0;
             bottom: 0;
-             @include gradient(#fffbf, $white, horizontal);
+             @include gradient($base, $white, horizontal);
             margin: auto;
             vertical-align: middle;
             z-index: -1;
-            border-left: 1px solid $red;
-            z-index: 2;
+            
           }
 
           [class^="icx-"] {
@@ -336,6 +343,7 @@ strong {
             color: $red;
             pointer-events: none;
             cursor: default;
+            z-index: 3;
           }
         }
       }
@@ -499,6 +507,8 @@ address {
 
   li {
     @include flex(1 0 22%);
+    width: 25%;
+    float: left;
     text-align: left;
     padding: 15px;
     @include radius(5px);
@@ -507,6 +517,83 @@ address {
     position: relative;
     margin-bottom: 10px;
     border: 1px solid $base;
+    @include transition(all,.2s, ease-in);
+
+    .title {
+      position: relative;
+      padding: 0 0 0 20px;
+
+      &:before {
+        content: "\62";
+        font-family: "insurecx" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        speak: none;
+        line-height: 1;
+        vertical-align: middle;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: $base;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        bottom: 0;
+        margin: auto;
+        display: block;
+      }
+    }
+
+    &.completed-step {
+      border-color: $green;
+
+      .title {
+        &:before {
+          content: "\62";
+          font-family: "insurecx" !important;
+          font-style: normal !important;
+          font-weight: normal !important;
+          font-variant: normal !important;
+          text-transform: none !important;
+          speak: none;
+          line-height: 1;
+          vertical-align: middle;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          color: #6ED32D;
+          position: absolute;
+          left: 0;
+          top: 5px;
+          bottom: 0;
+          margin: auto;
+          display: block;
+        }
+      }
+    }
+
+    &.step {
+      .title {
+        color: $base !important;
+      }
+
+      b {
+        color: $base;
+        pointer-events: disabled;
+      }
+    }
+
+    &.active-step {
+      border: 2px solid $black;
+      //background-color: #c1e4ff;
+      box-shadow: 0px 6px 6px -6px rgba(0,0,0,0.6);
+
+      .title {
+        &:before {
+          color: $blue;
+        }
+      }
+    }
 
     &.lead, &:first-child {
       @include flex(1 0 100%);
@@ -521,13 +608,15 @@ address {
       }
     }
     &:after {
-      content:"\00bb";
+      content:"\203A";
       position: absolute;
       top: 45%;
       bottom: 45%;
       right: -15px;
       margin: auto;
-      color: $red;
+      color: $blue;
+      font-weight: bold;
+      font-size: 1.2em;
     }
 
     &:last-child {
@@ -537,7 +626,7 @@ address {
     }
     &.status {
       &.completed {
-        color: $green;
+        font-weight: bold;
       }
 
       &.failed {
@@ -585,6 +674,9 @@ address {
         padding: 0;
         margin: 0 0 5px 0;
         border: none;
+        width: 100%;
+        float: none;
+        background-color: transparent;
         &:after {
           content: none;
         }
