@@ -538,7 +538,9 @@ address {
     }
   }
 }
-
+.place {
+  @include flex(1 auto !important);
+}
 .workflow {
   padding: 0;
   margin: 0;
