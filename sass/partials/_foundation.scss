@@ -16,7 +16,7 @@ body {
   min-height: 100%;
   position: relative;
   //background-color: #eef1f6;
-  background-color: #c1cdef;
+  background-color: $purple;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -96,11 +96,11 @@ strong {
       min-height: 100%;
       height: auto;
       color: #2d384a;
-      background-color: $white;
+      background-color: $faint;
       min-height: 100%;
       z-index: 1;
       position: relative;
-      box-shadow: 3px 0px 13px 0px rgba(0,0,0,0.1);
+      box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.3);
       @include radius(5px 0 0 0);
 
       .collapse-card {
@@ -126,6 +126,7 @@ strong {
       @include flex(1 100%);
       border-bottom: 1px solid #eef1f6;
       padding: 12px;
+      background-color: $white;
       overflow: hidden;
       @include transition(all, .2s, ease-in-out);
 
@@ -150,6 +151,12 @@ strong {
         display: block;
         width: 80px;
         height: 80px;
+        svg {
+          .a {
+            fill: $red;
+          }
+        }
+        
       }
 
       .ident {
@@ -174,6 +181,8 @@ strong {
       @include flex(8);
       min-height: 100%;
       padding: 20px;
+      padding-bottom: 0;
+      background-color: $white;
 
       header {
         @include flex-box();
@@ -225,11 +234,13 @@ strong {
       min-height: .1;
       @include flex-box();
       flex-flow: row wrap;
-      border-bottom: 1px solid $base;
+      @include radius(5px);
+      //background-color: $white;
+      //border-bottom: 1px solid $base;
 
-      // &:nth-child(2n+1) {
-      //   background-color: #f6f6fd;
-      // }
+      &:nth-child(2n+1) {
+        background-color: #f6f6fd;
+      }
 
       .box {
         @include flex(1 2 25%);
@@ -250,14 +261,26 @@ strong {
               width: 100%;
               border-bottom: 1px solid #e6e6e6;
             }
+
+            h1 {
+              font-size: 2.6em;
+              margin: 0;
+              padding: 0 15px;
+              vertical-align: middle;
+              display: inline-block;
+            }
           }
         }
+      }
+
+      &:last-child {
+        border-bottom: 0;
       }
     }
   }
 
   nav {
-    padding: 20px 0;
+    padding: 0;
 
     a {
       color: $black;
@@ -300,7 +323,7 @@ strong {
         //margin-bottom: 5px;
 
         &:hover {
-          background-color: #F9EFEA;
+          background-color: $white;
           border-left-color: $red;
         }
 
@@ -321,6 +344,11 @@ strong {
           font-weight: 500;
           color: $black;
           border-left: 3px solid $red;
+
+          &:hover {
+            background-color: $white;
+          }
+
           &::after {
             width: 100%;
             content: "";
@@ -328,9 +356,10 @@ strong {
             top: 0;
             left: 0;
             bottom: 0;
-             @include gradient($base, $white, horizontal);
+            //@include gradient($white, $ltgray, horizontal);
             margin: auto;
             vertical-align: middle;
+            background-color: $white;
             z-index: -1;
             
           }
@@ -350,7 +379,20 @@ strong {
     }
   }
 }
+.wf-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
 
+  .a{fill:none;}
+  .b{fill:#67dde0;}
+  .c{fill:#acf0f2;}
+  .d{fill:#f28c13;}
+  .e{fill:#ffb957;}
+  .f{fill:#fff;}
+  .g{fill:#4d5152;}
+}
 address {
   // padding: 10px;
   // border: 1px solid $gray;
@@ -506,8 +548,8 @@ address {
   
 
   li {
-    @include flex(1 0 22%);
-    width: 25%;
+    @include flex(1 0 30%);
+    width: 33%;
     float: left;
     text-align: left;
     padding: 15px;
@@ -518,6 +560,10 @@ address {
     margin-bottom: 10px;
     border: 1px solid $base;
     @include transition(all,.2s, ease-in);
+
+    &[class*="step"] {
+      min-height: 150px;
+    }
 
     .title {
       position: relative;
@@ -584,8 +630,8 @@ address {
     }
 
     &.active-step {
-      border: 2px solid $black;
-      //background-color: #c1e4ff;
+      border-color: $black;
+      background-color: $ltbeige;
       box-shadow: 0px 6px 6px -6px rgba(0,0,0,0.6);
 
       .title {
@@ -668,7 +714,7 @@ address {
       padding: 0;
       margin: 0;
       list-style: none;
-      font-size: .8em;
+      font-size: 1em;
 
       li {
         padding: 0;
