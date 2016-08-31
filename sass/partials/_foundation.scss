@@ -288,6 +288,10 @@ strong {
       @include transition(all,.2s, ease-in);
       cursor: pointer;
       font-weight: 100;
+      // width: 100%;
+      padding: 20px 10px 20px 15px;
+      vertical-align: middle;
+      @include flex(1 0 100%);
 
       &:hover {
         text-decoration: none;
@@ -306,18 +310,18 @@ strong {
 
       li {
         @include flex(1 0 100%);
+        @include flex-box();
         justify-content: space-between;
         text-transform: uppercase;
         font-weight: 100;
         font-size: .8em;
         letter-spacing: 1px;
-        display: block;
         margin: 0;
-        padding: 20px 10px 20px 15px;
+        
         border-left: 3px solid $base;
         border-bottom: 1px solid $base;
         font-family: 'Roboto', sans-serif;
-        vertical-align: middle;
+        
         position: relative;
          @include transition(all,.2s, ease-in);
         //margin-bottom: 5px;
