@@ -408,6 +408,48 @@
   }
 }
 
+.data-list {
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  @include flex-box;
+  flex-flow: row wrap;
+  font-size: .8em;
+  @include radius(3px);
+
+  li {
+    @include flex(1 0 50%);
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 0;
+
+    strong {
+      font-weight: bold;
+      display: block;
+    }
+
+    small {
+      display: block;
+      font-weight: bold;
+    }
+
+    p {
+      padding: 3px 0;
+      margin: 0;
+    }
+
+    &.col {
+      @include flex(1 0 22% !important);
+    }
+  }
+
+
+  &.centered {
+    li {
+      text-align: center !important;
+    }
+  }
+}
 .stat-container {
   padding: 10px;
   border: 1px solid $gray;

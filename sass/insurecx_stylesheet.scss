@@ -1,7 +1,9 @@
 //Compiled Sass styles
 //Please don't add custom css to this file
 //Please place all ad hoc styling in the override css file
-
+@import 'partials/buttons';
+@import 'partials/lists';
+@import 'partials/tables';
 @import 'partials/foundation';
 @import 'partials/skin';
 
