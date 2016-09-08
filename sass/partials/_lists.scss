@@ -55,9 +55,9 @@
       display: inline-block;
     }
 
-    span.active {
-      color: $green;
-    }
+    // span.active {
+    //   color: $green;
+    // }
   }
 }
 
@@ -405,6 +405,20 @@
       @include flex(0);
       @include columns(1);
     }
+  }
+}
+
+.shortcut {
+  background-color: #3f3b50;
+  padding: 12px;
+  list-style: none;
+  @include flex-box;
+  flex-flow: row wrap;
+  margin: 0;
+
+  li {
+    @include flex(1 0 50%);
+    margin-bottom: 10px;
   }
 }
 

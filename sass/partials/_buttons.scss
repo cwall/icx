@@ -20,9 +20,9 @@ button {
   text-align: center;
   text-decoration: none;
   box-shadow: inset 0px -2px 1px rgba(0, 0, 0, 0.3);
-  background-color: #e60000;
+  background-color: #a1cdf4;
   font-weight: bold;
-  color: $white;
+  color: #48435c;
   @include radius(3px);
   padding: 10px 14px;
   @include transition(all, 100ms, ease-in);
@@ -31,7 +31,7 @@ button {
   text-transform: uppercase;
 
   &:hover {
-    color: $white;
-    background-color: #aa0000;
+    //color: $white;
+    background-color: #fff;
   }
 }

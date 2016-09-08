@@ -14,8 +14,7 @@ body {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: $purple;
-  //background-color: #131b3c ;
+  background-color: #312d40 ;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -43,9 +42,8 @@ strong {
 
 #summary {
   @include flex(1 0 100%);
-  background-color: #3d175a;
-  color: $white;
-  //border-left: 5px solid $purple;
+  background-color: $white;
+  color: $black;
   padding: 0 0 0 20px;
 
   h2 {
@@ -116,7 +114,7 @@ strong {
     //overflow: hidden;
     
     .profile {
-      @include flex(1 150px);
+      @include flex(1 0 110px);
       min-height: 100%;
       height: auto;
       color: #2d384a;
@@ -125,8 +123,6 @@ strong {
       z-index: 1;
       position: relative;
       border-right: 1px solid $faint;
-      //box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.3);
-      //@include radius(5px 0 0 0);
 
       .collapse-card {
         position: relative;
@@ -149,9 +145,10 @@ strong {
       height: auto;
       min-height: 110px;
       @include flex(1 100%);
-      border-bottom: 1px solid #eef1f6;
+      //border-bottom: 1px solid #eef1f6;
       padding: 30px 12px;
-      background-color: $white;
+      color: $white;
+      background-color: #82b8c2;
       overflow: hidden;
       @include transition(all, .2s, ease-in-out);
 
@@ -206,8 +203,7 @@ strong {
       @include flex(8);
       min-height: 100%;
       padding: 0px;
-      padding-bottom: 0;
-      background-color: $white;
+      background-color: #f5f5f6;
 
       header {
         @include flex-box();
@@ -260,16 +256,16 @@ strong {
       min-height: .1;
       @include flex-box();
       flex-flow: row wrap;
-      background-color: #fcfcfc;
+      background-color: $white;
       border-bottom: 1px solid $base;
 
       &:nth-child(2n+1) {
         //background-color: $faint;
       }
 
-      &:first-child {
-        background-color: $white;
-      }
+      // &:first-child {
+      //   background-color: $white;
+      // }
 
       .box {
         @include flex(1 2 25%);
@@ -311,16 +307,15 @@ strong {
 
   nav {
     padding: 0;
-    background-color: $white;
+    background-color: #48435c;
 
     a {
-      color: $black;
+      color: #b2adb9;
       text-decoration: none;
       @include transition(all,.2s, ease-in);
       cursor: pointer;
       font-weight: 100;
-      // width: 100%;
-      padding: 20px 10px 20px 15px;
+      padding: 15px;
       vertical-align: middle;
       @include flex(1 0 100%);
 
@@ -349,8 +344,8 @@ strong {
         letter-spacing: 1px;
         margin: 0;
         outline: none;
-        border-left: 3px solid $base;
-        border-bottom: 1px solid $base;
+        //border-left: 3px solid $base;
+        //border-bottom: 1px solid $base;
         
         position: relative;
          @include transition(all,.2s, ease-in);
@@ -374,10 +369,10 @@ strong {
 
 
         &.active {
-          //background-color: $base;
+          background-color: #f5f5f6;
           font-weight: 500;
           color: $black;
-          border-left: 3px solid $red;
+          //border-left: 3px solid $red;
 
           &:hover {
             background-color: $white;
@@ -575,6 +570,36 @@ address {
 .place {
   @include flex(1 auto !important);
 }
+
+.icon-bank {
+  background-color: #82b8c2;
+  color: $white;
+  @include flex-box;
+  align-content: center;
+  margin-bottom: 10px;
+
+  ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    @include flex(2 0 auto);
+  }
+  span {
+    @include flex(1 0 auto);
+
+    svg {
+      width: 30px;
+      height: 30px;
+      margin: 15px auto;
+      display: block;
+    }
+
+    &:first-child {
+      background-color: #91c9d4;
+    }
+  }
+}
+
 .workflow {
   padding: 0;
   margin: 0;
