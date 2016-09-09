@@ -422,19 +422,27 @@ strong {
 }
 
 address {
-  // padding: 10px;
-  // border: 1px solid $gray;
   text-align: center;
   color: $black;
   text-align: left;
   font-style: normal;
 }
 
-.amount {
-  font-size: 3em;
-  font-family: 'Roboto Slab', serif;
-  color: $purple;
+.amount-wrap {
   display: block;
+  padding: 12px;
+  background-color: #fcfcff;
+  margin-bottom: .825em;
+  //box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.3);
+  border-left: 3px solid $red;
+
+  .amount {  
+    font-size: 3.4em;
+    font-family: 'Roboto Slab', serif;
+    color: $red;
+    display: block;
+    //line-height: 1;
+  }
 }
 
 .ui {
