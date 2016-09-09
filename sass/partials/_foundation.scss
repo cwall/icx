@@ -26,6 +26,7 @@ h3 {
   margin: 0 0 10px;
   padding: 0 0 10px 0;
   border-bottom: 1px solid $faint;
+  width: 100%;
 }
 
 strong {
@@ -263,22 +264,18 @@ strong {
         //background-color: $faint;
       }
 
-      // &:first-child {
-      //   background-color: $white;
-      // }
-
       .box {
         @include flex(1 2 25%);
-        padding: 15px;
+        padding: 20px;
 
         &-half {
           @include flex(2 2 50%);
-          padding: 15px;
+          padding: 20px;
         }
 
         &-full {
           @include flex(1 1 100%);
-          padding: 15px;
+          padding: 20px;
         }
 
         &.lead {
@@ -920,28 +917,35 @@ address {
   }
 
   .workflow {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  @include flex-box;
-  flex-flow: row wrap;
-  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    @include flex-box;
+    flex-flow: row wrap;
+    
 
-  li {
-    @include flex(1 0 100%);
-    padding: 20px;
-    margin-right: 0;
-    margin-bottom: 20px;
+    li {
+      @include flex(1 0 100%);
+      padding: 20px;
+      margin-right: 0;
+      margin-bottom: 20px;
 
-    &:after {
-      left: 45%;
-      right: 45%;
-      top: initial;
-      bottom: -37px;
-      margin: auto;
-      color: $red;
-      transform: rotate(90deg);
+      &:after {
+        left: 45%;
+        right: 45%;
+        top: initial;
+        bottom: -37px;
+        margin: auto;
+        color: $red;
+        transform: rotate(90deg);
+      }
     }
   }
-}
+
+  .stats-listing {
+    li {
+      @include flex(1 0 45%);
+      border: none;
+    }
+  }
 }

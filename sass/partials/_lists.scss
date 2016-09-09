@@ -377,6 +377,51 @@
   }
 }
 
+.stats-listing {
+  width: 100%;
+  @include flex-box;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    @include flex(1 0 22%);
+    margin-right: 10px;
+    width: 25%;
+    float: left;
+    color: #48435c;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid $faint;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    i {
+      background-color: $faint;
+      @include radius(100%);
+      display: block;
+      margin: 0 auto;
+      width: 90px;
+      height: 90px;
+      padding: 18px 12px;
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    strong {
+      display: block;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-family: 'Roboto Slab', serif;
+    }
+  }
+}
+
 .data-card {
   @include flex-box();
   padding: 20px;
