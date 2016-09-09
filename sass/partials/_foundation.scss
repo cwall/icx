@@ -149,7 +149,8 @@ strong {
       //border-bottom: 1px solid #eef1f6;
       padding: 30px 12px;
       color: $white;
-      background-color: #82b8c2;
+      background-color: #a1cdf4;
+      //background-color: #82b8c2;
       overflow: hidden;
       @include transition(all, .2s, ease-in-out);
 
@@ -419,6 +420,7 @@ strong {
   .f{fill:#fff;}
   .g{fill:#4d5152;}
 }
+
 address {
   // padding: 10px;
   // border: 1px solid $gray;
@@ -426,6 +428,13 @@ address {
   color: $black;
   text-align: left;
   font-style: normal;
+}
+
+.amount {
+  font-size: 3em;
+  font-family: 'Roboto Slab', serif;
+  color: $purple;
+  display: block;
 }
 
 .ui {
