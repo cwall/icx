@@ -453,20 +453,32 @@
   }
 }
 
-.shortcut {
+.actions {
   background-color: #3f3b50;
-  padding: 12px;
-  list-style: none;
-  @include flex-box;
-  flex-flow: row wrap;
-  margin: 0;
+  width: 100%;
 
-  li {
-    @include flex(1 0 50%);
-    margin-bottom: 10px;
+  h4 {
+    text-transform: uppercase;
+    color: #82b8c2;
+    letter-spacing: 1px;
+    font-size: .7em;
+    margin: 5px 0;
+    padding: 8px 12px;
+  }
+
+  .shortcut {    
+    padding: 12px;
+    list-style: none;
+    @include flex-box;
+    flex-flow: row wrap;
+    margin: 0;
+
+    li {
+      @include flex(1 0 50%);
+      margin-bottom: 10px;
+    }
   }
 }
-
 .data-list {
   padding: 0px;
   margin: 0;

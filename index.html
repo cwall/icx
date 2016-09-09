@@ -10,17 +10,7 @@
   <body>
     <div id="cx-base-temp">
       <section class="base">
-        <!-- <header id="summary">
-          <i class="collapse-card" data-icon="j"></i>
-            <div class="ident">
-              <h2>Dave Johnson</h2>
-              <h3><a href="">dave@djconsulting.org</a></h3>
-            </div>
-            <ul class="card-info">
-              <li><strong>ID:</strong> <span>Jb364eb</span></li>
-              <li><span class="active">Active Member</span></li>
-            </ul>
-        </header> -->
+
         <aside class="profile">
           <header>
             <span class="menu-btn">
@@ -36,7 +26,6 @@
             </div>
             <div class="ident">
               <h2>Dave Johnson</h2>
-               <!-- <h3><a href="">dave@djconsulting.org</a></h3> -->
                <ul class="card-info">
                 <li><strong>ID:</strong> <span>Jb364eb</span></li>
                 <li><span class="active">Active Member</span></li>
@@ -44,13 +33,16 @@
             </div>    
           </div>
 
-          <ul class="shortcut">
-            <li><button class="btn">Create Case</button></li>
-            <li><button class="btn">Create Task</button></li>
-            <li><button class="btn">Attach File</button></li>
-            <li><button class="btn">Send Email</button></li>
-            <li><button class="btn">Log Call</button></li>
-          </ul>
+          <div class="actions">
+            <h4>Available actions</h4>
+            <ul class="shortcut">
+              <li><button class="btn">Create Case</button></li>
+              <li><button class="btn">Create Task</button></li>
+              <li><button class="btn">Attach File</button></li>
+              <li><button class="btn">Send Email</button></li>
+              <li><button class="btn">Log Call</button></li>
+            </ul>
+          </div>
           <nav>  
             <ul>
               <li class="active"><a href="/">Overview</a></li>
@@ -193,58 +185,24 @@
           </div>
 
           <div class="row">
-            <div class="box-full">
-              <h3>Summary</h3>
-              <ul class="data-list centered">
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
-
-                <li class="col">
-                  <h4>Clinical Persona</h4>
-                  <img class="i" src="img/base-icon.svg">
-                  <h5>HEALTHY</h5>
-                </li>
+            <div class="box">
+              <h3>Claims</h3>
+              <ul class="blank-list">
+                <li>Created: 02-03-2017</li>
+                <li>Amount Due: <span class="amount">$300.00</span></li>
+                <li>Status: Pending</li>
               </ul>
             </div>
+
+            <div class="box">
+              <h3>Billing</h3>
+              <ul class="blank-list">
+                <li>Due date: 02-03-2017</li>
+                <li>Covered Amount: <span class="amount">$300.00</span></li>
+                <li>Status: Active</li>
+              </ul>
+            </div>
+
           </div>
         </main>
       </section>
