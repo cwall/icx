@@ -261,6 +261,9 @@ strong {
       background-color: $white;
       border-bottom: 1px solid $base;
 
+      &:last-child {
+        margin-bottom: 0;
+      }
       &:nth-child(2n+1) {
         //background-color: $faint;
       }
