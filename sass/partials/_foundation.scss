@@ -206,7 +206,7 @@ strong {
       min-height: 100%;
       padding: 0px;
       background-color: #f5f5f6;
-
+      padding: 20px;
       header {
         @include flex-box();
         @include radius(5px);
@@ -403,6 +403,7 @@ strong {
             pointer-events: none;
             cursor: default;
             z-index: 3;
+            font-weight: 800;
           }
         }
       }
