@@ -23,6 +23,7 @@ button {
   background-color: #a1cdf4;
   font-weight: bold;
   color: #48435c;
+  font-size: .7em;
   @include radius(3px);
   padding: 10px 14px;
   @include transition(all, 100ms, ease-in);
