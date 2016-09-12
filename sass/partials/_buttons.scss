@@ -15,7 +15,7 @@ button {
   outline: none;
 }
 
-.btn {
+.action-bttn {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -34,5 +34,11 @@ button {
   &:hover {
     //color: $white;
     background-color: #fff;
+  }
+
+  a {
+    &:hover, &:active {
+      text-decoration: none;
+    }
   }
 }
