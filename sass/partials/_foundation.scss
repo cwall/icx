@@ -52,6 +52,11 @@ strong {
     font-size: 3em;
     margin: 0;
   }
+
+  .inline-title {
+    display: inline;
+    margin: 0 1em 0 0;
+  }
 }
 
 #cx-base-temp {
@@ -149,7 +154,7 @@ strong {
       //border-bottom: 1px solid #eef1f6;
       padding: 30px 12px;
       color: $white;
-      background-color: #a1cdf4;
+      background-color: $lblue;
       //background-color: #82b8c2;
       overflow: hidden;
       @include transition(all, .2s, ease-in-out);
@@ -207,6 +212,7 @@ strong {
       padding: 0px;
       background-color: #f5f5f6;
       padding: 20px;
+
       header {
         @include flex-box();
         @include radius(5px);
@@ -246,6 +252,77 @@ strong {
 
         a {
           color: $white;
+        }
+      }
+
+      input {
+        padding: 10px;
+        height: 40px;
+        @include radius(3px);
+        border: 1px solid $gray;
+        display: inline-block;
+        @include transition(all, .3s, ease-in);
+        outline: none;
+        font-size: 1em;
+        margin-bottom: 1em;
+
+        &:focus {
+          border-color: $blue;
+          color: $blue;
+        }
+      }
+
+      .form-header {
+        width: 100%;
+        background-color: $lblue;
+        color: $white;
+        padding: 10px;
+        @include flex(1 1 100%);
+        margin: 0 0 20px 0;
+
+        h4 {
+          margin: 0;
+        }
+      }
+      .input-group {
+        width: 100%;
+        display: block;
+
+        label {
+          display: block;
+          margin: 0 0 10px 0;
+          font-size: .825em;
+          font-weight: bold;
+        }
+
+        input {
+          width: 100%;
+          display: block;
+        }
+
+        input[type="checkbox"] {
+          display: inline-block;
+          margin: 0;
+          width: auto;
+          height: auto;
+          margin-right: 5px;
+        }
+        input[type="checkbox"] + label {
+          display: inline-block;
+        }
+
+        textarea {
+          resize: none;
+          width: 100%;
+          padding: 10px;
+          min-height: 210px;
+          margin-bottom: 1em;
+        }
+
+        select {
+          //width: 100%;
+          display: block;
+          margin: 0 0 1em 0;
         }
       }
     }

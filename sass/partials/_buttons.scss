@@ -30,10 +30,12 @@ button {
   cursor: pointer;
   border: none;
   text-transform: uppercase;
+  margin: 0 0 10px 0;
 
   &:hover {
     //color: $white;
-    background-color: #fff;
+    background-color: #c1e2ff;
+    box-shadow: none;
   }
 
   a {

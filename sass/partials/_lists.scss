@@ -5,7 +5,7 @@
 }
 
 .inline {
-  @exted .blank-list;
+  @extend .blank-list;
 
   li {
     display: inline-block;
