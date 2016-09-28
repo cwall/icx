@@ -14,7 +14,7 @@ body {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: #312d40 ;
+  background-color: #CED6D9 ;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -124,7 +124,7 @@ strong {
       min-height: 100%;
       height: auto;
       color: #2d384a;
-      background-color: #48435c;
+      background-color: #81A9CC;
       min-height: 100%;
       z-index: 1;
       position: relative;
@@ -388,11 +388,11 @@ strong {
     
 
     a {
-      color: #b2adb9;
+      color: $white;
       text-decoration: none;
       @include transition(all,.2s, ease-in);
       cursor: pointer;
-      font-weight: 100;
+      font-weight: 500;
       padding: 15px;
       vertical-align: middle;
       @include flex(1 0 100%);
@@ -418,7 +418,7 @@ strong {
         justify-content: space-between;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: .7em;
+        font-size: .825em;
         letter-spacing: 1px;
         margin: 0;
         outline: none;
@@ -476,7 +476,7 @@ strong {
           }
 
           a {
-            color: $red;
+            color: $black;
             pointer-events: none;
             cursor: default;
             z-index: 3;
@@ -515,12 +515,12 @@ address {
   background-color: #fcfcff;
   margin-bottom: .825em;
   //box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.3);
-  border-left: 3px solid $red;
+  border-left: 3px solid #3571a7;
 
   .amount {  
     font-size: 3.4em;
     font-family: 'Roboto', serif;
-    color: $red;
+    color: #a79035;
     display: block;
     //line-height: 1;
   }
