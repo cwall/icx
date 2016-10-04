@@ -454,20 +454,23 @@
 }
 
 .actions {
-  background-color: #6a8ba9;
+  background-color: #a2d7f7;
   width: 100%;
+  padding: 14px 0;
+
 
   h4 {
     text-transform: uppercase;
-    color: $white;
+    color: $black;
     letter-spacing: 1px;
     font-size: .8em;
-    margin: 5px 0;
-    padding: 8px 12px;
+    margin: 0;
+    font-weight: bold;
+    padding: 8px 15px;
   }
 
   .shortcut {    
-    padding: 12px;
+    padding: 0 12px;
     list-style: none;
     @include flex-box;
     flex-flow: row wrap;
@@ -475,7 +478,15 @@
 
     li {
       @include flex(1 0 50%);
-      margin-bottom: 10px;
+      min-height: 20px;
+
+      .action-bttn {
+        background-color: $white;
+
+        &:hover {
+          background-color: #e6e6e6;
+        }
+      }
     }
   }
 }

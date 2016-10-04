@@ -20,12 +20,12 @@ button {
   text-align: center;
   text-decoration: none;
   box-shadow: inset 0px -2px 1px rgba(0, 0, 0, 0.3);
-  background-color: #a1cdf4;
+  background-color: #01BAEF;
   font-weight: bold;
   color: #48435c;
   font-size: .7em;
   @include radius(3px);
-  padding: 10px 14px;
+  padding: 8px 12px;
   @include transition(all, 100ms, ease-in);
   cursor: pointer;
   border: none;
