@@ -754,7 +754,7 @@ address {
 }
 
 .workflow {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   list-style: none;
   @include flex-box;
@@ -767,13 +767,14 @@ address {
     float: left;
     text-align: left;
     padding: 15px;
-    @include radius(5px);
+    //@include radius(5px);
     background-color: $white;
     margin-right: 20px;
     position: relative;
     margin-bottom: 10px;
-    border: 1px solid #8c8c8c;
+    border-right: 1px solid $gray;
     @include transition(all,.2s, ease-in);
+    max-width: 30%;
 
     &[class*="step"] {
       min-height: 150px;
@@ -782,6 +783,8 @@ address {
     &.title {
       position: relative;
       padding: 0 0 0 20px;
+      max-width: 100%;
+      width: 100%;
       
       h4 {
         margin-left: 10px;
@@ -789,7 +792,7 @@ address {
         text-decoration: none;
         vertical-align: middle;
         font-weight: 400;
-        
+
         a { 
           color: $purple;
           font-size: 1.8em;
@@ -815,6 +818,11 @@ address {
         @include radius(100%);
         margin: auto;
         display: inline-block;
+      }
+
+      &:after {
+        content: none;
+        display: none;
       }
     }
 
@@ -858,8 +866,8 @@ address {
 
     &.active-step {
       border-color: $black;
-      background-color: $ltbeige;
-      box-shadow: 0px 6px 6px -6px rgba(0,0,0,0.6);
+      background-color: #ffe27a;
+      box-shadow: inset -10px 0px 10px -8px rgba(0,0,0,0.2);
 
       .title {
         &:before {
@@ -882,18 +890,26 @@ address {
     &:after {
       content:"\203A";
       position: absolute;
-      top: 45%;
-      bottom: 45%;
-      right: -15px;
+      top: 0;
+      bottom: 0;
+      right: -10px;
       margin: auto;
       color: $blue;
       font-weight: bold;
       font-size: 1.2em;
+      line-height: .7;
+      background-color: $white;
+      width: 20px;
+      height: 20px;
+      @include radius(100%);
+      text-align: center;
+      display: block;
+      border: 1px solid $gray;
     }
 
     &:last-child {
       &:after {
-        content: "";
+        content: "-";
       }
     }
     &.status {
