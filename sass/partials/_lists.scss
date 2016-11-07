@@ -44,9 +44,10 @@
 
   li {
     @include flex(1 0 100%);
-    display: block;
-    padding: 3px 0;
-    font-size: .825em;
+    //display: block;
+    //padding: 3px 0;
+    font-size: 1em;
+    margin-bottom: 5px;
     
     a {
       color: $red;
@@ -454,9 +455,10 @@
 }
 
 .actions {
-  background-color: #a2d7f7;
+  background-color: #eff2f5;
   width: 100%;
-  padding: 14px 0;
+  padding: 10px 0;
+  border-top: 2px solid #622690;
 
 
   h4 {
@@ -477,8 +479,10 @@
     margin: 0 auto;
 
     li {
-      @include flex(1 0 50%);
+      @include flex(1 0 42%);
       min-height: 20px;
+      max-width: 50%;
+      padding: 0 3px;
 
       .action-bttn {
         background-color: $white;

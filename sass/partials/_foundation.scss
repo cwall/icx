@@ -1,7 +1,7 @@
 //foundation.scss
-@import 'partials/brand';
-@import 'partials/mixins';
-@import 'partials/icons';
+@import '_brand';
+@import '_mixins';
+@import '_icons';
 
 // font-family: 'Roboto Condensed', sans-serif;
 // font-family: 'Roboto', sans-serif;
@@ -14,8 +14,8 @@ body {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: #8badc5;
-  font-family: 'Roboto', sans-serif;
+  background-color: #AFD2E9;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -120,7 +120,7 @@ strong {
     //overflow: hidden;
     
     .profile {
-      @include flex(1 0 110px);
+      @include flex(1 0 160px);
       min-height: 100%;
       height: auto;
       color: #2d384a;
@@ -153,7 +153,7 @@ strong {
       @include flex(1 100%);
       padding: 30px 12px;
       color: $black;
-      background-color: #abe0ff;
+      background-color: $white;
       @include transition(all, .2s, ease-in-out);
 
       .collapse {
@@ -208,6 +208,10 @@ strong {
           font-size: .8em;
           margin: 3px 0;
         }
+
+        h2 {
+          margin-bottom: 10px;
+        }
       }
     }
 
@@ -217,6 +221,7 @@ strong {
       padding: 0px;
       background-color: #f9f9f9;
       padding: 20px;
+      border-left: 1px solid #ececec;
 
       header {
         @include flex-box();
@@ -405,9 +410,9 @@ strong {
 
       &:hover {
         text-decoration: none;
-        color: $red;
+        color: $white;
         font-weight: bold;
-        background-color: #f9f9f9;
+        background-color: $purple;
       }
     }
 
@@ -451,16 +456,27 @@ strong {
           line-height: 0;
         }
 
+        a {
+          color: $black;
+          //pointer-events: none;
+          cursor: pointer;
+          z-index: 3;
+          font-weight: 400;
+        }
 
         &.active {
-          background-color: #f9f9f9;
+          background-color: #5f2f84;
           font-weight: 500;
-          color: $black;
+          color: $white;
           //border-left: 3px solid $red;
 
-          &:hover {
-            background-color: $white;
+          a {
+            color: $white;
           }
+
+          // &:hover {
+          //   background-color: $white;
+          // }
 
           &::after {
             width: 100%;
@@ -480,14 +496,7 @@ strong {
           [class^="icx-"] {
             color: $red;
           }
-
-          a {
-            color: $black;
-            pointer-events: none;
-            cursor: default;
-            z-index: 3;
-            font-weight: 800;
-          }
+          
         }
       }
     }
