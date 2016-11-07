@@ -221,7 +221,10 @@
       i {
         position: absolute;
         transform: translate( -6px , 0 );
-        margin-top: 16px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        display: inline-block;
         right: 0;
         
         &:before , &:after {

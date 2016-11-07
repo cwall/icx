@@ -471,10 +471,10 @@ strong {
           color: $purple;
           //border-left: 3px solid $red;
 
-          a {
-            color: $purple;
-            font-weight: 700;
-          }
+          // a {
+          //   color: $purple;
+          //   font-weight: 700;
+          // }
 
           // &:hover {
           //   background-color: $white;
@@ -502,6 +502,45 @@ strong {
         }
       }
     }
+  }
+}
+
+.tabs {
+  min-width: 100%;
+  @include flex-box();
+
+}
+.tab {
+  background: #eff8ff;
+  @include radius(5px);
+  display: inline-block;
+  @include flex(1 1 auto);
+  @include flex-box();
+  flex-flow: row wrap;
+  // min-width: 10%;
+  // max-width: 50%;
+  list-style: none;
+  padding: 0px !important;
+  margin: 0 10px 0 0 !important;
+  align-items: center;
+
+  .stat {
+    font-size: 2em;
+    background-color: #deefff;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline;
+    @include flex(1 0 auto);
+    text-align: center;
+    padding: 8px;
+  }
+
+  .title {
+    display: inline;
+    vertical-align: middle;
+    @include flex(2 1 auto);
+    padding: 8px;
+    text-align: center;
   }
 }
 .wf-icon {
@@ -740,29 +779,42 @@ address {
       min-height: 150px;
     }
 
-    .title {
+    &.title {
       position: relative;
       padding: 0 0 0 20px;
       
-      &:before {
-        content: "\62";
-        font-family: "insurecx" !important;
-        font-style: normal !important;
-        font-weight: normal !important;
-        font-variant: normal !important;
-        text-transform: none !important;
-        speak: none;
-        line-height: 1;
+      h4 {
+        margin-left: 10px;
+        display: inline-block;
+        text-decoration: none;
         vertical-align: middle;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        color: $base;
-        position: absolute;
+        font-weight: 400;
+        
+        a { 
+          color: $purple;
+          font-size: 1.8em;
+          text-decoration: none;
+        }
+      }
+
+      &:before {
+        content: "WF";
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        background-color: $red;
+        color: $white;
+        line-height: 1;
+        position: relative;
         left: 0;
-        top: 5px;
+        top: 0;
         bottom: 0;
+        padding: 13px 10px;
+        font-size: .9em;
+        line-height: 1;
+        @include radius(100%);
         margin: auto;
-        display: block;
+        display: inline-block;
       }
     }
 
@@ -1039,7 +1091,6 @@ address {
     list-style: none;
     @include flex-box;
     flex-flow: row wrap;
-    
 
     li {
       @include flex(1 0 100%);
@@ -1064,5 +1115,14 @@ address {
       @include flex(1 0 45%);
       border: none;
     }
+  }
+
+  .tabs {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+  .tab {
+    @include flex(1 1 50%);
+    margin-bottom: 1em !important;
   }
 }

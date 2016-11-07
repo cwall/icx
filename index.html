@@ -113,6 +113,35 @@
 
           <div class="row">
             <div class="box">
+              <h3 class="page-title">Workflows Summary</h3>
+
+              <div class="tabs">
+                <ul class="tab" id="active">
+                  <li class="stat">3</li>
+                  <li class="title"># Active Workflows</li>
+                </ul>
+              
+                <ul class="tab" id="completed">
+                  <li class="stat">44</li>
+                  <li class="title"># Completed Workflows</li>
+                </ul>
+
+                <ul class="tab" id="completed">
+                  <li class="stat">44</li>
+                  <li class="title"># Completed Workflows</li>
+                </ul>
+
+                <ul class="tab" id="completed">
+                  <li class="stat">447</li>
+                  <li class="title"># Completed Workflows</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="box">
               <h3 class="title">Member Details</h3>
               <ul class="data-list">
                 
@@ -225,6 +254,49 @@
           </div>
 
           <div class="row">
+            <ul class="workflow">
+              <li class="step title">
+                <h4><a href="#">Appeals Workflow</a></h4>
+              </li>
+              <li class="step active-step">
+                  <strong>Step: </strong>Waiting for Initial Review<br>
+                  <strong>Status: </strong>In Progress<br>
+                  <strong>Owner: </strong>Appeal Co-ordinator<br>
+                  <strong>Started On: </strong>2016-09-19 <br>
+                  <strong>Completed On: </strong>N/A                          
+              </li>
+              <li class="step">
+                  <strong>Step: </strong>Awaiting Documentation<br>
+                  <strong>Status: </strong>Not Started<br>
+                  <strong>Owner: </strong>Appeal Co-ordinator<br>
+                  <strong>Started On: </strong>N/A <br>
+                  <strong>Completed On: </strong>N/A                          
+              </li>
+              <li class="step">
+                  <strong>Step: </strong>Escalated to Stage 1 Physician<br>
+                  <strong>Status: </strong>Not Started<br>
+                  <strong>Owner: </strong>Stage 1 Physician Board<br>
+                  <strong>Started On: </strong>N/A <br>
+                  <strong>Completed On: </strong>N/A                          
+              </li>
+              <li class="step">
+                  <strong>Step: </strong>Escalated to Stage 2 Physician<br>
+                  <strong>Status: </strong>Not Started<br>
+                  <strong>Owner: </strong>Stage 2 Physician Board<br>
+                  <strong>Started On: </strong>N/A <br>
+                  <strong>Completed On: </strong>N/A                          
+              </li>
+              <li class="step">
+                  <strong>Step: </strong>Closed - Decision Upheld<br>
+                  <strong>Status: </strong>Not Started<br>
+                  <strong>Owner: </strong><br>
+                  <strong>Started On: </strong>N/A <br>
+                  <strong>Completed On: </strong>N/A                          
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="row">
             <div class="box">
               <div class="wf">
                 <h3>Completed Workflows</h3>
@@ -234,15 +306,7 @@
                     <i></i>
                     <h4>Online Shopping</h4>
                     <ul class="wf-steps">
-                      <li><strong>Demographic Capture</strong>
-                        <ul class="status">
-                          <li><b>Step:</b> In Progress</li>
-                          <li><b>Owner:</b> N/A</li>
-                          <li><b>Started On:</b> 2016-09-20</li>
-                          <li><b>Completed On:</b> N/A</li>
-                        </ul> 
-                      </li>
-                      <li><strong>Plan Selection</strong>
+                      <li><strong>Demographic Capture: Completed</strong> 
                         <ul class="status">
                           <li><b>Step:</b> Not Started</li>
                           <li><b>Owner:</b> N/A</li>
@@ -250,7 +314,7 @@
                           <li><b>Completed On:</b> N/A</li>
                         </ul>
                       </li>
-                      <li><strong>Check Out</strong>
+                      <li><strong>Browse Plans: Completed</strong> 
                         <ul class="status">
                           <li><b>Step:</b> Not Started</li>
                           <li><b>Owner:</b> N/A</li>
@@ -258,27 +322,25 @@
                           <li><b>Completed On:</b> N/A</li>
                         </ul>
                       </li>
-
-                      <li><strong>Enrollment In Progress</strong>
+                      <li><strong>Enrollment: Active</strong> 
                         <ul class="status">
                           <li><b>Step:</b> Not Started</li>
                           <li><b>Owner:</b> N/A</li>
                           <li><b>Started On:</b> N/A</li>
                           <li><b>Completed On:</b> N/A</li>
-                        </ul> 
+                        </ul>
                       </li>
-
-                      <li><strong>Enrolled</strong>
+                      <li><strong>Available Actions:</strong>
                         <ul class="status">
                           <li><b>Step:</b> Not Started</li>
                           <li><b>Owner:</b> N/A</li>
                           <li><b>Started On:</b> N/A</li>
                           <li><b>Completed On:</b> N/A</li>
-                        </ul> 
+                        </ul>
                       </li>
                     </ul>
                   </li>
-                  <!-- <li>
+                  <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h4>How it Works</h4>
@@ -291,7 +353,7 @@
                     <h4>Points of Interest</h4>
                     <p>By making the open state default for when :checked isn't detected, we can make this system accessable for browsers that don't recognize :checked. The fallback is simply an open accordion. The accordion can be manipulated with Javascript (if needed)
                       by changing the "checked" property of the input element.</p>
-                  </li> -->
+                  </li>
                 </ul>
               </div>
             </div>
@@ -305,9 +367,9 @@
                     <i></i>
                     <h4>Online Shopping</h4>
                     <ul class="wf-steps">
-                      <li>Lorem ipsum dolor sit amet</li>
-                      <li>Lorem ipsum dolor sit amet</li>
-                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Lorem ipsum dolor sit amet <span class="icx-android-add-circle"></span></li>
+                      <li>Lorem ipsum dolor sit amet <span class="icx-android-add-circle"></span></li>
+                      <li>Lorem ipsum dolor sit amet <span class="icx-android-add-circle"></span></li>
                       <li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <span class="icx-android-add-circle"></span></p> 
                       
                       <p><button class="btn">Action</button></p>
@@ -333,7 +395,7 @@
             </div>
           </div>
 
-          <!-- <div class="row">
+          <div class="row">
             <div class="box">
               <div class="wf">
                 <h3>Completed Workflows</h3>
