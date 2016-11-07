@@ -465,13 +465,15 @@ strong {
         }
 
         &.active {
-          background-color: #5f2f84;
-          font-weight: 500;
-          color: $white;
+          //background-color: #5f2f84;
+          background-color: #f9f9f9;
+          font-weight: 700;
+          color: $purple;
           //border-left: 3px solid $red;
 
           a {
-            color: $white;
+            color: $purple;
+            font-weight: 700;
           }
 
           // &:hover {
@@ -527,16 +529,18 @@ address {
 .amount-wrap {
   display: block;
   padding: 12px;
-  background-color: #fcfcff;
+  background-color: #f5fbff;
   margin-bottom: .825em;
-  //box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.3);
-  border-left: 3px solid #3571a7;
+  @include radius(5px);
+  text-align: center;
+  //border-left: 3px solid $purple;
 
   .amount {  
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Roboto', serif;
-    color: #a79035;
+    color: $purple;
     display: block;
+    font-weight: bold;
     //line-height: 1;
   }
 }

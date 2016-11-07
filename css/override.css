@@ -179,11 +179,11 @@ This file should not house any final styling
     margin: 0px;
     padding: 20px; 
 }
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
     display: block; 
     font-size: 150%;
     
-} 
+} */
 h3.page-title { 
     margin: 0 0 -10px;
     border-bottom: none !important;
