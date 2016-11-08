@@ -514,7 +514,7 @@ strong {
   background: #eff8ff;
   @include radius(5px);
   display: inline-block;
-  @include flex(1 1 auto);
+  @include flex(1 1 100%);
   @include flex-box();
   flex-flow: row wrap;
   // min-width: 10%;
@@ -523,6 +523,7 @@ strong {
   padding: 0px !important;
   margin: 0 10px 0 0 !important;
   align-items: center;
+  max-width: 360px;
 
   .stat {
     font-size: 2em;
@@ -530,7 +531,7 @@ strong {
     font-weight: bold;
     vertical-align: middle;
     display: inline;
-    @include flex(1 0 auto);
+    @include flex(1 0 100%);
     text-align: center;
     padding: 8px;
   }
@@ -538,7 +539,7 @@ strong {
   .title {
     display: inline;
     vertical-align: middle;
-    @include flex(2 1 auto);
+    @include flex(2 1 100%);
     padding: 8px;
     text-align: center;
   }
