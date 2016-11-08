@@ -505,6 +505,21 @@ strong {
   }
 }
 
+i {
+  background-color: $faint;
+  @include radius(100%);
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  padding: 18px 12px;
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 .tabs {
   min-width: 100%;
   @include flex-box();
@@ -544,6 +559,35 @@ strong {
     text-align: center;
   }
 }
+
+.summary-container {
+  text-align: left;
+  padding: 20px;
+  @include flex-box();
+  @include radius(5px);
+  background-color: #fafdff;
+  flex-flow: row wrap;
+  align-content: center;
+  border: 1px solid #e9edf1;
+
+
+  .icon {
+    @include flex(1 0 100px);
+  }
+
+  .copy {
+
+    h5 {
+      margin: 0 0 10px 0;
+      font-weight: 600;
+      font-size: 1.3em;
+    }
+
+    @include flex(1 0 auto);
+    padding: 0 0 0 10px;
+  }
+}
+
 .wf-icon {
   display: inline-block;
   width: 45px;
@@ -980,9 +1024,17 @@ address {
     .base {
       
       .row {
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         .box {
           @include flex(1 0 100%);
+
+          &-half {
+            @include flex(2 2 100%);
+          }
+
+          &-full {
+            @include flex(1 1 100%);
+          }
         }
       }
     }
@@ -1141,5 +1193,18 @@ address {
   .tab {
     @include flex(1 1 50%);
     margin-bottom: 1em !important;
+  }
+
+  .summary-container {
+    max-width: 100%;
+
+    .icon {
+      @include flex(1 0 100%);
+    }
+
+    .copy {
+      @include flex(1 0 100%);
+      padding: 10px;
+    }
   }
 }

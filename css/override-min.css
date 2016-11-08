@@ -226,25 +226,26 @@ h3.page-title {
   width: 50%;
   float: left; }
 
-.summary-container {
-  padding: 20px;
-  border: 1px solid #d3d3d3;
-  list-style: none;
-  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  margin: 0; }
+/*.summary-container {
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    list-style: none;
+    box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0;
+}
 
 .summary-container .title {
-  color: #515151;
-  font-family: 'Roboto Slab', serif;
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: 800;
-  text-align: center; }
-
+    color: #515151;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+}*/
 #cx-base-temp .ui-menu .options .data-btn {
   margin: 0px;
   background: none;

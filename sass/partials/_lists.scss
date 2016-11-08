@@ -425,20 +425,6 @@
       border-right: none;
     }
 
-    i {
-      background-color: $faint;
-      @include radius(100%);
-      display: block;
-      margin: 0 auto;
-      width: 90px;
-      height: 90px;
-      padding: 18px 12px;
-
-      img {
-        width: 60px;
-        height: 60px;
-      }
-    }
     strong {
       display: block;
       text-transform: uppercase;

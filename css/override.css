@@ -208,7 +208,7 @@ h3.page-title {
 .half-container { width: 100%; } 
 .half-container .box-half { width: 50%; float: left; }
 
-.summary-container {
+/*.summary-container {
     padding: 20px;
     border: 1px solid #d3d3d3;
     list-style: none;
@@ -227,7 +227,7 @@ h3.page-title {
     font-size: 1em;
     font-weight: 800;
     text-align: center;
-}
+}*/
 
 #cx-base-temp .ui-menu .options .data-btn {
   margin: 0px;
