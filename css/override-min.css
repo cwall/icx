@@ -349,7 +349,7 @@ h3.page-title {
   color: #a1cdf4; }
 
 .search-type.active .icon-left, .search-type.active .stat {
-  color: white; }
+  color: #000; }
 
 .search-field-row {
   background-color: #48435c !important; }
