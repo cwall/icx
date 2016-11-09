@@ -506,8 +506,8 @@ strong {
 }
 
 i {
-  background-color: $faint;
-  @include radius(100%);
+ //background-color: $faint;
+ //@include radius(100%);
   display: block;
   margin: 0 auto;
   width: 90px;

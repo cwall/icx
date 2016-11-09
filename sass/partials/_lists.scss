@@ -416,6 +416,7 @@
     margin-right: 10px;
     width: 25%;
     float: left;
+    font-size: 1.2em;
     color: #48435c;
     text-align: center;
     padding: 10px;
@@ -429,6 +430,7 @@
       display: block;
       text-transform: uppercase;
       font-weight: 800;
+      color: $purple;
       font-family: 'Roboto', sans-serif;
     }
   }
