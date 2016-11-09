@@ -583,7 +583,7 @@ i {
       font-size: 1.3em;
     }
 
-    @include flex(1 0 auto);
+    @include flex(1 0 70%);
     padding: 0 0 0 10px;
   }
 }
