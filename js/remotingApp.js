@@ -1,0 +1,1 @@
+var remotingApp = angular.module("remotingComponent", ['angularUtils.directives.dirPagination']); 

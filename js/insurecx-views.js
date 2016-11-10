@@ -18,7 +18,6 @@ j$(document).ready(function() {
 
   }
 
-
   var min = j$(window).height();
   var wid = j$(window).width();
   var mostRecentlySelectedListItem;
@@ -35,58 +34,25 @@ j$(document).ready(function() {
     j$('nav').animate({left:"-800px"});
   });
 
-  j$('.collapse-card').on('click', function(){
-    j$('.card-info').fadeToggle("fast");
-  });
-
-
   j$('.ui-menu i, .data-btn').on('click', function(){
-    //j$('.options').slideToggle('fast');
     j$(this).parent().siblings('.options').slideToggle('fast');
   });
-
 
   j$('.data-btn').on('click', function(){
     j$(this).parents('.options').slideToggle('fast');
   });
-/* */
+
+  /* */
+  /* Updates selected dropdown value */
   j$('.data-btn').on('click', function(){
     var selectedMenuOption = j$(this).data('menu-title');
     j$(this).closest('.ui-menu').find('.value-base > span').text(selectedMenuOption);
-
-    var optionListType = j$(this).parents('.options').attr('id');
-
-    var allRecords;
-    if(optionListType == 'task') {
-      allRecords = j$('.task-obj-details');
-    } else if(optionListType == 'case') {
-      allRecords = j$('.case-obj-details');
-    }
-
-    if(selectedMenuOption.includes('All')) {
-      allRecords.show();
-    } else if(selectedMenuOption == 'Open') {
-      if(optionListType == 'task') {
-        j$('.task-obj-details[isClosed=true]').hide();
-        j$('.task-obj-details[isClosed=false]').show();
-      } else if(optionListType == 'case') {
-        j$('.case-obj-details[isClosed=true]').hide();
-        j$('.case-obj-details[isClosed=false]').show();
-      }
-    } else if(selectedMenuOption == 'Closed') {
-      if(optionListType == 'task') {
-        j$('.task-obj-details[isClosed=true]').show();
-        j$('.task-obj-details[isClosed=false]').hide();
-      } else if(optionListType == 'case') {
-        j$('.case-obj-details[isClosed=true]').show();
-        j$('.case-obj-details[isClosed=false]').hide();
-      }
-    }
   });
 
-  /* */
-  /* changes tab content when the tabs are clicked
-  tabs must be of class "related-tab", content must be of id "[id from tab]-child-list" */
+  /* 
+    Changes tab content when the tabs are clicked
+    Tabs must be of class "related-tab", content must be of id "[id from tab]-child-list" 
+  */
   j$('.related-tab').click(function() {
     resetRelatedListFilters();
     var thisElementId = j$(this).attr('id');
@@ -106,22 +72,22 @@ j$(document).ready(function() {
 
     thisLowercaseElementId += '-child-list';
     j$('[id$=' + thisLowercaseElementId + ']').slideToggle(400);
-    
+ 
     mostRecentlySelectedListItem = thisElementId;  
   });
 
   //Utility functions
+  /* Resets values on dropdown filters when tabs are changed */
   function resetRelatedListFilters() {
     var listMenus = j$('.ui-menu .options');
     listMenus.css('display', 'none');
 
-    /* j$('.ui-menu').find('.value-base > span').text('Open'); 9-14 - messing up claims filters, commenting out for now */ 
     j$('.obj-details[isClosed=true]').hide();
     j$('.obj-details[isClosed=false]').show();
   }
 
-  function getIsTrueOrFalse(isPCP) {
-      if(isPCP) {
+  function getIsTrueOrFalse(booleanValue) {
+      if(booleanValue) {
           return '<i class="fa fa-check boolean" style="color:green;" aria-hidden="true"></i>';
       } else {
           return '<i class="fa fa-close boolean" style="color:red;" aria-hidden="true"></i>'

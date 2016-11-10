@@ -63,7 +63,7 @@ remotingApp.filter('drugsFilter', function() {
             var sfdcRecordPurchased = false;
 
             if(scope.drugType != '' && scope.drugType != undefined) filterDrugType = scope.drugType.toLowerCase();
-            if(thisData.MemberFormulary_Saved_Drug__c) sfdcRecordSaved = true;
+            if(thisData.MemberFormulary_Source__c == 'Prescription Search') sfdcRecordSaved = true;
             if(thisData.MemberFormulary_Purchased__c) sfdcRecordPurchased = true;
 
             if(((filterDrugType == '' || filterDrugType == undefined || filterDrugType == 'purchased') && sfdcRecordPurchased) || (filterDrugType == 'saved' && sfdcRecordSaved)) {
@@ -115,7 +115,7 @@ remotingApp.filter('tasksFilter', function() {
             }
 
             if((filterTaskType == '' || filterTaskType == 'all tasks') || (filterTaskType == sfdcTaskType)) {
-                providersToReturn.push(thisData);
+                tasksToReturn.push(thisData);
             }
         });
 

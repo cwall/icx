@@ -9,6 +9,7 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
     $scope.casesList = [];
     $scope.claimsList = [];
     $scope.drugsList = [];
+    $scope.patientsList = [];
     $scope.planMembersList = [];
     $scope.policyHistoryList = [];
     $scope.policyHistoryNames = [];
@@ -29,22 +30,21 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
     $scope.drugType = '';
 
     // Counts
-    $scope.drugFilled = 0;
-    $scope.drugOnlineActivity = 0;
-    $scope.openCases = 0;
-    $scope.openTasks = 0;
-    $scope.providerOnlineActivity = 0;
-    $scope.providerVisited = 0;
+    $scope.drugFilled;
+    $scope.drugOnlineActivity;
+    $scope.openCases;
+    $scope.openTasks;
+    $scope.providerOnlineActivity;
+    $scope.providerVisited;
 
-    $scope.billsYTD = 0;
-    $scope.claimsYTD = 0;
-    $scope.totalProviders = 0;
-    $scope.totalRx = 0;
+    $scope.billsYTD;
+    $scope.claimsYTD;
+    $scope.totalProviders;
+    $scope.totalRx;
 
     // Service request filters
     $scope.caseType = 'Open';
     $scope.taskType = 'Open';
-
     
     $scope.getAppeals = function() {
         Visualforce.remoting.Manager.invokeAction(
@@ -74,6 +74,7 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
                 $scope.billsList = result;
                 $scope.$apply();
                 var firstOfYear = getFirstOfYear();
+                $scope.billsYTD = 0;
 
                 if(result == null || result == undefined) {
                     $scope.billsYTD = 0;
@@ -106,6 +107,7 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
             function(result, event) {
                 $scope.casesList = result;
                 $scope.$apply();
+                $scope.openCases = 0;
 
                 if(result == null || result == undefined) {
                     $scope.openCases = 0;
@@ -128,6 +130,7 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
                 $scope.claimsList = result;
                 $scope.$apply();
                 var firstOfYear = getFirstOfYear();
+                $scope.claimsYTD = 0;
 
                 if(result == null || result == undefined) {
                     $scope.claimsYTD = 0;
@@ -151,6 +154,8 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
                 $scope.$apply();
                 var drugsArray = [];
                 var totalDrugsArray = [];
+                $scope.drugOnlineActivity = 0;
+                $scope.drugFilled = 0;
 
                 if(result == null || result == undefined) {
                     $scope.totalRx = 0;
@@ -160,7 +165,7 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
                 j$.each(result, function(key, value) {
                     drugsArray.push(result[key].MemberFormulary_Drug__c);
 
-                    if(result[key].MemberFormulary_Saved_Drug__c) {
+                    if(result[key].MemberFormulary_Source__c == 'Prescription Search') {
                         $scope.drugOnlineActivity++;
                     }
 
@@ -172,6 +177,16 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
                 totalDrugsArray = dedupeArray(drugsArray);
                 $scope.totalRx = totalDrugsArray.length;
             });
+    }
+
+    $scope.getPatients = function() {
+        Visualforce.remoting.Manager.invokeAction(
+            remoteActionGetPatients, 
+            objId, objType,
+            function(result, event) {
+                $scope.patientsList = result;
+                $scope.$apply();
+            }); 
     }
 
     $scope.getPlanMembers = function() {
@@ -227,35 +242,38 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
     }
 
     $scope.getProviders = function() {
-            Visualforce.remoting.Manager.invokeAction(
-            remoteActionGetProviders,
-            objId, objType,
-            function(result, event) {
-                $scope.providersList = result;
-                $scope.$apply();
-                var providersArray = [];
-                var totalProvidersArray = [];
+        Visualforce.remoting.Manager.invokeAction(
+        remoteActionGetProviders,
+        objId, objType,
+        function(result, event) {
+            $scope.providersList = result;
+            $scope.$apply();
+            var providersArray = [];
+            var totalProvidersArray = [];
+            $scope.providerVisited = 0;
+            $scope.providerOnlineActivity = 0;
 
-                j$.each(result, function(key, value) {
-                    providersArray.push(result[key].Provider__c);
+            j$.each(result, function(key, value) {
+                providersArray.push(result[key].Provider__c);
 
-                    if(result[key].Visited__c) {
-                        $scope.providerVisited++;
-                    }
+                if(result[key].Visited__c) {
+                    $scope.providerVisited++;
+                }
 
-                    if(result[key].Source__c != undefined && result[key].Source__c != null && result[key].Source__c != '' && result[key].Source__c.toLowerCase() == 'provider search') {
-                        $scope.providerOnlineActivity++;
-                    }
-                });
+                if(result[key].Source__c != undefined && result[key].Source__c != null && result[key].Source__c != '' && result[key].Source__c.toLowerCase() == 'provider search') {
+                    $scope.providerOnlineActivity++;
+                }
+            });
 
-                totalProvidersArray = dedupeArray(providersArray); 
-                $scope.totalProviders = totalProvidersArray.length; 
-            }); 
+            totalProvidersArray = dedupeArray(providersArray); 
+            $scope.totalProviders = totalProvidersArray.length; 
+        }); 
     }
 
     $scope.getServiceRequests = function() {
-        $scope.casesList = $scope.getCases();
-        $scope.tasksList = $scope.getTasks();
+        $scope.openCases = $scope.getCases();
+        $scope.openTasks = $scope.getTasks();
+
     }
 
     $scope.getTasks = function() {
@@ -265,6 +283,12 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
             function(result, event) {
                 $scope.tasksList = result;
                 $scope.$apply();
+                $scope.openTasks = 0;
+
+                if(result == null || result == undefined) {
+                    $scope.openTasks = 0;
+                    return null;
+                }
 
                 j$.each(result, function(key, value) {
                     if(!result[key].IsClosed) {
@@ -273,6 +297,17 @@ remotingApp.controller("remotingCtrl", ["$scope", "$filter", function($scope, $f
                 });
             });
     }
+
+    /*
+    $scope.getTasks = function() {
+        taskService.getTasks() 
+
+        .then(function(data) {
+            console.log('in promise');
+            console.log(data);
+        })
+    }
+    */
 
     function getFirstOfYear() {
         return new Date(new Date().getFullYear(), 0, 1);
