@@ -539,11 +539,12 @@ i {
   margin: 0 10px 0 0 !important;
   align-items: center;
   max-width: 360px;
+  border: 1px solid #F3F3F3;
 
   .stat {
-    font-size: 2em;
+    font-size: 4em;
     background-color: #deefff;
-    font-weight: bold;
+    font-weight: 100;
     vertical-align: middle;
     display: inline;
     @include flex(1 0 100%);
@@ -557,6 +558,36 @@ i {
     @include flex(2 1 100%);
     padding: 8px;
     text-align: center;
+  }
+
+  &.active {
+    color: $white;
+    border-color: $purple;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      bottom: -12px;
+      width: 0; 
+      height: 0; 
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      display: block;
+      border-top: 12px solid $purple;
+    }
+    .stat {
+      background-color: #3e165d;
+    }
+
+    .title {
+      background-color: $purple;
+      color: $white;
+      font-weight: bold;
+    }
   }
 }
 
