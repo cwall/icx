@@ -22,6 +22,7 @@ This file should not house any final styling
         - Member
         - Plan
         - Provider
+        - Components
 
     Miscellaneous
 ---------------------
@@ -40,6 +41,15 @@ This file should not house any final styling
     font-size: 300%;
     padding: 0 0.5em;
     color: #a79035;
+ }
+
+ i.fa {
+    width: inherit;
+    height: inherit;
+ }
+ i.menu-dropdown {
+    width: initial;
+    height: initial;
  }
 
 .icon-left { padding-bottom: 20%; }
@@ -79,7 +89,7 @@ This file should not house any final styling
     width: 60px;
 }
 
-/* Spinner */
+/* Loading graphic */
 .spinner {
     height: 40px;
     text-align: center;
@@ -139,11 +149,6 @@ This file should not house any final styling
 #edit-btn a { color: #48435c; }
 .action-bttn a { text-decoration: none; } 
 
-
-/* TODO - STILL INDEX BELOW RULES */
-.workflow-description { text-align: center; }
-.workflow-solution-image { float: left; display: inline; }
-
 /* 9-9-16 updates to new styles */
 #cx-base-temp .profile .shortcut {
     display: inline-block;
@@ -173,7 +178,7 @@ This file should not house any final styling
 .bodyDiv {     
     min-height: 100%;
     position: relative;
-    background-color: #8badc5;
+    background-color: #AFD2E9;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     margin: 0px;
@@ -208,6 +213,7 @@ h3.page-title {
 .half-container { width: 100%; } 
 .half-container .box-half { width: 50%; float: left; }
 
+/*
 .summary-container {
     padding: 20px;
     border: 1px solid #d3d3d3;
@@ -228,7 +234,7 @@ h3.page-title {
     font-weight: 800;
     text-align: center;
 }
-
+*/ 
 #cx-base-temp .ui-menu .options .data-btn {
   margin: 0px;
   background: none;
@@ -266,26 +272,9 @@ h3.page-title {
      text-transform: uppercase;
  }   
 
-/* 10-11 - TODO - Is this needed? 
-.box .block { 
-    display: inline-block;
-    width: 90%;
-    height: 100%;
-    padding: 1em;
-    border: 1px solid #d3d3d3;
-    box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.2);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-
-}
-*/
-
-
 .no-border { border: none !important; }
 .side-block a, .box a:not(.summary-link), .box-half a { color: #5692F0; font-weight: 600; text-decoration: none; }
-.summary-link { font-weight: 600; text-decoration: none; font-family: 'Roboto', serif; color: #a79035; }
+.summary-link { text-decoration: none; }
 .side-block strong, .box strong, .box-half strong { font-family: 'Roboto', sans-serif; }
 .section-header { 
     justify-content: space-between;
@@ -311,9 +300,10 @@ h3.page-title {
 
 .stat-container.search-type .fa { color: #a1cdf4; }
 .stat-container.search-type .stat { color: #a1cdf4; }
+/*
 .search-type.active .icon-left, .search-type.active .stat {
     color: white; 
-}
+} */
 
 .search-field-row { background-color: #48435c !important; }
 .search-type:hover {
@@ -321,32 +311,11 @@ h3.page-title {
     cursor:pointer; 
 }
 
+/*
 .search-type.active {
     background-color: #a1cdf4; 
 }
-
-/* 10-11 TODO - Is this needed? This applies to the search fields
-#cx-base-temp .move {
-    width: 100%;
-    font-size: 1.3em;
-    background-color: #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    margin: 0;
-    padding: 10px 0;
-    border: none;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    outline: none;
-    color: #c55e74;
-    border: 1px solid transparent;
-    padding-left: 10px;
-} */
+*/
 
 .boolean {
     font-size: 1em;
@@ -360,7 +329,7 @@ h3.page-title {
 #billing-summary-table tr:hover { background-color: #fafafa; cursor: pointer; }
 
 /* WORKFLOWS */
-.workflow li.lead, .workflow li:first-child { min-height: 50px; }
+.workflow li.lead, .workflow li:first-child { min-height: 50px; } /* 11-8 - NOT SURE IF THESE RULES ARE NEEDED */ 
 .workflow li.step strong { font-weight: bold; display:inline; }
 
 /* PAGES */
@@ -383,11 +352,6 @@ h3.page-title {
 .card-type { text-align: center; } 
 #member-summary-table tr:hover { background-color: #fafafa; cursor: pointer; }
 
-.active-status, .inactive-status, .initial-status { font-weight: bold; }
-.active-status { color: green; }
-.inactive-status { color: red; }
-.initial-status { color: lightgreen; }
-
 /* Case page */
 #case-page #case-details-child-list { display: flex; }
 #case-page #show-claims, #case-page #show-appeals { display: none; }
@@ -400,22 +364,6 @@ h3.page-title {
 
 /* Lead page */
 #lead-page #lead-details-child-list { display: flex; }
-
-/*
-.box .block { 
-    display: flex;
-    width: 90%;
-    height: 100%;
-    padding: 1em;
-    border: 1px solid #d3d3d3;
-    box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.2);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-}
-*/
-
 .block ul { list-style-type: none; }
 #household, #rating { text-align: center; }
 #household small, #rating small { display: block; }
@@ -423,6 +371,7 @@ h3.page-title {
 .member small { display: block; text-align: center; }
 #rating img { height: 92px; }
 #viewed-plans { display: none; }
+#family-container div { display: inline-block; }
 
 /* Member page */
 #member-page #member-details-child-list { display: flex; }
@@ -435,90 +384,34 @@ h3.page-title {
 #cx-base-temp .profile .shortcut { display: inline-block; background-color: none; }
 .nav-buttons:hover { background-color: #fff !important; }
 
-
-
 /* Plan page */
 #plan-page #benefits-details-child-list { display: flex; }
-
-/* 10-11 TODO - is this needed?
-.box .block { 
-    display: flex;
-    width: 90%;
-    height: 100%;
-    padding: 1em;
-    border: 1px solid #d3d3d3;
-    box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.2);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-}
-*/
 .block ul { list-style-type: none; }
-
-/* 10-11 - TODO - Is this necessary? Applies to search fields
-#cx-base-temp .move {
-    width: 100%;
-    font-size: 1.3em;
-    background-color: #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    margin: 0;
-    padding: 10px 0;
-    border: none;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    outline: none;
-    color: #c55e74;
-    border: 1px solid transparent;
-    padding-left: 10px;
-}
-*/
 
 /* Provider page */
 #provider-page #provider-details-child-list { display: flex; }  
-/* 10-11 TODO -- commented these out, testing application and making sure we don't need them before permanently removing 
-#provider-page strong { font-family: 'Roboto', sans-serif; font-weight: 600; letter-spacing: 0.5px; } 
-.block ul { list-style-type: none; }
 
-.box .block { 
-    display: flex;
-    height: 100%;
-    width: 100% !important;
-    padding: 1em;
-    border: 1px solid #d3d3d3;
-    box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.2);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-
-} */
-
+/* ObjectHistory Component */ 
+#history-container .summary-container {
+    min-height: 120px;
+}
 
 /* MISCELLANEOUS */
-.side-block { width: 50%; float: left; margin: 0px auto;} /* 10-11 TODO - DO WE NEED THIS? */
-.side-block, .box { font-family: 'Roboto', sans-serif; } /* 10-11 TODO - DO WE NEED THIS? */
-
-/* Gives titles ellipses so they don't overflow on to next line */
-#cx-base-temp .base main .truncate-title {
-    width: 250px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-#cx-base-temp .base main .truncate-title-header {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+.side-block { width: 50%; float: left; margin: 0px auto;} 
+.side-block, .box { font-family: 'Roboto', sans-serif; } /* Side blocks are so the sections of a detail page go side-by-side, think we can use something else */
 
 /* Make stat containers same gold color and give them correct font */ 
 .stat-container .stat { font-size: 2em !important; color: #a79035; }
 .stat-container .title { font-weight: normal; font-family: 'Roboto', sans-serif; }
+
+/* So detail fields render properly when wrapped in apex:outputPanel elements */
+.detail-field {    
+    flex: 1 0 50%;
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+/* For suggested workflow solutions */
+.workflow-description { text-align: center; }
+.workflow-solution-image { float: left; display: inline; }
