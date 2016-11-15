@@ -426,7 +426,7 @@ strong {
 
       li {
         @include flex(1 0 100%);
-        @include flex-box();
+        
         justify-content: space-between;
         text-transform: uppercase;
         font-weight: 800;
