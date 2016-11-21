@@ -14,7 +14,7 @@ body {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: #AFD2E9;
+  background-color: #333745;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -541,7 +541,7 @@ i {
 
   .stat {
     font-size: 4em;
-    background-color: #deefff;
+    background-color: #f8fcff;
     font-weight: 100;
     vertical-align: middle;
     display: inline;
@@ -562,7 +562,7 @@ i {
     color: $white;
     border-color: $purple;
     position: relative;
-
+    background: $purple;
     &:after {
       content: "";
       position: absolute;
@@ -651,7 +651,7 @@ address {
   .amount {  
     font-size: 4em;
     font-family: 'Roboto', serif;
-    color: $purple;
+    color: #333745;
     display: block;
     font-weight: bold;
     //line-height: 1;
@@ -841,7 +841,6 @@ address {
     float: left;
     text-align: left;
     padding: 15px;
-    //@include radius(5px);
     background-color: $white;
     margin-right: 20px;
     position: relative;
@@ -849,6 +848,9 @@ address {
     border-right: 1px solid $gray;
     @include transition(all,.2s, ease-in);
     max-width: 30%;
+    font-size: .9em;
+    line-height: 24px;
+    background-color: #fdfdfd;
 
     &[class*="step"] {
       min-height: 150px;
@@ -859,6 +861,8 @@ address {
       padding: 0 0 0 20px;
       max-width: 100%;
       width: 100%;
+      line-height: 1;
+      font-size: 1.2em;
       
       h4 {
         margin-left: 10px;
@@ -939,14 +943,33 @@ address {
     }
 
     &.active-step {
-      border-color: $black;
-      background-color: #ffe27a;
+      border-color: $red;
+      background-color: #f5fbff;
       box-shadow: inset -10px 0px 10px -8px rgba(0,0,0,0.2);
 
       .title {
         &:before {
           color: $blue;
         }
+      }
+      &:after {
+        content:"\203A";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -10px;
+        margin: auto;
+        color: $red;
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: .7;
+        background-color: $white;
+        width: 20px;
+        height: 20px;
+        @include radius(100%);
+        text-align: center;
+        display: block;
+        border: 1px solid $red;
       }
     }
 
@@ -968,7 +991,7 @@ address {
       bottom: 0;
       right: -10px;
       margin: auto;
-      color: $blue;
+      color: $gray;
       font-weight: bold;
       font-size: 1.2em;
       line-height: .7;
