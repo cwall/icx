@@ -75,12 +75,12 @@ strong {
     width: 60px;
     height: 60px;
     border: none;
-    background-color: $purple;
+    background-color: $purple ;
     display: inline-block;
     position: fixed;
     margin: auto;
     @include radius(100%);
-    padding: 20px;
+    padding: 20px 16px;
     //top:0;
     right: 20px;
     bottom: 20px;
@@ -94,8 +94,8 @@ strong {
       display: block;
       width: 100%;
       background-color: $white;
-      height: 1px;
-      margin-bottom: 10px;
+      height: 3px;
+      margin-bottom: 5px;
 
       &:last-child {
         margin-bottom: 0;
