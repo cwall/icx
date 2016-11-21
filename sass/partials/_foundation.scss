@@ -67,7 +67,8 @@ strong {
   position: relative;
   background-color: $white;
   @include transition(all, .2s, ease-in-out);
-  //@include radius(5px);
+  @include radius(5px);
+  overflow: hidden;
 
   .menu-btn {
     visibility: hidden;
@@ -891,7 +892,7 @@ address {
         top: 0;
         bottom: 0;
         padding: 13px 10px;
-        font-size: .9em;
+        font-size: .8em;
         line-height: 1;
         @include radius(100%);
         margin: auto;
