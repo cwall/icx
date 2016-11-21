@@ -1076,6 +1076,12 @@ address {
       }
     }
   }
+
+  .tab {
+    .stat {
+      font-size: 2.8em;;
+    }
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 600px) {
   body {
