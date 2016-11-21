@@ -1188,22 +1188,32 @@ address {
     margin: 0;
     list-style: none;
     @include flex-box;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 
     li {
-      @include flex(1 0 100%);
+      @include flex(1 0 auto);
       padding: 20px;
+      height: auto;
+      max-width: 100%;
+      width: 100%;
       margin-right: 0;
       margin-bottom: 20px;
+      border-right: none;
+      border-bottom: 1px solid #d3d3d3;
 
       &:after {
         left: 45%;
         right: 45%;
         top: initial;
-        bottom: -37px;
+        bottom: -5px;
         margin: auto;
         color: $red;
         transform: rotate(90deg);
+        z-index: 10;
+      }
+
+      &.active-step {
+        box-shadow: inset 0px -8px 4px -6px rgba(0,0,0,0.2);
       }
     }
   }
