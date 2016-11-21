@@ -953,23 +953,7 @@ address {
         }
       }
       &:after {
-        content:"\203A";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: -10px;
-        margin: auto;
         color: $red;
-        font-weight: bold;
-        font-size: 1.2em;
-        line-height: .7;
-        background-color: $white;
-        width: 20px;
-        height: 20px;
-        @include radius(100%);
-        text-align: center;
-        display: block;
-        border: 1px solid $red;
       }
     }
 
@@ -989,6 +973,7 @@ address {
       position: absolute;
       top: 0;
       bottom: 0;
+      padding: 2px;
       right: -10px;
       margin: auto;
       color: $gray;
@@ -1269,4 +1254,11 @@ address {
       padding: 10px;
     }
   }
+
+  .amount-wrap {
+    .amount {
+      font-size: 2.8em;
+    }
+  }
+
 }
