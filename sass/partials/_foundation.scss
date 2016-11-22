@@ -397,7 +397,6 @@ strong {
   nav {
     padding: 0;
     
-
     a {
       color: #333;
       text-decoration: none;
@@ -411,9 +410,8 @@ strong {
 
       &:hover {
         text-decoration: none;
-        color: $white;
         font-weight: bold;
-        background-color: $purple;
+        background-color: #eff1f5;
       }
     }
 
@@ -437,7 +435,6 @@ strong {
         border-bottom: 1px solid #e9e9e9;        
         position: relative;
          @include transition(all,.2s, ease-in);
-        //margin-bottom: 5px;
 
         &:hover {
           background-color: $white;
@@ -457,27 +454,19 @@ strong {
 
         a {
           color: $black;
-          //pointer-events: none;
           cursor: pointer;
           z-index: 3;
           font-weight: 400;
         }
 
         &.active {
-          //background-color: #5f2f84;
-          background-color: #f9f9f9;
+          background-color: #eff1f5;
           font-weight: 700;
           color: $purple;
-          //border-left: 3px solid $red;
 
-          // a {
-          //   color: $purple;
-          //   font-weight: 700;
-          // }
-
-          // &:hover {
-          //   background-color: $white;
-          // }
+          a {
+            font-weight: 700;
+          }
 
           &::after {
             width: 100%;
