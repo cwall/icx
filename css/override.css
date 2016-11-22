@@ -315,7 +315,7 @@ h3.page-title {
     color: #000; 
 }
 
-.search-field-row { background-color: #48435c !important; }
+/*.search-field-row { background-color: #48435c !important; }*/
 .search-type:hover {
     background-color: #f5f5f6; 
     cursor:pointer; 

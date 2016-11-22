@@ -243,9 +243,11 @@ strong {
           margin: 0;
           padding: 10px 0;
           border: none;
+          height: 60px;
+          background-color: #fafdff;
           @include transition(all, .2s, ease-in-out);
           outline: none;
-          color: #c55e74;
+          color: $purple;
           //box-shadow: 0px 4px 4px -4px rgba(0,0,0,0);
           border: 1px solid transparent;
 
@@ -253,7 +255,7 @@ strong {
             box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.4);
             background-color: $white;
             color: $red;
-            border-color: $red;
+            border-color: $gray;
           }
         }
 
