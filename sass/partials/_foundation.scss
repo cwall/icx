@@ -20,12 +20,12 @@ body {
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: $purple;
   font-weight: 400;
-  margin: 0 0 10px;
+  margin: 0 0 20px;
   padding: 0 0 10px 0;
-  border-bottom: 1px solid $faint;
+  border-bottom: 1px solid #dddde0;
   width: 100%;
 }
 
@@ -129,7 +129,7 @@ strong {
       min-height: 100%;
       z-index: 1;
       position: relative;
-      border-right: 1px solid $faint;
+      //border-right: 1px solid $faint;
 
       .collapse-card {
         position: relative;
@@ -220,13 +220,13 @@ strong {
       @include flex(8);
       min-height: 100%;
       padding: 0px;
-      background-color: #f9f9f9;
+      background-color: #eff1f5;
       padding: 20px;
-      border-left: 1px solid #ececec;
+      //border-left: 1px solid #ececec;
 
       header {
         @include flex-box();
-        @include radius(5px);
+        //@include radius(5px);
         flex-flow: row wrap;
         //background-color: $faint;
         width: 100%;
@@ -874,7 +874,7 @@ address {
 
         a { 
           color: $purple;
-          font-size: 1.8em;
+          font-size: 1.4em;
           text-decoration: none;
         }
       }
@@ -891,7 +891,7 @@ address {
         left: 0;
         top: 0;
         bottom: 0;
-        padding: 13px 10px;
+        padding: 13px 9px;
         font-size: .8em;
         line-height: 1;
         @include radius(100%);
