@@ -589,10 +589,11 @@ i {
   flex-flow: row wrap;
   align-content: center;
   border: 1px solid #e9edf1;
+  list-style: none;
 
 
   .icon {
-    @include flex(1 0 100px);
+    @include flex(1 0 100px );
   }
 
   .copy {
@@ -605,6 +606,11 @@ i {
 
     @include flex(1 0 70%);
     padding: 0 0 0 10px;
+  }
+
+  li {
+    @include flex(1 0 100%);
+    margin-bottom: 8px;
   }
 }
 
