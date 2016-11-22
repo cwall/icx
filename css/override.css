@@ -191,16 +191,7 @@ h3.page-title {
 .related-tab:hover { cursor: pointer; } 
 .overview-sub-header { padding: 20px 0; }
 #cx-base-temp ul li { margin-left: 0; } 
-#cx-base-temp button { 
-    margin: 0px; 
-    background: none; 
-    background-color: #a1cdf4; 
-    margin-bottom: 5px; 
-    font: 11px BlinkMacSystemFont;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 10px;
-}
+
 .shortcut form { display: inline; }
 
 .card-info li span.inactive { color: #d3352d; }
@@ -230,18 +221,7 @@ h3.page-title {
 }*/
 
 #cx-base-temp .ui-menu .options .data-btn {
-  margin: 0px;
-  background: none;
-  background-color: #db2a50;
-  border: none;
-  width: 100%;
-  padding: 20px;
-  text-align: left;
-  min-height: 22px;
-  color: #fff;
-  background-color: #db2a50;
-  cursor: pointer;
-  outline: none;
+
 }
 
 #cx-base-temp .child-records-container { display: none; }
