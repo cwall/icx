@@ -296,14 +296,14 @@ h3.page-title {
 }
 
 /*.search-field-row { background-color: #48435c !important; }*/
-.search-type:hover {
+/*.search-type:hover {
     background-color: #f5f5f6; 
     cursor:pointer; 
-}
+}*/
 
-.search-type.active {
+/*.search-type.active {
     background-color: #a1cdf4; 
-}
+}*/
 
 /* 10-11 TODO - Is this needed? This applies to the search fields
 #cx-base-temp .move {
