@@ -2450,32 +2450,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/partials\/_skin.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/css\/_skin.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/partials\/_tables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/css\/_tables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/temp.html": {
 		"ft": 8192,
 		"oA": 0,

@@ -14,7 +14,7 @@ body {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: #333745;
+  background-color: $bg;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -125,11 +125,11 @@ strong {
       min-height: 100%;
       height: auto;
       color: #2d384a;
-      background-color: $white;
+      background-color: $cool;
       min-height: 100%;
       z-index: 1;
       position: relative;
-      //border-right: 1px solid $faint;
+      border-right: 1px solid $bg;
 
       .collapse-card {
         position: relative;
@@ -154,7 +154,7 @@ strong {
       @include flex(1 100%);
       padding: 30px 12px;
       color: $black;
-      background-color: $white;
+      background-color: $cool;
       @include transition(all, .2s, ease-in-out);
 
       .collapse {
@@ -220,8 +220,9 @@ strong {
       @include flex(8);
       min-height: 100%;
       padding: 0px;
-      background-color: #eff1f5;
-      padding: 20px;
+      background-color: $white;
+      //background-color: #eff1f5;
+      //padding: 20px;
       //border-left: 1px solid #ececec;
 
       header {
@@ -475,7 +476,8 @@ strong {
         }
 
         &.active {
-          background-color: #eff1f5;
+          //background-color: #eff1f5;
+          background-color: $white;
           font-weight: 700;
           color: $purple;
 
