@@ -358,17 +358,31 @@ strong {
       }
 
       .box {
-        @include flex(1 2 25%);
+        @include flex(1 1 25%);
         padding: 20px;
 
         &-half {
-          @include flex(2 2 50%);
+          @include flex(1 1 50%);
           padding: 20px;
+          max-width: 50%;
         }
 
         &-full {
           @include flex(1 1 100%);
           padding: 20px;
+          max-width: 100%;
+        }
+
+        &-third {
+          @include flex(1 1 33.33%);
+          padding: 20px;
+          max-width: 33.33%;
+        }
+
+        &-fourth {
+          @include flex(1 1 25%);
+          padding: 20px;
+          max-width: 25%;
         }
 
         &.lead {
@@ -515,25 +529,30 @@ i {
 
 }
 .tab {
-  background: #eff8ff;
-  @include radius(5px);
+  background-color: #f6fcff;
+  @include radius(3px);
   display: inline-block;
-  @include flex(1 1 100%);
+  @include flex(1);
   @include flex-box();
   flex-flow: row wrap;
-  // min-width: 10%;
-  // max-width: 50%;
   list-style: none;
   padding: 0px !important;
   margin: 0 10px 0 0 !important;
   align-items: center;
-  max-width: 360px;
+  max-width: 25%;
   border: 1px solid #F3F3F3;
+  @include transition(all, .3s, ease-in);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #2a94da;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.4);
+  }
 
   .stat {
-    font-size: 4em;
-    background-color: #f8fcff;
-    font-weight: 100;
+    font-size: 2.8em;
+    //background-color: #f9f9f9;
+    font-weight: bold;
     vertical-align: middle;
     display: inline;
     @include flex(1 0 100%);
@@ -551,9 +570,12 @@ i {
 
   &.active {
     color: $white;
-    border-color: $purple;
+    border-color: $blue;
     position: relative;
-    background: $purple;
+    background-color: #2a94da;
+    pointer-events: none;
+    cursor: default;
+
     &:after {
       content: "";
       position: absolute;
@@ -566,14 +588,14 @@ i {
       border-left: 12px solid transparent;
       border-right: 12px solid transparent;
       display: block;
-      border-top: 12px solid $purple;
+      border-top: 12px solid #2a94da;
     }
     .stat {
-      background-color: #3e165d;
+      //background-color: #3e165d;
     }
 
     .title {
-      background-color: $purple;
+      //background-color: $purple;
       color: $white;
       font-weight: bold;
     }
@@ -638,15 +660,15 @@ address {
 
 .amount-wrap {
   display: block;
-  padding: 12px;
-  background-color: #f5fbff;
+  //padding: 12px;
+  //background-color: #f5fbff;
   margin-bottom: .825em;
   @include radius(5px);
-  text-align: center;
+  text-align: left;
   //border-left: 3px solid $purple;
 
   .amount {  
-    font-size: 3.4em;
+    font-size: 3em;
     font-family: 'Roboto', serif;
     color: #333745;
     display: block;
@@ -1107,8 +1129,9 @@ button {
         .box {
           @include flex(1 0 100%);
 
-          &-half {
-            @include flex(2 2 100%);
+          &-half, &-fourth, &-third {
+            @include flex(1 1 100%);
+            max-width: 100%;
           }
 
           &-full {
@@ -1192,6 +1215,15 @@ button {
         flex-flow: column wrap;
         .box {
           @include flex(1 0 100%);
+
+          &-half, &-fourth, &-third {
+            @include flex(1 1 100%);
+            max-width: 100%;
+          }
+
+          &-full {
+            @include flex(1 1 100%);
+          }
         }
       }
     }
@@ -1289,11 +1321,20 @@ button {
 
   .tabs {
     width: 100%;
+    @include flex(1 1 100%);
     flex-flow: row wrap;
   }
   .tab {
-    @include flex(1 1 50%);
-    margin-bottom: 1em !important;
+    @include flex(1 1 44%);
+    max-width: 44%;
+    margin: 1em 8px !important;
+
+    .stat {
+      font-size: 2em;
+    }
+    &:nth-child(odd) {
+      margin-left: 0 !important;
+    }
   }
 
   .summary-container {
