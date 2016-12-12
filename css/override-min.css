@@ -153,26 +153,26 @@ This file should not house any final styling
   display: inline; }
 
 /* 9-9-16 updates to new styles */
-#cx-base-temp .profile .shortcut {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: #48435c;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  border-radius: 3px;
-  padding: 10px 14px;
-  -webkit-transition: all 100ms ease-in;
-  -moz-transition: all 100ms ease-in;
-  -o-transition: all 100ms ease-in;
-  -ms-transition: all 100ms ease-in;
-  transition: all 100ms ease-in;
-  cursor: pointer;
-  border: none;
-  text-transform: uppercase; }
-
+/*#cx-base-temp .profile .shortcut {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #48435c;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px 14px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+}*/
 .base aside {
   background-color: #48435c; }
 

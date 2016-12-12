@@ -145,7 +145,7 @@ This file should not house any final styling
 .workflow-solution-image { float: left; display: inline; }
 
 /* 9-9-16 updates to new styles */
-#cx-base-temp .profile .shortcut {
+/*#cx-base-temp .profile .shortcut {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -164,7 +164,7 @@ This file should not house any final styling
     cursor: pointer;
     border: none;
     text-transform: uppercase;
-}
+}*/
 
 .base aside { 
     background-color: #48435c;
