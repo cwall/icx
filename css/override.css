@@ -412,7 +412,6 @@ h3.page-title {
 #member-summary-table tr:hover { background-color: #fafafa; cursor: pointer; }
 .btn { background-image: none; }
 #cx-base-temp button { }
-#cx-base-temp .profile .shortcut { display: inline-block; background-color: none; }
 .nav-buttons:hover { background-color: #fff !important; }
 
 

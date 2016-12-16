@@ -19,14 +19,18 @@ body {
   font-size: 16px;
 }
 
-h3 {
-  font-size: 1.6em;
-  color: #333;
+.title {
   font-weight: 400;
   margin: 0 0 20px;
-  padding: 0 0 10px 0;
-  border-bottom: 1px solid #eff1f5;
+  font-size: 1.025em !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 100;
+  background-color: $bg;
+  color: $white;
+  padding: 10px;
   width: 100%;
+  @include radius(3px 3px 0 0);
 }
 
 strong {
@@ -239,13 +243,12 @@ strong {
         input[type="search"] {
           width: 100%;
           font-size: 1.3em;
-          background-color: #fff;
           @include radius(5px);
           margin: 0;
           padding: 10px 0;
           border: none;
           height: 60px;
-          background-color: #fafdff;
+          background-color: $cool;
           @include transition(all, .2s, ease-in-out);
           outline: none;
           color: $purple;
@@ -349,14 +352,15 @@ strong {
       @include flex-box();
       flex-flow: row wrap;
       background-color: $white;
-      border-bottom: 1px solid $base;
+      //border-bottom: 1px solid $base;
 
       &:last-child {
         margin-bottom: 0;
+        border-bottom: none;
       }
-      &:nth-child(2n+1) {
-        //background-color: $faint;
-      }
+      // &:nth-child(even) {
+      //   background-color: $cool;
+      // }
 
       .box {
         @include flex(1 1 25%);
@@ -562,12 +566,15 @@ i {
     padding: 8px;
   }
 
-  .title {
+  .header {
     display: inline;
     vertical-align: middle;
     @include flex(2 1 100%);
     padding: 8px;
     text-align: center;
+    border: none;
+    color: $black;
+    background-color: transparent;
   }
 
   &.active {
@@ -596,26 +603,40 @@ i {
       //background-color: #3e165d;
     }
 
-    .title {
+    .header {
       //background-color: $purple;
       color: $white;
       font-weight: bold;
     }
   }
 }
+.highlight-list {
+  padding: 0;
+  margin: 0;
 
+  li {
+    display: block;
+    background-color: $faint;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding: 5px;
+  }
+}
 .summary-container {
   text-align: left;
   padding: 20px;
   @include flex-box();
-  @include radius(5px);
-  background-color: #fafdff;
+  //@include radius(5px);
+  //background-color: #fafdff;
   flex-flow: row wrap;
-  align-content: center;
-  border: 1px solid #e9edf1;
+  //align-content: center;
+  //border: 1px solid #e9edf1;
   list-style: none;
+  border-bottom: 1px solid #e9edf1;
 
-
+  &:last-child {
+    border-bottom: none;
+  }
   .icon {
     @include flex(1 0 100px );
   }
