@@ -242,13 +242,12 @@ strong {
 
         input[type="search"] {
           width: 100%;
-          font-size: 1.3em;
-          @include radius(5px);
+          font-size: 1em;
+          //@include radius(5px);
           margin: 0;
-          padding: 10px 0;
-          border: none;
-          height: 60px;
-          background-color: $cool;
+          padding: 12px;
+          height: 40px;
+          background-color: $white;
           @include transition(all, .2s, ease-in-out);
           outline: none;
           color: $purple;
@@ -256,7 +255,7 @@ strong {
 
           &:focus {
             box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.4);
-            background-color: $white;
+            background-color: #f6f6fd;
             color: $purple;
             border-color: $gray;
           }
