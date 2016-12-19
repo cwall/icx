@@ -7,12 +7,18 @@
 		"uuidString": "2F8746A3-279E-4726-9A56-BDD24A534B55"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/base.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/base.html",
+		"oF": 0
+		},
+	"\/case-form.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/case-form.html",
 		"oF": 0
 		},
 	"\/case.html": {
@@ -1469,6 +1475,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/diag.png": {
+		"ft": 32768,
+		"iS": 938,
+		"oA": 0,
+		"oAP": "\/img\/diag.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/i.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2909,6 +2923,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -3072,6 +3090,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -3437,6 +3459,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -3668,6 +3694,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -4501,6 +4531,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

@@ -264,8 +264,8 @@ h3.page-title {
 
 
 .no-border { border: none !important; }
-.side-block a, .box a:not(.summary-link), .box-half a { color: #5692F0; font-weight: 600; text-decoration: none; }
-.summary-link { font-weight: 600; text-decoration: none; font-family: 'Roboto', serif; color: #a79035; }
+/*.side-block a, .box a:not(.summary-link), .box-half a { color: #5692F0; font-weight: 600; text-decoration: none; }
+*/.summary-link { font-weight: 600; text-decoration: none; font-family: 'Roboto', serif; color: #a79035; }
 .side-block strong, .box strong, .box-half strong { font-family: 'Roboto', sans-serif; }
 .section-header { 
     justify-content: space-between;
@@ -407,8 +407,8 @@ h3.page-title {
 /* Member page */
 #member-page #member-details-child-list { display: flex; }
 #member-result-list { list-style-type: none; }        
-#cx-base-temp .base .row:not(.search-field-row) { padding: 10px !important; } 
-.card-type { text-align: center; } 
+/*#cx-base-temp .base .row:not(.search-field-row) { padding: 10px !important; } 
+*/.card-type { text-align: center; } 
 #member-summary-table tr:hover { background-color: #fafafa; cursor: pointer; }
 .btn { background-image: none; }
 #cx-base-temp button { }

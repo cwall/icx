@@ -25,12 +25,19 @@ body {
   font-size: 1.025em !important;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 100;
-  background-color: #260651;
-  color: $white;
-  padding: 10px;
+  //background-color: #260651;
+  background-color: #fafbff;
+  color: $bg;
+  border-left: 3px solid $blue;
+  padding: 12px 20px;
+  line-height: 1;
   width: 100%;
-  @include radius(3px 3px 0 0);
+  @include radius(0);
+
+  .hl {
+    font-weight: bold;
+    color: $red;
+  }
 }
 
 strong {
@@ -289,11 +296,11 @@ strong {
 
       .form-header {
         width: 100%;
-        background-color: $lblue;
-        color: $white;
+        background-color: #f1f4f7;
+        color: $bg;
         padding: 10px;
         @include flex(1 1 100%);
-        margin: 0 0 20px 0;
+        margin: 0 0 10px 0;
 
         h4 {
           margin: 0;
@@ -1140,7 +1147,108 @@ button {
     }
   }
 }
+.flat {
+  display: block;
+  margin-bottom: 1em;
+}
+.acc-cap {
+  height: 60px;
+  border-left: 5px solid transparent;
+  padding: 0 20px;
 
+  .info-list {
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    width: 100%;
+    display: table;
+
+    li {
+      display: table-cell;
+      width: 50%;
+      &:first-child {
+        text-align: left;
+      }
+
+      &:last-child {
+        text-align: right;
+        color: $black;
+      }
+    }
+  }
+
+  &.deduc {
+    border-left-color: #7dc95e;
+
+    .info-list {
+      li {
+        &:first-child {
+          color: #7dc95e;
+        }
+      }
+    }
+  }
+
+  &.outofpock {
+    border-left-color: #b017be;
+
+    .info-list {
+      li {
+        &:first-child {
+          color: #b017be;
+        }
+      }
+    }
+  }
+
+  h5 {
+    font-size: 1em;
+    margin: 0 0 5px 0;
+  }
+
+  .bar {
+     @include radius(5px);
+    height: 20px;
+    width: 400px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    display: block;
+
+    .back {
+      background: url(../img/diag.png) repeat top left #404040;
+      z-index: 2;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      height: 20px;
+    }
+
+    .deductible, .outofpocket {
+      @include radius(5px);
+      height: 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 3;
+      display: block;
+      box-shadow: 0px -10px 5px rgba(0,0,0,0.1) inset;
+    }
+
+    .deductible {
+      background-color: #7dc95e;
+      width: 50%;
+    }
+
+    .outofpocket {
+      background-color: #b017be;
+      width: 30%;
+    }
+  }
+}
 @media screen and (min-width: 791px) and (max-width: 990px) {}
 @media screen and (min-width: 601px) and (max-width: 790px) {
   #cx-base-temp {

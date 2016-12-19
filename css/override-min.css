@@ -276,11 +276,8 @@ h3.page-title {
 .no-border {
   border: none !important; }
 
-.side-block a, .box a:not(.summary-link), .box-half a {
-  color: #5692F0;
-  font-weight: 600;
-  text-decoration: none; }
-
+/*.side-block a, .box a:not(.summary-link), .box-half a { color: #5692F0; font-weight: 600; text-decoration: none; }
+*/
 .summary-link {
   font-weight: 600;
   text-decoration: none;
@@ -497,9 +494,8 @@ h3.page-title {
 #member-result-list {
   list-style-type: none; }
 
-#cx-base-temp .base .row:not(.search-field-row) {
-  padding: 10px !important; }
-
+/*#cx-base-temp .base .row:not(.search-field-row) { padding: 10px !important; } 
+*/
 .card-type {
   text-align: center; }
 
