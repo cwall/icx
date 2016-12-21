@@ -31,38 +31,6 @@
   -ms-user-select: none;
   user-select: none;
 }
-.card-info {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  height: auto;
-  min-height: 0;
-  opacity: 1;
-  visibility: visible;
-  @include transition(all,.2s,ease-out);
-  @include flex-box();
-  flex-flow: column wrap;
-  text-align: center;
-
-  li {
-    @include flex(1 0 100%);
-    //display: block;
-    //padding: 3px 0;
-    font-size: 1em;
-    margin-bottom: 5px;
-    
-    a {
-      color: $red;
-    }
-    strong, span {
-      display: inline-block;
-    }
-
-    // span.active {
-    //   color: $green;
-    // }
-  }
-}
 
 .breadcrumbs {
   @include flex-box();
@@ -421,7 +389,7 @@
     color: #48435c;
     text-align: center;
     padding: 10px;
-    border-right: 1px solid $faint;
+    border-right: 1px solid $gray;
 
     &:last-child {
       border-right: none;
@@ -471,45 +439,10 @@
 .actions {
   width: 100%;
   padding: 0px;
-  border-top: 1px solid $bg;
+  background-color: $cool;
+  //border-top: 1px solid $bg;
   border-bottom: 1px solid $bg;
   @include flex-box;
-  // width: 100%;
-  // flex-flow: row wrap;
-  // list-style: none;
-  // padding: 0;
-  // margin: 0;
-  // align-items: stretch;
-
-  // a {
-  //   @include flex(1 100%);
-  //   max-width: 50%;
-  //   position: relative;
-  //   text-decoration: none;
-  //   padding: 12px;
-  //   font-weight: bold;
-  //   text-transform: uppercase;
-  //   font-size: .75em;
-  //   letter-spacing: 1px;
-  //   text-align: center;
-  //   border-right: 1px solid $bg;
-  //   border-bottom: 1px solid $bg;
-  //   min-height: 60px;
-  //   border-bottom: 1px solid $bg;
-  //   background-color: $cool;
-  //   color: $blue;
-  //   @include transition(all,.4s,ease-in);
-
-  //   &:hover {
-  //     background-color: $bg;
-  //   }
-  //   &:nth-child(even) {
-  //     border-right: none;
-  //   }
-  //   &:last-child {
-  //     border-bottom: none;
-  //   }
-  // }
 
   h4 {
     text-transform: uppercase;
@@ -522,7 +455,7 @@
   }
 
   .shortcut {    
-    padding: 20px;
+    padding: 1em;
     list-style: none;
     @include flex-box;
     flex-flow: row wrap;
