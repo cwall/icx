@@ -406,9 +406,7 @@ h3.page-title {
 #member-result-list {
   list-style-type: none; }
 
-#cx-base-temp .base .row {
-  padding: 10px !important; }
-
+/*#cx-base-temp .base .row { padding: 10px !important; }*/
 #map {
   height: 382px;
   width: 482px; }

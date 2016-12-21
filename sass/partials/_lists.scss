@@ -220,27 +220,28 @@
       }
       i {
         position: absolute;
-        transform: translate( -6px , 0 );
+        //transform: translate( -6px , 0 );
         margin: auto;
         top: 0;
         bottom: 0;
         display: inline-block;
         right: 0;
-        
-        &:before , &:after {
-          content: "";
-          @extend .transition;
-          position: absolute;
-          background-color: $red;
-          width: 3px;
-          height: 9px;
-        }
-        &:before {
-          transform: translate( -2px , 0 ) rotate( 45deg );
-        }
-        &:after {
-          transform: translate( 2px , 0 ) rotate( -45deg );
-        }
+        content: "+";
+        color: $red;
+        // &:before , &:after {
+        //   content: "";
+        //   @extend .transition;
+        //   position: absolute;
+        //   background-color: $red;
+        //   width: 3px;
+        //   height: 9px;
+        // }
+        // &:before {
+        //   transform: translate( -2px , 0 ) rotate( 45deg );
+        // }
+        // &:after {
+        //   transform: translate( 2px , 0 ) rotate( -45deg );
+        // }
       }
       input[type=checkbox] {
         position: absolute;
@@ -584,7 +585,7 @@
     margin-bottom: 1em;
     padding: 1em;
     max-width: 50%;
-    background-color: #fafbff;
+    background-color: $cool;
 
     &:nth-child(odd) {
       border-right: 5px solid $white;

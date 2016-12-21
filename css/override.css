@@ -358,7 +358,7 @@ h3.page-title {
 /* Broker page */
 #broker-page #broker-details-child-list { display: flex; }
 #member-result-list { list-style-type: none; }            
-#cx-base-temp .base .row { padding: 10px !important; }
+/*#cx-base-temp .base .row { padding: 10px !important; }*/
 #map { height: 382px; width: 482px; } 
 .card-type { text-align: center; } 
 #member-summary-table tr:hover { background-color: #fafafa; cursor: pointer; }
