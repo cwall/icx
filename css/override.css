@@ -340,9 +340,9 @@ h3.page-title {
 #billing-summary-table tr:hover { background-color: #fafafa; cursor: pointer; }
 
 /* WORKFLOWS */
-.workflow li.lead, .workflow li:first-child { min-height: 50px; }
+/*.workflow li.lead, .workflow li:first-child { min-height: 50px; }
 .workflow li.step strong { font-weight: bold; display:inline; }
-
+*/
 /* PAGES */
 /* Account page */
 .icon-left { padding-bottom: 20%; }
