@@ -9,14 +9,15 @@ body {
   min-height: 100%;
   position: relative;
   background-color: $bg;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #393e41;
 }
 
 .title {
   font-weight: 400;
   margin: 0 0 12px 0;
-  font-size: 1.025em !important;
+  font-size: 1.2em !important;
   text-transform: uppercase;
   color: $bg;
   border-bottom: 1px solid $gray;
@@ -143,7 +144,7 @@ strong {
 
   .card {
     height: auto;
-    min-height: 80px;
+    min-height: 60px;
     @include flex(1 100%);
     padding: 1em;
     color: $black;
@@ -164,51 +165,26 @@ strong {
       list-style: none;
     }
 
+    .avatar {
+      width: 90px;
+      height: 90px;
+      display: block;
+      margin: 0 auto;
+    }
+
     h2 {
       font-weight: 400;
-      font-size: 1.3em;
-      margin: 10px 0;
+      font-size: 1.5em;
+      margin: 0 0 5px;
       color: $black;
       line-height: 1;
       text-align: left;
-    }
-
-    .avatar {
-      margin: 10px auto;
-      display: none;
-      width: 80px;
-      height: 80px;
-      svg {
-        width: 100%;
-        height: auto;
-
-        .a {
-          fill: $red;
-        }
-      }
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-      
     }
 
     .ident {
       margin: 0 auto;
       display: block;
       text-align: left;
-
-      h2,h3 {
-        margin: 0;
-        padding: 0;
-        text-transform: uppercase;
-      }
-
-      h3 {
-        font-size: .8em;
-        margin: 3px 0;
-      }
 
       h2 {
         margin-bottom: 10px;
@@ -218,7 +194,7 @@ strong {
 
   main {
     @include flex(8);
-    padding: 1em;
+    padding: 1.4em;
     background-color: #f6f7f8;
     border-top: 3px solid $blue;
 
@@ -445,14 +421,12 @@ i {
 .tab {
   background-color: #fdfdfd;
   @include radius(3px);
-  display: inline-block;
-  @include flex(1);
+  @include flex(1 1 25%);
   @include flex-box();
   flex-flow: row wrap;
   list-style: none;
-  padding: 0px !important;
+  padding: 0px ;
   margin: 0 10px 0 0;
-  align-items: center;
   max-width: 25%;
   border: 1px solid #F3F3F3;
   @include transition(all, .3s, ease-in);
@@ -461,7 +435,7 @@ i {
   min-width: 100px;
 
   &:hover {
-    background-color: #49aad8;
+    background-color: #f2f2f2;
     box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.4);
   }
 
@@ -572,56 +546,6 @@ i {
   }
 }
 
-.workflow-wrapper {
-  @include flex(1 0 50%);
-  border: 1px solid #f2f2f2;
-  max-width: 50%;
-  min-width: 25%;
-
-  .wf-header {
-    cursor: pointer;
-    padding: 8px;
-    border-bottom: 1px solid #e6e6e6;
-  }
-
-  .wf-steps {
-    padding: 0;
-    margin: 0 0 0 12px;
-    list-style: none;
-    //border-left: 1px solid #e1e1e1;
-
-    .step {
-      display: block;
-      padding: 0 0 10px 12px;
-      position: relative;
-      margin-bottom: 5px;
-      line-height: 1;
-
-
-      &:after {
-        content: "";
-        position: absolute;
-        left: -4px;
-        top: 2px;
-        width: 8px;
-        height: 8px;
-        @include radius(100%);
-        background-color: $blue;
-      }
-
-      ul {
-        padding: 10px;
-        font-size: .825em;
-        
-        li {
-            padding: 8px 0;
-          margin-bottom: 5px;
-        }
-      }
-    }
-  }
-}
-
 address {
   text-align: center;
   color: $black;
@@ -653,10 +577,11 @@ address {
   @include radius(3px);
   line-height: 1;
   margin-bottom: 10px;
+  background-color: #fdfdfd;
 
   .wf-header {
-    background-color: $bg;
-    color: $white;
+    background-color: #f5f5f5;
+    color: $black;
     padding: 10px;
     margin: 0;
     cursor: pointer;
@@ -678,7 +603,31 @@ address {
   .wf-content {
     width: 100%;
     display: none;
-    padding: 20px;
+    padding: 10px;
+  }
+
+  .step {
+    @include radius(3px);
+    background-color: $white;
+    border: 1px solid #e6e6e6;
+    margin: 0 0 1em;
+    padding: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &.completed {
+    .wf-header {
+      background-color: $green;
+    }
+  }
+
+  &.active {
+    .wf-header {
+      background-color: #e8ffd9;
+    }
   }
 }
 

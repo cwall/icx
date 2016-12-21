@@ -1475,6 +1475,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/cx-healthy.png": {
+		"ft": 32768,
+		"iS": 865,
+		"oA": 0,
+		"oAP": "\/img\/cx-healthy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/cx-sentiment.png": {
+		"ft": 32768,
+		"iS": 1826,
+		"oA": 0,
+		"oAP": "\/img\/cx-sentiment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/cx-traditional.png": {
+		"ft": 32768,
+		"iS": 739,
+		"oA": 0,
+		"oAP": "\/img\/cx-traditional.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/cx-value.png": {
+		"ft": 32768,
+		"iS": 1420,
+		"oA": 0,
+		"oAP": "\/img\/cx-value.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/diag.png": {
 		"ft": 32768,
 		"iS": 938,
@@ -1482,16 +1514,6 @@
 		"oAP": "\/img\/diag.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/img\/i.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/i.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/img\/icons\/PNG\/icon-appeal.png": {
 		"ft": 32768,
@@ -2164,22 +2186,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/individual_accumulator.png": {
-		"ft": 32768,
-		"iS": 10299,
-		"oA": 0,
-		"oAP": "\/img\/individual_accumulator.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/member_accumulator.png": {
-		"ft": 32768,
-		"iS": 10127,
-		"oA": 0,
-		"oAP": "\/img\/member_accumulator.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
