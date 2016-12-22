@@ -416,8 +416,12 @@ i {
 .tabs {
   min-width: 100%;
   @include flex-box();
-
 }
+
+.hl {
+  color: $red;
+}
+
 .tab {
   background-color: #fdfdfd;
   @include radius(3px);
@@ -540,11 +544,29 @@ i {
   .p-icon {
     width: 22px;
     height: 22px;
-    background: url(../img/cx-healthy.png) center center no-repeat;
-    background-size: contain;
     display: inline-block;
     margin: 0 5px 0 0;
     vertical-align: middle;
+    
+    &.healthy {
+      background: url(../img/cx-healthy.png) center center no-repeat;
+      background-size: contain;
+    }
+
+    &.traditional {
+      background: url(../img/cx-traditional.png) center center no-repeat;
+      background-size: contain;
+    }
+
+    &.sentiment {
+      background: url(../img/cx-sentiment.png) center center no-repeat;
+      background-size: contain;
+    }
+
+    &.value {
+      background: url(../img/cx-value.png) center center no-repeat;
+      background-size: contain;
+    }
   }
 
   .copy {
