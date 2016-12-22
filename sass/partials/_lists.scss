@@ -439,9 +439,9 @@
 .actions {
   width: 100%;
   padding: 0px;
-  background-color: $cool;
+  //background-color: $cool;
   //border-top: 1px solid $bg;
-  border-bottom: 1px solid $bg;
+  //border-bottom: 1px solid $bg;
   @include flex-box;
 
   h4 {
@@ -455,7 +455,7 @@
   }
 
   .shortcut {    
-    padding: 0 1em 1em;
+    padding: 1em 0;
     list-style: none;
     @include flex-box;
     flex-flow: row wrap;
