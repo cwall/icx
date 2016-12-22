@@ -521,6 +521,7 @@ i {
   li {
     display: inline-block;
     margin: 0 10px 10px 0;
+    min-width: 110px;
   }
 }
 
@@ -529,6 +530,12 @@ i {
   background-color: $cool;
   padding: 4px 8px !important;
   text-align: left;
+  border: 1px solid #e6e6e6;
+  @include transition(all,.3s,ease-in);
+
+  &:hover {
+    border-color: $blue;
+  }
 
   .p-icon {
     width: 22px;
