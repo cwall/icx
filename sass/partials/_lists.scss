@@ -516,7 +516,8 @@
     @include flex(1 0 50%);
     text-align: left;
     margin-bottom: 1em;
-    padding: 1em;
+    padding: 12px;
+    line-height: 1;
     max-width: 50%;
     background-color: $cool;
 
