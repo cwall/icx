@@ -65,6 +65,70 @@ strong {
   background-color: $white;
   @include transition(all, .2s, ease-in-out);
   overflow: hidden;
+
+  nav {
+    padding: 0;
+    
+    a {
+      color: #333;
+      text-decoration: none;
+      @include transition(all,.2s, ease-in);
+      cursor: pointer;
+      font-weight: normal;
+      padding: 12px 20px;
+      vertical-align: middle;
+      display: block;
+      outline: none;
+
+      &:hover {
+        text-decoration: none;
+        font-weight: bold;
+        //background-color: #eff1f5;
+      }
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      width: 100%;
+      @include flex-box();
+      flex-flow: column wrap;
+
+      li {
+        @include flex(1 0 100%);
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: .75em;
+        letter-spacing: 1px;
+        margin: 0;
+        outline: none;
+        border-left: 3px solid transparent;        
+        position: relative;
+        @include transition(all,.2s, ease-in);
+
+        &:hover {
+          background-color: $white;
+          border-left-color: $blue;
+        }
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &.active {
+          background-color: $white;
+          font-weight: 700;
+          border-left-color: $blue;
+
+          a {
+            font-weight: 700;
+          }        
+        }
+      }
+    }
+  }
 }
 .menu-btn {
   visibility: hidden;
@@ -333,70 +397,6 @@ strong {
 
     &:last-child {
       border-bottom: none;
-    }
-  }
-}
-
-nav {
-  padding: 0;
-  
-  a {
-    color: #333;
-    text-decoration: none;
-    @include transition(all,.2s, ease-in);
-    cursor: pointer;
-    font-weight: normal;
-    padding: 12px 20px;
-    vertical-align: middle;
-    display: block;
-    outline: none;
-
-    &:hover {
-      text-decoration: none;
-      font-weight: bold;
-      //background-color: #eff1f5;
-    }
-  }
-
-  ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    width: 100%;
-    @include flex-box();
-    flex-flow: column wrap;
-
-    li {
-      @include flex(1 0 100%);
-      justify-content: space-between;
-      text-transform: uppercase;
-      font-weight: 800;
-      font-size: .75em;
-      letter-spacing: 1px;
-      margin: 0;
-      outline: none;
-      border-left: 3px solid transparent;        
-      position: relative;
-      @include transition(all,.2s, ease-in);
-
-      &:hover {
-        background-color: $white;
-        border-left-color: $blue;
-      }
-
-      &:last-child {
-        border-bottom: none;
-      }
-
-      &.active {
-        background-color: $white;
-        font-weight: 700;
-        border-left-color: $blue;
-
-        a {
-          font-weight: 700;
-        }        
-      }
     }
   }
 }
