@@ -1168,8 +1168,7 @@ i {
   .gen-card header {
     position: relative;
     padding: 1em;
-    display: block;
-    margin-bottom: 10px; }
+    display: block; }
     .gen-card header a {
       text-decoration: none;
       font-weight: bold; }
