@@ -439,291 +439,161 @@ h6 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-[class^="icx-"]:before,
-[class*=" icx-"]:before {
+[class^="cx-"]:before,
+[class*=" cx-"]:before {
   font-family: "insurecx" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
   text-transform: none !important;
   speak: none;
-  line-height: 0;
-  vertical-align: middle;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icx-android-create:before {
+.cx-briefcase:before {
   content: "\61"; }
 
-.icx-android-checkmark-circle:before {
+.cx-bookmark:before {
   content: "\62"; }
 
-.icx-android-close:before {
-  content: "\63"; }
-
-.icx-android-clipboard:before {
+.cx-check-circle:before {
   content: "\64"; }
 
-.icx-android-people:before {
+.cx-child:before {
   content: "\65"; }
 
-.icx-android-person:before {
+.cx-cog:before {
   content: "\66"; }
 
-.icx-android-options:before {
+.cx-comment:before {
   content: "\67"; }
 
-.icx-android-chat:before {
+.cx-envelope:before {
   content: "\68"; }
 
-.icx-android-cart:before {
+.cx-exclamation-circle:before {
   content: "\69"; }
 
-.icx-android-cancel:before {
+.cx-file:before {
   content: "\6a"; }
 
-.icx-android-arrow-dropright-circle:before {
+.cx-female:before {
   content: "\6b"; }
 
-.icx-alert:before {
+.cx-folder:before {
   content: "\6c"; }
 
-.icx-android-arrow-dropleft-circle:before {
+.cx-flag:before {
   content: "\6d"; }
 
-.icx-alert-circled:before {
+.cx-globe:before {
   content: "\6e"; }
 
-.icx-android-add-circle:before {
+.cx-hourglass:before {
   content: "\6f"; }
 
-.icx-android-alert:before {
+.cx-hospital-o:before {
   content: "\70"; }
 
-.icx-android-alarm-clock:before {
+.cx-heart:before {
   content: "\71"; }
 
-.icx-android-apps:before {
+.cx-inbox:before {
   content: "\72"; }
 
-.icx-android-arrow-back:before {
+.cx-info-circle:before {
   content: "\73"; }
 
-.icx-android-arrow-down:before {
+.cx-list-ul:before {
   content: "\74"; }
 
-.icx-android-arrow-dropdown-circle:before {
+.cx-medkit:before {
   content: "\75"; }
 
-.icx-android-bulb:before {
+.cx-pencil:before {
   content: "\76"; }
 
-.icx-android-boat:before {
+.cx-shield:before {
   content: "\77"; }
 
-.icx-android-bicycle:before {
-  content: "\78"; }
-
-.icx-android-bar:before {
-  content: "\79"; }
-
-.icx-android-attach:before {
+.cx-star:before {
   content: "\7a"; }
 
-.icx-android-arrow-up:before {
+.cx-stethoscope:before {
+  content: "\78"; }
+
+.cx-suitcase:before {
+  content: "\79"; }
+
+.cx-times-circle:before {
   content: "\41"; }
 
-.icx-android-arrow-forward:before {
+.cx-thumbs-up:before {
   content: "\42"; }
 
-.icx-android-arrow-dropup-circle:before {
+.cx-thumbs-down:before {
   content: "\43"; }
 
-.icx-android-arrow-dropup:before {
+.cx-thumb-tack:before {
   content: "\44"; }
 
-.icx-android-checkbox-blank:before {
+.cx-trophy:before {
   content: "\45"; }
 
-.icx-android-checkbox-outline-blank:before {
+.cx-user:before {
   content: "\46"; }
 
-.icx-android-checkbox-outline:before {
+.cx-user-md:before {
   content: "\47"; }
 
-.icx-android-bookmark:before {
+.cx-users:before {
   content: "\48"; }
 
-.icx-android-bus:before {
+.cx-whatsapp:before {
   content: "\49"; }
 
-.icx-android-calendar:before {
+.cx-wrench:before {
   content: "\4a"; }
 
-.icx-android-call:before {
+.cx-search-plus:before {
   content: "\4b"; }
 
-.icx-android-cloud:before {
+.cx-search-minus:before {
   content: "\4c"; }
 
-.icx-android-cloud-circle:before {
+.cx-sitemap:before {
   content: "\4d"; }
 
-.icx-android-cloud-done:before {
+.cx-signal:before {
   content: "\4e"; }
 
-.icx-android-cloud-outline:before {
+.cx-shopping-cart:before {
   content: "\4f"; }
 
-.icx-android-color-palette:before {
+.cx-sliders:before {
   content: "\50"; }
 
-.icx-android-compass:before {
+.cx-eye:before {
   content: "\51"; }
 
-.icx-android-contact:before {
+.cx-clipboard:before {
   content: "\52"; }
 
-.icx-android-contacts:before {
+.cx-calendar:before {
   content: "\53"; }
 
-.icx-android-contract:before {
+.cx-arrow-right:before {
+  content: "\63"; }
+
+.cx-angle-right:before {
   content: "\54"; }
 
-.icx-android-delete:before {
+.cx-angle-double-down:before {
   content: "\55"; }
 
-.icx-android-car:before {
+.cx-angle-double-up:before {
   content: "\56"; }
-
-.icx-android-arrow-dropright:before {
-  content: "\57"; }
-
-.icx-android-add:before {
-  content: "\58"; }
-
-.icx-android-camera:before {
-  content: "\59"; }
-
-.icx-android-archive:before {
-  content: "\5a"; }
-
-.icx-android-arrow-dropdown:before {
-  content: "\30"; }
-
-.icx-android-checkbox:before {
-  content: "\31"; }
-
-.icx-android-arrow-dropleft:before {
-  content: "\32"; }
-
-.icx-android-folder-open:before {
-  content: "\33"; }
-
-.icx-android-map:before {
-  content: "\34"; }
-
-.icx-android-mail:before {
-  content: "\35"; }
-
-.icx-android-folder:before {
-  content: "\36"; }
-
-.icx-android-film:before {
-  content: "\37"; }
-
-.icx-android-lock:before {
-  content: "\38"; }
-
-.icx-android-favorite-outline:before {
-  content: "\39"; }
-
-.icx-android-locate:before {
-  content: "\21"; }
-
-.icx-android-open:before {
-  content: "\22"; }
-
-.icx-android-list:before {
-  content: "\24"; }
-
-.icx-android-favorite:before {
-  content: "\25"; }
-
-.icx-android-expand:before {
-  content: "\26"; }
-
-.icx-android-laptop:before {
-  content: "\27"; }
-
-.icx-android-image:before {
-  content: "\28"; }
-
-.icx-android-exit:before {
-  content: "\29"; }
-
-.icx-android-notifications:before {
-  content: "\2a"; }
-
-.icx-android-notifications-none:before {
-  content: "\23"; }
-
-.icx-android-more-vertical:before {
-  content: "\2b"; }
-
-.icx-android-navigate:before {
-  content: "\2c"; }
-
-.icx-android-home:before {
-  content: "\2d"; }
-
-.icx-android-drafts:before {
-  content: "\2e"; }
-
-.icx-android-download:before {
-  content: "\2f"; }
-
-.icx-android-happy:before {
-  content: "\3a"; }
-
-.icx-android-hangout:before {
-  content: "\3b"; }
-
-.icx-android-more-horizontal:before {
-  content: "\3c"; }
-
-.icx-android-done-all:before {
-  content: "\3d"; }
-
-.icx-android-done:before {
-  content: "\3e"; }
-
-.icx-android-hand:before {
-  content: "\3f"; }
-
-.icx-android-microphone-off:before {
-  content: "\40"; }
-
-.icx-android-microphone:before {
-  content: "\5b"; }
-
-.icx-android-globe:before {
-  content: "\5d"; }
-
-.icx-android-document:before {
-  content: "\5e"; }
-
-.icx-android-desktop:before {
-  content: "\5f"; }
-
-.icx-android-funnel:before {
-  content: "\60"; }
-
-.icx-android-menu:before {
-  content: "\7b"; }
-
-.icx-android-notifications-off:before {
-  content: "\7c"; }
 
 body, .bodyDiv {
   margin: 0;
@@ -835,7 +705,8 @@ strong {
         -moz-transition: all 0.2s ease-in;
         -o-transition: all 0.2s ease-in;
         -ms-transition: all 0.2s ease-in;
-        transition: all 0.2s ease-in; }
+        transition: all 0.2s ease-in;
+        margin-bottom: 8px; }
         #cx-base-temp nav ul li:hover {
           background-color: #fff;
           border-left-color: #0089f3; }
@@ -1274,6 +1145,43 @@ i {
   .persona .copy {
     display: inline-block;
     vertical-align: middle; }
+
+.gen-card {
+  background-color: #fafbff;
+  border: 1px solid #e9e9e9;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0; }
+  .gen-card.subscriber header {
+    background-color: #d0ffb3; }
+    .gen-card.subscriber header:after {
+      font-family: "insurecx" !important;
+      content: "\62";
+      font-size: .825em;
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      color: #12a24e; }
+  .gen-card.dependant header {
+    background-color: #eaf5ff; }
+  .gen-card header {
+    position: relative;
+    padding: 1em;
+    display: block;
+    margin-bottom: 10px; }
+    .gen-card header a {
+      text-decoration: none;
+      font-weight: bold; }
+      .gen-card header a:visited {
+        color: #151515; }
+  .gen-card ul {
+    padding: 10px 20px; }
+    .gen-card ul li {
+      margin-bottom: 8px; }
+  .gen-card h4 {
+    font-weight: bold;
+    margin: 0; }
 
 .summary-container {
   text-align: left;
