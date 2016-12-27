@@ -28,10 +28,10 @@ button {
   padding: 8px 12px;
   @include transition(all, 100ms, ease-in);
   cursor: pointer;
-  //border: none;
   text-transform: uppercase;
   margin: 0 0 10px 0;
   cursor: pointer;
+  position: relative;
 
   &:hover {
     //color: $white;
@@ -46,3 +46,4 @@ button {
     }
   }
 }
+

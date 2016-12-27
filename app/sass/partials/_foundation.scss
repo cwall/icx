@@ -2,6 +2,7 @@
 @import '_brand';
 @import '_mixins';
 @import '_icons';
+@import '_buttons';
 
 body, .bodyDiv {
   margin: 0;
@@ -24,10 +25,45 @@ body, .bodyDiv {
   padding: 0 0 12px 0;
   line-height: 1;
   width: 100%;
+  position: relative;
 
   span[class^="cx-"] {
     //color: $black;
     font-size: .7em;    
+  }
+
+  .edit-bttn {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    vertical-align: middle;
+    text-decoration: none;
+    color: $blue;
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: .75em;
+    line-height: 1;
+    height: 20px;
+    @include transition(all,.2s,ease-in);
+
+    &:hover {
+      color: #333;
+    }
+    &:before {
+      font-family: "insurecx" !important;
+      text-transform: none !important;
+      content: "\76";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: -8px;
+      font-size: .8em;
+    }
+
   }
 }
 
