@@ -1200,7 +1200,16 @@ span[class^="cx-"] {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  border-bottom: 1px solid #e9edf1; }
+  border-bottom: 1px solid #e9edf1;
+  -webkit-column-count: 2 200px;
+  -moz-column-count: 2 200px;
+  column-count: 2 200px;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  -webkit-column-rule: 1px dotted #ddd;
+  -moz-column-rule: 1px dotted #ddd;
+  column-rule: 1px dotted #ddd; }
   .summary-container:last-child {
     border-bottom: none; }
   .summary-container .icon {

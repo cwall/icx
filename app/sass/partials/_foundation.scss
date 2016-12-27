@@ -655,6 +655,14 @@ span[class^="cx-"] {
   list-style: none;
   border-bottom: 1px solid #e9edf1;
 
+  @include columns(2 200px);
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  -webkit-column-rule: 1px dotted #ddd;
+  -moz-column-rule: 1px dotted #ddd;
+  column-rule: 1px dotted #ddd;
+
   &:last-child {
     border-bottom: none;
   }
