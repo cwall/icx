@@ -391,7 +391,7 @@ strong {
     background-color: $white;
 
     &:last-child {
-      margin-bottom: 0;
+      //margin-bottom: 0;
       border-bottom: none;
     }
 
@@ -1001,6 +1001,10 @@ address {
       width: 30%;
     }
   }
+}
+
+.summary-link {
+  color: $blue;
 }
 @media screen and (min-width: 601px) and (max-width: 790px) {
   

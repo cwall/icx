@@ -73,6 +73,8 @@ button {
   padding: 0;
   margin: 0;
   list-style: none; }
+  .blank-list li, .inline li, .stats li {
+    margin-bottom: 6px; }
 
 .inline li {
   display: inline-block;
@@ -1034,7 +1036,6 @@ strong {
     flex-flow: row wrap;
     background-color: #fff; }
     .base .row:last-child {
-      margin-bottom: 0;
       border-bottom: none; }
     .base .row .box {
       -webkit-box-flex: 1 1 25%;
@@ -1551,6 +1552,9 @@ address {
     .acc-cap .bar .outofpocket {
       background-color: #b017be;
       width: 30%; }
+
+.summary-link {
+  color: #0089f3; }
 
 @media screen and (min-width: 601px) and (max-width: 790px) {
   .base .row {
