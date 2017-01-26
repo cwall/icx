@@ -1042,6 +1042,7 @@ strong {
     flex-flow: row wrap;
     background-color: #fff; }
     .base .row:last-child {
+      margin-bottom: 0;
       border-bottom: none; }
     .base .row .box {
       -webkit-box-flex: 1 1 25%;
