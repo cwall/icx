@@ -7,7 +7,7 @@
 		"uuidString": "2F8746A3-279E-4726-9A56-BDD24A534B55"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/app\/assets\/base.html": {
 		"ft": 8192,
@@ -26,6 +26,26 @@
 		"oA": 0,
 		"oAP": "\/app\/assets\/case.html",
 		"oF": 0
+		},
+	"\/app\/assets\/css\/override-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/app\/assets\/css\/override-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/app\/assets\/css\/override.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/app\/assets\/css\/override-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/app\/assets\/favicon.gif": {
 		"ft": 4194304,
@@ -1970,1208 +1990,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/public\/app-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/app-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/app.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/app.css.map",
-		"oF": 0
-		},
-	"\/public\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/public\/min\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/public\/app.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/app.js.map",
-		"oF": 0
-		},
-	"\/public\/base.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/base.html",
-		"oF": 0
-		},
-	"\/public\/case-form.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/case-form.html",
-		"oF": 0
-		},
-	"\/public\/case.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/case.html",
-		"oF": 0
-		},
-	"\/public\/css\/flexboxgrid.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/flexboxgrid.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/font-awesome\/css\/font-awesome.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/css\/font-awesome-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/font-awesome\/css\/font-awesome.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/css\/font-awesome.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.eot",
-		"oF": 0
-		},
-	"\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.ttf",
-		"oF": 0
-		},
-	"\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.woff",
-		"oF": 0
-		},
-	"\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"\/public\/css\/font-awesome\/fonts\/FontAwesome.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/fonts\/FontAwesome.otf",
-		"oF": 0
-		},
-	"\/public\/css\/font-awesome\/HELP-US-OUT.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/css\/font-awesome\/HELP-US-OUT.txt",
-		"oF": 0
-		},
-	"\/public\/css\/font-awesome\/less\/animated.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/animated.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/bordered-pulled.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/bordered-pulled.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/core.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/core.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/fixed-width.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/fixed-width.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/font-awesome.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/css\/font-awesome\/css\/font-awesome.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/icons.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/icons.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/larger.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/larger.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/list.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/list.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/mixins.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/path.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/path.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/rotated-flipped.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/rotated-flipped.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/screen-reader.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/screen-reader.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/stacked.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/stacked.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/less\/variables.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/css\/font-awesome\/css\/variables.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/public\/css\/font-awesome\/scss\/font-awesome.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/css\/font-awesome\/css\/font-awesome.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/public\/css\/fonts.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/fonts-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/insurecx_stylesheet.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/insurecx_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/override-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/override-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/override.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/override-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/css\/responsive-tables.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/public\/css\/responsive-tables-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/favicon.gif": {
-		"ft": 4194304,
-		"iS": 1236,
-		"oA": 0,
-		"oAP": "\/public\/favicon.gif",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/fonts\/insurecx.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/fonts\/insurecx.eot",
-		"oF": 0
-		},
-	"\/public\/fonts\/insurecx.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/fonts\/insurecx.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/fonts\/insurecx.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/fonts\/insurecx.ttf",
-		"oF": 0
-		},
-	"\/public\/fonts\/insurecx.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/fonts\/insurecx.woff",
-		"oF": 0
-		},
-	"\/public\/img\/cx-healthy.png": {
-		"ft": 32768,
-		"iS": 865,
-		"oA": 0,
-		"oAP": "\/public\/img\/cx-healthy.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/cx-sentiment.png": {
-		"ft": 32768,
-		"iS": 1826,
-		"oA": 0,
-		"oAP": "\/public\/img\/cx-sentiment.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/cx-traditional.png": {
-		"ft": 32768,
-		"iS": 739,
-		"oA": 0,
-		"oAP": "\/public\/img\/cx-traditional.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/cx-value.png": {
-		"ft": 32768,
-		"iS": 1420,
-		"oA": 0,
-		"oAP": "\/public\/img\/cx-value.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/diag.png": {
-		"ft": 32768,
-		"iS": 938,
-		"oA": 0,
-		"oAP": "\/public\/img\/diag.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-appeal.png": {
-		"ft": 32768,
-		"iS": 3995,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-appeal.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-atrisk.png": {
-		"ft": 32768,
-		"iS": 3127,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-atrisk.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-claim-dental.png": {
-		"ft": 32768,
-		"iS": 2648,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-claim-dental.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-claim-drug.png": {
-		"ft": 32768,
-		"iS": 2547,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-claim-drug.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-claim-health.png": {
-		"ft": 32768,
-		"iS": 2778,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-claim-health.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-claim-vision.png": {
-		"ft": 32768,
-		"iS": 2928,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-claim-vision.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-claim.png": {
-		"ft": 32768,
-		"iS": 2295,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-claim.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-complete-progress.png": {
-		"ft": 32768,
-		"iS": 3387,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-complete-progress.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-controlledchronic.png": {
-		"ft": 32768,
-		"iS": 3101,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-controlledchronic.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-default-plan.png": {
-		"ft": 32768,
-		"iS": 3061,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-default-plan.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-drug.png": {
-		"ft": 32768,
-		"iS": 2473,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-drug.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-favorites.png": {
-		"ft": 32768,
-		"iS": 3826,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-favorites.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-folder-open.png": {
-		"ft": 32768,
-		"iS": 3029,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-folder-open.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-folder.png": {
-		"ft": 32768,
-		"iS": 2273,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-folder.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-healthy.png": {
-		"ft": 32768,
-		"iS": 3146,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-healthy.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-id.png": {
-		"ft": 32768,
-		"iS": 2766,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-id.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-location.png": {
-		"ft": 32768,
-		"iS": 2566,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-location.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-member-patient.png": {
-		"ft": 32768,
-		"iS": 4185,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-member-patient.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-money.png": {
-		"ft": 32768,
-		"iS": 3606,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-money.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-passive.png": {
-		"ft": 32768,
-		"iS": 3199,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-passive.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-prescription.png": {
-		"ft": 32768,
-		"iS": 3057,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-prescription.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-progress.png": {
-		"ft": 32768,
-		"iS": 3841,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-progress.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-provider-doc.png": {
-		"ft": 32768,
-		"iS": 3323,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-provider-doc.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-provider-steth.png": {
-		"ft": 32768,
-		"iS": 3292,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-provider-steth.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-recommendation.png": {
-		"ft": 32768,
-		"iS": 2386,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-recommendation.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-reminders.png": {
-		"ft": 32768,
-		"iS": 4315,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-reminders.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-schedule.png": {
-		"ft": 32768,
-		"iS": 2228,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-schedule.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-search.png": {
-		"ft": 32768,
-		"iS": 2905,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-search.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-sentiment.png": {
-		"ft": 32768,
-		"iS": 5822,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-sentiment.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-start-progress.png": {
-		"ft": 32768,
-		"iS": 3635,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-start-progress.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-task.png": {
-		"ft": 32768,
-		"iS": 2100,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-task.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-tasks.png": {
-		"ft": 32768,
-		"iS": 1974,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-tasks.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-techsavy.png": {
-		"ft": 32768,
-		"iS": 2993,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-techsavy.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-traditional.png": {
-		"ft": 32768,
-		"iS": 2046,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-traditional.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-uncontrolledchronic.png": {
-		"ft": 32768,
-		"iS": 3102,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-uncontrolledchronic.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-value.png": {
-		"ft": 32768,
-		"iS": 4122,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-value.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/PNG\/icon-workflows.png": {
-		"ft": 32768,
-		"iS": 3526,
-		"oA": 0,
-		"oAP": "\/public\/img\/icons\/PNG\/icon-workflows.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/public\/img\/icons\/SF-ICONS-PNG.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SF-ICONS-PNG.zip",
-		"oF": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-appeal.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-appeal.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-atrisk.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-atrisk.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-claim-dental.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-claim-dental.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-claim-drug.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-claim-drug.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-claim-health.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-claim-health.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-claim-vision.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-claim-vision.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-claim.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-claim.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-complete-progress.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-complete-progress.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-controlledchronic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-controlledchronic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-default-plan.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-default-plan.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-drug.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-drug.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-favorites.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-favorites.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-folder-open.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-folder-open.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-folder.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-folder.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-healthy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-healthy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-id.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-id.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-location.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-location.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-member-patient.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-member-patient.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-money.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-money.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-passive.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-passive.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-prescription.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-prescription.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-progress.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-progress.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-provider-doc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-provider-doc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-provider-steth.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-provider-steth.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-recommendation.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-recommendation.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-reminders.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-reminders.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-schedule.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-schedule.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-search.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-search.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-sentiment.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-sentiment.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-start-progress.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-start-progress.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-task.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-task.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-tasks.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-tasks.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-techsavy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-techsavy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-traditional.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-traditional.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-uncontrolledchronic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-uncontrolledchronic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-value.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-value.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/icons\/SVG\/icon-workflows.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/icons\/SVG\/icon-workflows.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/index.html",
-		"oF": 0
-		},
-	"\/public\/member.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/member.html",
-		"oF": 0
-		},
-	"\/public\/temp.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/public\/temp.html",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -3189,6 +2007,1177 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/static\/base.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/base.html",
+		"oF": 0
+		},
+	"\/static\/case-form.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/case-form.html",
+		"oF": 0
+		},
+	"\/static\/case.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/case.html",
+		"oF": 0
+		},
+	"\/static\/css\/cx.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/cx-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/css\/font-awesome\/css\/font-awesome.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/css\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/css\/font-awesome\/css\/font-awesome.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/static\/css\/font-awesome\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/static\/css\/font-awesome\/HELP-US-OUT.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/font-awesome\/HELP-US-OUT.txt",
+		"oF": 0
+		},
+	"\/static\/css\/font-awesome\/less\/animated.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/animated.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/bordered-pulled.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/bordered-pulled.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/core.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/core.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/fixed-width.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/fixed-width.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/font-awesome.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/css\/font-awesome\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/icons.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/icons.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/larger.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/larger.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/list.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/list.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/mixins.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/path.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/path.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/rotated-flipped.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/rotated-flipped.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/screen-reader.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/screen-reader.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/stacked.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/stacked.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/less\/variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/css\/font-awesome\/css\/variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/static\/css\/font-awesome\/scss\/font-awesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/css\/font-awesome\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/static\/css\/fonts.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/fonts-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/css\/override-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/override-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/css\/override.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/override-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/favicon.gif": {
+		"ft": 4194304,
+		"iS": 1236,
+		"oA": 0,
+		"oAP": "\/static\/favicon.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/fonts\/insurecx.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/fonts\/insurecx.eot",
+		"oF": 0
+		},
+	"\/static\/fonts\/insurecx.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/fonts\/insurecx.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/fonts\/insurecx.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/fonts\/insurecx.ttf",
+		"oF": 0
+		},
+	"\/static\/fonts\/insurecx.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/fonts\/insurecx.woff",
+		"oF": 0
+		},
+	"\/static\/img\/cx-healthy.png": {
+		"ft": 32768,
+		"iS": 865,
+		"oA": 0,
+		"oAP": "\/static\/img\/cx-healthy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/cx-sentiment.png": {
+		"ft": 32768,
+		"iS": 1826,
+		"oA": 0,
+		"oAP": "\/static\/img\/cx-sentiment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/cx-traditional.png": {
+		"ft": 32768,
+		"iS": 739,
+		"oA": 0,
+		"oAP": "\/static\/img\/cx-traditional.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/cx-value.png": {
+		"ft": 32768,
+		"iS": 1420,
+		"oA": 0,
+		"oAP": "\/static\/img\/cx-value.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/diag.png": {
+		"ft": 32768,
+		"iS": 938,
+		"oA": 0,
+		"oAP": "\/static\/img\/diag.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-appeal.png": {
+		"ft": 32768,
+		"iS": 3995,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-appeal.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-atrisk.png": {
+		"ft": 32768,
+		"iS": 3127,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-atrisk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-claim-dental.png": {
+		"ft": 32768,
+		"iS": 2648,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-dental.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-claim-drug.png": {
+		"ft": 32768,
+		"iS": 2547,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-drug.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-claim-health.png": {
+		"ft": 32768,
+		"iS": 2778,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-health.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-claim-vision.png": {
+		"ft": 32768,
+		"iS": 2928,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-vision.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-claim.png": {
+		"ft": 32768,
+		"iS": 2295,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-claim.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-complete-progress.png": {
+		"ft": 32768,
+		"iS": 3387,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-complete-progress.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-controlledchronic.png": {
+		"ft": 32768,
+		"iS": 3101,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-controlledchronic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-default-plan.png": {
+		"ft": 32768,
+		"iS": 3061,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-default-plan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-drug.png": {
+		"ft": 32768,
+		"iS": 2473,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-drug.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-favorites.png": {
+		"ft": 32768,
+		"iS": 3826,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-favorites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-folder-open.png": {
+		"ft": 32768,
+		"iS": 3029,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-folder-open.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-folder.png": {
+		"ft": 32768,
+		"iS": 2273,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-healthy.png": {
+		"ft": 32768,
+		"iS": 3146,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-healthy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-id.png": {
+		"ft": 32768,
+		"iS": 2766,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-id.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-location.png": {
+		"ft": 32768,
+		"iS": 2566,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-location.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-member-patient.png": {
+		"ft": 32768,
+		"iS": 4185,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-member-patient.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-money.png": {
+		"ft": 32768,
+		"iS": 3606,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-money.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-passive.png": {
+		"ft": 32768,
+		"iS": 3199,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-passive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-prescription.png": {
+		"ft": 32768,
+		"iS": 3057,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-prescription.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-progress.png": {
+		"ft": 32768,
+		"iS": 3841,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-progress.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-provider-doc.png": {
+		"ft": 32768,
+		"iS": 3323,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-provider-doc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-provider-steth.png": {
+		"ft": 32768,
+		"iS": 3292,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-provider-steth.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-recommendation.png": {
+		"ft": 32768,
+		"iS": 2386,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-recommendation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-reminders.png": {
+		"ft": 32768,
+		"iS": 4315,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-reminders.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-schedule.png": {
+		"ft": 32768,
+		"iS": 2228,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-schedule.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-search.png": {
+		"ft": 32768,
+		"iS": 2905,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-search.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-sentiment.png": {
+		"ft": 32768,
+		"iS": 5822,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-sentiment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-start-progress.png": {
+		"ft": 32768,
+		"iS": 3635,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-start-progress.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-task.png": {
+		"ft": 32768,
+		"iS": 2100,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-task.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-tasks.png": {
+		"ft": 32768,
+		"iS": 1974,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-tasks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-techsavy.png": {
+		"ft": 32768,
+		"iS": 2993,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-techsavy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-traditional.png": {
+		"ft": 32768,
+		"iS": 2046,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-traditional.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-uncontrolledchronic.png": {
+		"ft": 32768,
+		"iS": 3102,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-uncontrolledchronic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-value.png": {
+		"ft": 32768,
+		"iS": 4122,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-value.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/PNG\/icon-workflows.png": {
+		"ft": 32768,
+		"iS": 3526,
+		"oA": 0,
+		"oAP": "\/static\/img\/icons\/PNG\/icon-workflows.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/icons\/SF-ICONS-PNG.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SF-ICONS-PNG.zip",
+		"oF": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-appeal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-appeal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-atrisk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-atrisk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-claim-dental.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-claim-dental.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-claim-drug.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-claim-drug.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-claim-health.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-claim-health.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-claim-vision.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-claim-vision.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-claim.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-claim.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-complete-progress.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-complete-progress.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-controlledchronic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-controlledchronic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-default-plan.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-default-plan.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-drug.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-drug.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-favorites.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-favorites.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-folder-open.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-folder-open.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-folder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-folder.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-healthy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-healthy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-id.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-id.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-location.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-location.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-member-patient.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-member-patient.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-money.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-money.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-passive.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-passive.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-prescription.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-prescription.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-progress.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-progress.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-provider-doc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-provider-doc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-provider-steth.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-provider-steth.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-recommendation.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-recommendation.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-reminders.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-reminders.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-schedule.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-schedule.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-sentiment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-sentiment.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-start-progress.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-start-progress.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-task.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-task.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-tasks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-tasks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-techsavy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-techsavy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-traditional.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-traditional.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-uncontrolledchronic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-uncontrolledchronic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-value.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-value.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/img\/icons\/SVG\/icon-workflows.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/icons\/SVG\/icon-workflows.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/index.html",
+		"oF": 0
+		},
+	"\/static\/js\/full.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/js\/min\/full-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/js\/full.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/js\/full.js.map",
+		"oF": 0
+		},
+	"\/static\/js\/vendor.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/js\/min\/vendor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/js\/vendor.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/js\/vendor.js.map",
+		"oF": 0
+		},
+	"\/static\/member.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/member.html",
+		"oF": 0
+		},
+	"\/static\/temp.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/temp.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -3847,6 +3836,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -4386,6 +4379,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

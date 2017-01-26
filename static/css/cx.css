@@ -33,7 +33,7 @@ button {
   min-width: 100px;
   padding: 10px;
   text-align: center;
-  color: #151515;
+  color: #2D3142;
   background-color: #e6e6e6;
   cursor: pointer;
   outline: none; }
@@ -63,8 +63,8 @@ button {
   cursor: pointer;
   position: relative; }
   .action-bttn:hover {
-    border-color: #0089f3;
-    color: #0089f3;
+    border-color: #ee3c86;
+    color: #ee3c86;
     box-shadow: none; }
   .action-bttn a:hover, .action-bttn a:active {
     text-decoration: none; }
@@ -136,7 +136,7 @@ button {
       -ms-flex: 1;
       -webkit-flex: 1;
       flex: 1;
-      color: #151515;
+      color: #2D3142;
       font-family: 'Roboto', sans-serif;
       background-color: #fff;
       -webkit-border-radius: 0 0 5px 5px;
@@ -252,7 +252,7 @@ button {
   display: flex; }
   .actions h4 {
     text-transform: uppercase;
-    color: #151515;
+    color: #2D3142;
     letter-spacing: 1px;
     font-size: .8em;
     margin: 0;
@@ -308,7 +308,7 @@ button {
     padding: 12px;
     line-height: 1;
     max-width: 50%;
-    background-color: #fbfaf8; }
+    background-color: #fafafa; }
     .data-list li:nth-child(odd) {
       border-right: 5px solid #fff; }
     .data-list li:last-child {
@@ -348,7 +348,7 @@ button {
   .stat-container .stat {
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
-    color: #db2a50; }
+    color: #ee3c86; }
   .stat-container .title {
     color: #515151;
     font-family: 'Roboto', sans-serif;
@@ -633,7 +633,7 @@ button {
   min-width: 100px;
   padding: 10px;
   text-align: center;
-  color: #151515;
+  color: #2D3142;
   background-color: #e6e6e6;
   cursor: pointer;
   outline: none; }
@@ -663,8 +663,8 @@ button {
   cursor: pointer;
   position: relative; }
   .action-bttn:hover {
-    border-color: #0089f3;
-    color: #0089f3;
+    border-color: #ee3c86;
+    color: #ee3c86;
     box-shadow: none; }
   .action-bttn a:hover, .action-bttn a:active {
     text-decoration: none; }
@@ -674,7 +674,7 @@ body, .bodyDiv {
   padding: 20px;
   min-height: 100%;
   position: relative;
-  background-color: #1b2f48;
+  background-color: #615b6b;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #393e41; }
@@ -682,10 +682,10 @@ body, .bodyDiv {
 .title {
   font-weight: 400;
   margin: 0 0 12px 0;
-  font-size: 1.2em !important;
+  font-size: 1.4em !important;
   text-transform: uppercase;
-  color: #796936;
-  border-bottom: 1px solid #d3d3d3;
+  color: #2D3142;
+  border-bottom: 1px solid #615b6b;
   padding: 0 0 12px 0;
   line-height: 1;
   width: 100%;
@@ -726,7 +726,7 @@ body, .bodyDiv {
       font-size: .8em; }
 
 strong {
-  color: #151515;
+  color: #2D3142;
   font-weight: bold; }
 
 .i {
@@ -742,7 +742,7 @@ strong {
   -webkit-flex: 1 0 100%;
   flex: 1 0 100%;
   background-color: #fff;
-  color: #151515;
+  color: #2D3142;
   padding: 0 0 0 20px; }
   #summary h2 {
     font-weight: 400;
@@ -818,15 +818,16 @@ strong {
         margin-bottom: 8px; }
         #cx-base-temp nav ul li:hover {
           background-color: #fff;
-          border-left-color: #0089f3; }
+          border-left-color: #ee3c86; }
         #cx-base-temp nav ul li:last-child {
           border-bottom: none; }
         #cx-base-temp nav ul li.active {
-          background-color: #fff;
+          background-color: #fafafa;
           font-weight: 700;
-          border-left-color: #0089f3; }
+          border-left-color: #ee3c86; }
           #cx-base-temp nav ul li.active a {
-            font-weight: 700; }
+            font-weight: 700;
+            color: #ee3c86; }
 
 .menu-btn {
   visibility: hidden;
@@ -898,14 +899,14 @@ strong {
       -o-transition: all 0.2s ease-in-out;
       -ms-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      color: #151515;
+      color: #2D3142;
       font-size: 1.4em;
       font-family: 'insurecx' !important;
       font-style: normal;
       float: right;
       vertical-align: middle; }
       .base .profile .collapse-card:hover {
-        color: #db2a50; }
+        color: #ee3c86; }
   .base .card {
     height: auto;
     min-height: 60px;
@@ -915,9 +916,8 @@ strong {
     -webkit-flex: 1 100%;
     flex: 1 100%;
     padding: 1em;
-    color: #151515;
-    background-color: #fbfaf8;
-    border-top: 3px solid #0089f3;
+    color: #2D3142;
+    background-color: #fff;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -938,10 +938,10 @@ strong {
       display: block;
       margin: 0 auto; }
     .base .card h2 {
-      font-weight: 400;
-      font-size: 1.5em;
+      font-weight: 800;
+      font-size: 1.8em;
       margin: 0 0 5px;
-      color: #151515;
+      color: #615b6b;
       line-height: 1;
       text-align: left; }
     .base .card .ident {
@@ -957,8 +957,7 @@ strong {
     -webkit-flex: 8;
     flex: 8;
     padding: 1.4em;
-    background-color: #eaebef;
-    border-top: 3px solid #0089f3; }
+    background-color: #fafafa; }
     .base main input {
       padding: 10px;
       height: 40px;
@@ -1028,6 +1027,10 @@ strong {
     margin: 0 0 10px 0;
     height: auto;
     min-height: .1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1108,7 +1111,7 @@ i {
   display: flex; }
 
 .hl {
-  color: #db2a50;
+  color: #ee3c86;
   font-weight: bold; }
 
 .tab {
@@ -1171,7 +1174,7 @@ i {
     padding: 8px;
     text-align: center;
     border: none;
-    color: #151515;
+    color: #2D3142;
     background-color: transparent; }
   .tab.active {
     color: #fff;
@@ -1221,7 +1224,7 @@ i {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   border-radius: 3px;
-  background-color: #fbfaf8;
+  background-color: #fafafa;
   padding: 4px 8px !important;
   text-align: left;
   border: 1px solid #e6e6e6;
@@ -1261,14 +1264,14 @@ span[class^="cx-"] {
   margin-right: 5px; }
 
 .gen-card {
-  background-color: #fbfaf8;
+  background-color: #fafafa;
   border: 1px solid #e9e9e9;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0; }
   .gen-card.subscriber header {
-    background-color: #d0ffb3; }
+    background-color: #A2FAA3; }
     .gen-card.subscriber header:after {
       font-family: "insurecx" !important;
       content: "\62";
@@ -1278,7 +1281,7 @@ span[class^="cx-"] {
       top: 8px;
       color: #12a24e; }
   .gen-card.dependant header {
-    background-color: #eaf5ff; }
+    background-color: #fff; }
   .gen-card header {
     position: relative;
     padding: 1em;
@@ -1287,7 +1290,7 @@ span[class^="cx-"] {
       text-decoration: none;
       font-weight: bold; }
       .gen-card header a:visited {
-        color: #151515; }
+        color: #2D3142; }
   .gen-card ul {
     padding: 10px 20px; }
     .gen-card ul li {
@@ -1345,7 +1348,7 @@ span[class^="cx-"] {
 
 address {
   text-align: center;
-  color: #151515;
+  color: #2D3142;
   text-align: left;
   font-style: normal; }
 
@@ -1375,7 +1378,7 @@ address {
   background-color: #fafdff; }
   .workflow .wf-header {
     background-color: #ebf2f9;
-    color: #151515;
+    color: #2D3142;
     padding: 10px;
     margin: 0;
     cursor: pointer;
@@ -1432,7 +1435,7 @@ address {
       .workflow ul li.complete:before {
         background-color: #6ED32D; }
       .workflow ul li.failed:before {
-        background-color: #db2a50; }
+        background-color: #ee3c86; }
   .workflow .step {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -1459,7 +1462,7 @@ address {
   .pagination li {
     display: inline; }
     .pagination li a {
-      color: #db2a50;
+      color: #ee3c86;
       position: relative;
       float: left;
       padding: 6px 12px;
@@ -1487,7 +1490,7 @@ address {
 .acc-cap {
   height: 60px;
   border-left: 5px solid transparent;
-  padding: 0 20px; }
+  padding: 0; }
   .acc-cap .info-list {
     margin: 0;
     padding: 6px 0;
@@ -1501,56 +1504,36 @@ address {
         text-align: left; }
       .acc-cap .info-list li:last-child {
         text-align: right;
-        color: #151515; }
-  .acc-cap.deduc {
-    border-left-color: #7dc95e; }
-    .acc-cap.deduc .info-list li:first-child {
-      color: #7dc95e; }
-  .acc-cap.outofpock {
-    border-left-color: #b017be; }
-    .acc-cap.outofpock .info-list li:first-child {
-      color: #b017be; }
+        color: #2D3142; }
+  .acc-cap.deduc .info-list li:first-child {
+    color: #0089f3; }
+  .acc-cap.outofpock .info-list li:first-child {
+    color: #ee3c86; }
   .acc-cap h5 {
-    font-size: 1em;
     margin: 0 0 5px 0; }
-  .acc-cap .bar {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    height: 20px;
+  .acc-cap .progress {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    height: 30px;
     width: 100%;
     z-index: 1;
     position: relative;
     overflow: hidden;
-    display: block; }
-    .acc-cap .bar .back {
-      background: url(../img/diag.png) repeat top left #404040;
-      z-index: 2;
-      width: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      height: 20px; }
-    .acc-cap .bar .deductible, .acc-cap .bar .outofpocket {
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      border-radius: 5px;
-      height: 20px;
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      z-index: 3;
+    display: block;
+    background-color: #2D3142;
+    margin: 0; }
+    .acc-cap .progress .bar {
+      position: relative;
+      height: 30px;
       display: block;
-      box-shadow: 0px -10px 5px rgba(0, 0, 0, 0.1) inset; }
-    .acc-cap .bar .deductible {
-      background-color: #7dc95e;
+      padding: 8px 20px; }
+    .acc-cap .progress .deductible {
+      background-color: #0089f3;
       width: 50%; }
-    .acc-cap .bar .outofpocket {
-      background-color: #b017be;
+    .acc-cap .progress .outofpocket {
+      background-color: #ee3c86;
       width: 30%; }
 
 .summary-link {
@@ -1649,7 +1632,7 @@ address {
     nav.mobile {
       left: 0; }
     nav ul li {
-      border-bottom: 1px solid #e6e6e6;
+      border-bottom: 1px solid #615b6b;
       margin: 0;
       background-color: #fff; }
       nav ul li a {
@@ -1691,7 +1674,7 @@ address {
         top: initial;
         bottom: -5px;
         margin: auto;
-        color: #db2a50;
+        color: #ee3c86;
         transform: rotate(90deg); }
       .workflow li.active-step {
         box-shadow: inset 0px -8px 4px -6px rgba(0, 0, 0, 0.2); }
