@@ -1025,7 +1025,7 @@ strong {
   .base .row {
     width: 100%;
     padding: 0 !important;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
     height: auto;
     min-height: .1;
     -webkit-border-radius: 3px;
