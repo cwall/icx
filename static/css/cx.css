@@ -839,7 +839,7 @@ strong {
   width: 60px;
   height: 60px;
   border: none;
-  background-color: #2e1244;
+  background-color: #ee3c86;
   display: inline-block;
   position: fixed;
   margin: auto;
@@ -1052,7 +1052,8 @@ strong {
       flex: 1 1 25%;
       padding: 18px; }
       .base .row .box .row {
-        padding: 0; }
+        padding: 0;
+        border: none; }
       .base .row .box-half {
         -webkit-box-flex: 1 1 50%;
         -moz-box-flex: 1 1 50%;
@@ -1523,7 +1524,6 @@ address {
     border-radius: 3px;
     height: 30px;
     width: 100%;
-    z-index: 1;
     position: relative;
     overflow: hidden;
     display: block;
@@ -1637,7 +1637,6 @@ address {
     nav.mobile {
       left: 0; }
     nav ul li {
-      border-bottom: 1px solid #615b6b;
       margin: 0;
       background-color: #fff; }
       nav ul li a {

@@ -179,7 +179,7 @@ strong {
   width: 60px;
   height: 60px;
   border: none;
-  background-color: $purple ;
+  background-color: $red ;
   display: inline-block;
   position: fixed;
   margin: auto;
@@ -403,6 +403,7 @@ strong {
 
       .row {
         padding: 0;
+        border: none;
       }
 
       &-half {
@@ -968,7 +969,6 @@ address {
     @include radius(3px);
     height: 30px;
     width: 100%;
-    z-index: 1;
     position: relative;
     overflow: hidden;
     display: block;
@@ -1095,7 +1095,7 @@ address {
     ul {
 
       li {
-        border-bottom: 1px solid $base;
+        //border-bottom: 1px solid #e6e6e6;
         margin: 0;
         background-color: $white;
 
