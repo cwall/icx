@@ -370,11 +370,11 @@ button {
       -ms-flex: 1 0 100%;
       -webkit-flex: 1 0 100%;
       flex: 1 0 100%;
-      margin-bottom: 1em;
+      margin: 0 0 1em 0;
       padding: 1em;
-      background-color: #fafbff;
-      max-width: 100%;
-      border: none; }
+      background-color: transparent;
+      border-bottom: 1px solid #fafafa;
+      max-width: 100%; }
       .data-list li strong {
         font-weight: bold;
         display: inline-block;
@@ -691,6 +691,7 @@ body, .bodyDiv {
   width: 100%;
   position: relative; }
   .title span[class^="cx-"] {
+    color: #615b6b;
     font-size: .7em; }
   .title .edit-bttn {
     margin: 0;
@@ -1047,6 +1048,8 @@ strong {
       -webkit-flex: 1 1 25%;
       flex: 1 1 25%;
       padding: 18px; }
+      .base .row .box .row {
+        padding: 0; }
       .base .row .box-half {
         -webkit-box-flex: 1 1 50%;
         -moz-box-flex: 1 1 50%;

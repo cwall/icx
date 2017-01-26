@@ -293,11 +293,12 @@
 
     li {
       @include flex(1 0 100%);
-      margin-bottom: 1em;
+      margin: 0 0 1em 0;
       padding: 1em;
-      background-color: #fafbff;
+      background-color: transparent;
+      border-bottom: 1px solid $cool;
       max-width: 100%;
-      border: none;
+      //border: none;
       
       strong {
         font-weight: bold;
