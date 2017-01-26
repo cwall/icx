@@ -781,7 +781,7 @@ strong {
       transition: all 0.2s ease-in;
       cursor: pointer;
       font-weight: normal;
-      padding: 12px 20px;
+      padding: 18px;
       vertical-align: middle;
       display: block;
       outline: none; }
@@ -818,8 +818,7 @@ strong {
         -moz-transition: all 0.2s ease-in;
         -o-transition: all 0.2s ease-in;
         -ms-transition: all 0.2s ease-in;
-        transition: all 0.2s ease-in;
-        margin-bottom: 8px; }
+        transition: all 0.2s ease-in; }
         #cx-base-temp nav ul li:hover {
           background-color: #fff;
           border-left-color: #ee3c86; }
