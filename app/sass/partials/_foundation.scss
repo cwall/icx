@@ -301,7 +301,7 @@ strong {
   main {
     @include flex(8);
     padding: 1.4em;
-    background-color: #fafafa;
+    background-color: $cool;
     //border-top: 3px solid $blue;
 
     input {
