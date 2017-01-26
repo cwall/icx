@@ -1489,8 +1489,7 @@ address {
       border-radius: 0 6px 6px 0; }
 
 .flat {
-  display: block;
-  margin-bottom: 1em; }
+  display: block; }
 
 .acc-cap {
   height: 60px;
