@@ -307,7 +307,7 @@ button {
     margin-bottom: 1em;
     padding: 12px;
     line-height: 1;
-    max-width: 49%;
+    max-width: 48%;
     border-bottom: 1px solid #f5f5f5; }
     .data-list li:nth-child(odd) {
       margin-right: 10px; }
@@ -883,11 +883,11 @@ strong {
   z-index: 2;
   flex-flow: row wrap; }
   .base .profile {
-    -webkit-box-flex: 1 0 120px;
-    -moz-box-flex: 1 0 120px;
-    -ms-flex: 1 0 120px;
-    -webkit-flex: 1 0 120px;
-    flex: 1 0 120px;
+    -webkit-box-flex: 1 0 200px;
+    -moz-box-flex: 1 0 200px;
+    -ms-flex: 1 0 200px;
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
     min-height: 100%;
     height: auto;
     color: #2d384a;

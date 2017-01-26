@@ -222,7 +222,7 @@ strong {
   flex-flow: row wrap;
   
   .profile {
-    @include flex(1 0 120px);
+    @include flex(1 0 200px);
     min-height: 100%;
     height: auto;
     color: #2d384a;
@@ -230,7 +230,6 @@ strong {
     min-height: 100%;
     z-index: 1;
     position: relative;
-    //border-right: 1px solid $bg;
 
     .collapse-card {
       position: relative;
