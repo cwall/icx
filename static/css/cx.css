@@ -307,16 +307,18 @@ button {
     margin-bottom: 1em;
     padding: 12px;
     line-height: 1;
-    max-width: 50%;
-    background-color: #fafafa; }
+    max-width: 49%;
+    border-bottom: 1px solid #f5f5f5; }
     .data-list li:nth-child(odd) {
-      border-right: 5px solid #fff; }
+      margin-right: 10px; }
     .data-list li:last-child {
       border: none; }
     .data-list li strong {
       font-weight: bold;
-      display: inline-block;
-      vertical-align: top; }
+      display: block;
+      font-size: 1.2em;
+      vertical-align: top;
+      margin-bottom: 5px; }
     .data-list li small {
       display: block;
       font-weight: bold; }
@@ -685,7 +687,7 @@ body, .bodyDiv {
   font-size: 1.4em !important;
   text-transform: uppercase;
   color: #2D3142;
-  border-bottom: 1px solid #615b6b;
+  border-bottom: 1px solid #e6e6e6;
   padding: 0 0 12px 0;
   line-height: 1;
   width: 100%;
