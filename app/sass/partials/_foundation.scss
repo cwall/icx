@@ -502,9 +502,9 @@ i {
   }
 
   .stat {
-    font-size: 2em;
+    //font-size: 2em;
     //background-color: #f9f9f9;
-    font-weight: normal;
+    font-weight: bold;
     vertical-align: middle;
     display: inline;
     @include flex(1 0 100%);

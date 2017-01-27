@@ -349,7 +349,6 @@ button {
   border-radius: 5px;
   margin: 0; }
   .stat-container .stat {
-    font-size: 3em;
     font-family: 'Roboto', sans-serif;
     color: #ee3c86; }
   .stat-container .title {
@@ -1171,8 +1170,7 @@ i {
   .tab:last-child {
     margin-right: 0 !important; }
   .tab .stat {
-    font-size: 2em;
-    font-weight: normal;
+    font-weight: bold;
     vertical-align: middle;
     display: inline;
     -webkit-box-flex: 1 0 100%;
