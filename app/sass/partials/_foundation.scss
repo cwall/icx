@@ -390,6 +390,7 @@ strong {
     @include flex-box();
     flex-flow: row wrap;
     background-color: $white;
+    @include transition(all,.2s,ease);
 
     &:last-child {
       margin-bottom: 0;
@@ -591,7 +592,7 @@ i {
   @include transition(all,.3s,ease-in);
 
   &:hover {
-    border-color: $blue;
+    border-color: $base;
   }
 
   .p-icon {
