@@ -7,7 +7,7 @@
 		"uuidString": "2F8746A3-279E-4726-9A56-BDD24A534B55"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/app\/assets\/base.html": {
 		"ft": 8192,
@@ -25,6 +25,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/app\/assets\/case.html",
+		"oF": 0
+		},
+	"\/app\/assets\/claims.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/assets\/claims.html",
 		"oF": 0
 		},
 	"\/app\/assets\/css\/override-min.css": {
@@ -116,26 +122,32 @@
 	"\/app\/assets\/img\/_old-icons\/behavioral_persona\/passive_360.png": {
 		"ft": 32768,
 		"iS": 5430,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/behavioral_persona\/passive_360.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/behavioral_persona\/tech_savvy.png": {
 		"ft": 32768,
 		"iS": 2674,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/behavioral_persona\/tech_savvy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/behavioral_persona\/traditional_360.png": {
 		"ft": 32768,
 		"iS": 3352,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/behavioral_persona\/traditional_360.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/claims-status-icon.svg": {
 		"ft": 2097152,
@@ -150,42 +162,52 @@
 	"\/app\/assets\/img\/_old-icons\/clinical_persona\/at_risk.png": {
 		"ft": 32768,
 		"iS": 3537,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/clinical_persona\/at_risk.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/clinical_persona\/complex.png": {
 		"ft": 32768,
 		"iS": 4276,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/clinical_persona\/complex.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/clinical_persona\/controlled_chronic.png": {
 		"ft": 32768,
 		"iS": 4080,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/clinical_persona\/controlled_chronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/clinical_persona\/healthy.png": {
 		"ft": 32768,
 		"iS": 3342,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/clinical_persona\/healthy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/clinical_persona\/uncontrolled-chronic.png": {
 		"ft": 32768,
 		"iS": 19926,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/clinical_persona\/uncontrolled-chronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/correct-provider-data-icon.svg": {
 		"ft": 2097152,
@@ -340,10 +362,12 @@
 	"\/app\/assets\/img\/_old-icons\/icon-house.png": {
 		"ft": 32768,
 		"iS": 3145,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon-house.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon-id.svg": {
 		"ft": 2097152,
@@ -458,10 +482,12 @@
 	"\/app\/assets\/img\/_old-icons\/icon-rx-white.png": {
 		"ft": 32768,
 		"iS": 22372,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon-rx-white.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon-rx-white.svg": {
 		"ft": 2097152,
@@ -496,154 +522,192 @@
 	"\/app\/assets\/img\/_old-icons\/icon_appeal.png": {
 		"ft": 32768,
 		"iS": 4458,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_appeal.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_atrisk.png": {
 		"ft": 32768,
 		"iS": 3580,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_atrisk.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_claims.png": {
 		"ft": 32768,
 		"iS": 2902,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_claims.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_controlledchronic.png": {
 		"ft": 32768,
 		"iS": 3671,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_controlledchronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_dentalpolicy.png": {
 		"ft": 32768,
 		"iS": 3137,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_dentalpolicy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_drug.png": {
 		"ft": 32768,
 		"iS": 2793,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_drug.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_edit.png": {
 		"ft": 32768,
 		"iS": 2393,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_edit.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_favorite.png": {
 		"ft": 32768,
 		"iS": 4281,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_favorite.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_healthpolicy.png": {
 		"ft": 32768,
 		"iS": 3258,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_healthpolicy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_healthy.png": {
 		"ft": 32768,
 		"iS": 3693,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_healthy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_passive.png": {
 		"ft": 32768,
 		"iS": 3490,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_passive.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_pcp.png": {
 		"ft": 32768,
 		"iS": 3653,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_pcp.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_schedule.png": {
 		"ft": 32768,
 		"iS": 2442,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_schedule.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_task.png": {
 		"ft": 32768,
 		"iS": 2357,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_task.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_techsavy.png": {
 		"ft": 32768,
 		"iS": 3328,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_techsavy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_traditional.png": {
 		"ft": 32768,
 		"iS": 2404,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_traditional.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_uncontrolledchronic.png": {
 		"ft": 32768,
 		"iS": 3613,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_uncontrolledchronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_visionpolicy.png": {
 		"ft": 32768,
 		"iS": 3374,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_visionpolicy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/icon_workflow.png": {
 		"ft": 32768,
 		"iS": 4054,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/icon_workflow.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/meter-70.svg": {
 		"ft": 2097152,
@@ -658,58 +722,72 @@
 	"\/app\/assets\/img\/_old-icons\/persona-adultF.png": {
 		"ft": 32768,
 		"iS": 2495,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-adultF.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/persona-adultM.png": {
 		"ft": 32768,
 		"iS": 2531,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-adultM.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/persona-infantF.png": {
 		"ft": 32768,
 		"iS": 2682,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-infantF.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/persona-infantM.png": {
 		"ft": 32768,
 		"iS": 1824,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-infantM.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/persona-lead.png": {
 		"ft": 32768,
 		"iS": 4428,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-lead.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/persona-teenF.png": {
 		"ft": 32768,
 		"iS": 2487,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-teenF.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/persona-teenM.png": {
 		"ft": 32768,
 		"iS": 2232,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/persona-teenM.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/policy-icon.svg": {
 		"ft": 2097152,
@@ -744,90 +822,112 @@
 	"\/app\/assets\/img\/_old-icons\/sentiment\/0.png": {
 		"ft": 32768,
 		"iS": 14044,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/0.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/10.png": {
 		"ft": 32768,
 		"iS": 14380,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/10.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/100.png": {
 		"ft": 32768,
 		"iS": 14843,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/100.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/20.png": {
 		"ft": 32768,
 		"iS": 14589,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/20.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/30.png": {
 		"ft": 32768,
 		"iS": 14766,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/30.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/40.png": {
 		"ft": 32768,
 		"iS": 14734,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/40.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/50.png": {
 		"ft": 32768,
 		"iS": 14861,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/50.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/60.png": {
 		"ft": 32768,
 		"iS": 15004,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/60.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/70.png": {
 		"ft": 32768,
 		"iS": 14841,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/70.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/80.png": {
 		"ft": 32768,
 		"iS": 15071,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/80.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/sentiment\/90.png": {
 		"ft": 32768,
 		"iS": 14958,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/_old-icons\/sentiment\/90.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/_old-icons\/value\/00-meter-icon.svg": {
 		"ft": 2097152,
@@ -942,338 +1042,422 @@
 	"\/app\/assets\/img\/cx-healthy.png": {
 		"ft": 32768,
 		"iS": 865,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/cx-healthy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/cx-sentiment.png": {
 		"ft": 32768,
 		"iS": 1826,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/cx-sentiment.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/cx-traditional.png": {
 		"ft": 32768,
 		"iS": 739,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/cx-traditional.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/cx-value.png": {
 		"ft": 32768,
 		"iS": 1420,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/cx-value.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/diag.png": {
 		"ft": 32768,
 		"iS": 938,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/diag.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-appeal.png": {
 		"ft": 32768,
 		"iS": 3995,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-appeal.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-atrisk.png": {
 		"ft": 32768,
 		"iS": 3127,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-atrisk.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-claim-dental.png": {
 		"ft": 32768,
 		"iS": 2648,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-claim-dental.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-claim-drug.png": {
 		"ft": 32768,
 		"iS": 2547,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-claim-drug.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-claim-health.png": {
 		"ft": 32768,
 		"iS": 2778,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-claim-health.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-claim-vision.png": {
 		"ft": 32768,
 		"iS": 2928,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-claim-vision.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-claim.png": {
 		"ft": 32768,
 		"iS": 2295,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-claim.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-complete-progress.png": {
 		"ft": 32768,
 		"iS": 3387,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-complete-progress.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-controlledchronic.png": {
 		"ft": 32768,
 		"iS": 3101,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-controlledchronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-default-plan.png": {
 		"ft": 32768,
 		"iS": 3061,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-default-plan.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-drug.png": {
 		"ft": 32768,
 		"iS": 2473,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-drug.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-favorites.png": {
 		"ft": 32768,
 		"iS": 3826,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-favorites.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-folder-open.png": {
 		"ft": 32768,
 		"iS": 3029,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-folder-open.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-folder.png": {
 		"ft": 32768,
 		"iS": 2273,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-folder.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-healthy.png": {
 		"ft": 32768,
 		"iS": 3146,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-healthy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-id.png": {
 		"ft": 32768,
 		"iS": 2766,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-id.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-location.png": {
 		"ft": 32768,
 		"iS": 2566,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-location.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-member-patient.png": {
 		"ft": 32768,
 		"iS": 4185,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-member-patient.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-money.png": {
 		"ft": 32768,
 		"iS": 3606,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-money.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-passive.png": {
 		"ft": 32768,
 		"iS": 3199,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-passive.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-prescription.png": {
 		"ft": 32768,
 		"iS": 3057,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-prescription.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-progress.png": {
 		"ft": 32768,
 		"iS": 3841,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-progress.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-provider-doc.png": {
 		"ft": 32768,
 		"iS": 3323,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-provider-doc.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-provider-steth.png": {
 		"ft": 32768,
 		"iS": 3292,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-provider-steth.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-recommendation.png": {
 		"ft": 32768,
 		"iS": 2386,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-recommendation.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-reminders.png": {
 		"ft": 32768,
 		"iS": 4315,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-reminders.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-schedule.png": {
 		"ft": 32768,
 		"iS": 2228,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-schedule.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-search.png": {
 		"ft": 32768,
 		"iS": 2905,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-search.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-sentiment.png": {
 		"ft": 32768,
 		"iS": 5822,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-sentiment.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-start-progress.png": {
 		"ft": 32768,
 		"iS": 3635,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-start-progress.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-task.png": {
 		"ft": 32768,
 		"iS": 2100,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-task.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-tasks.png": {
 		"ft": 32768,
 		"iS": 1974,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-tasks.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-techsavy.png": {
 		"ft": 32768,
 		"iS": 2993,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-techsavy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-traditional.png": {
 		"ft": 32768,
 		"iS": 2046,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-traditional.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-uncontrolledchronic.png": {
 		"ft": 32768,
 		"iS": 3102,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-uncontrolledchronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-value.png": {
 		"ft": 32768,
 		"iS": 4122,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-value.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/PNG\/icon-workflows.png": {
 		"ft": 32768,
 		"iS": 3526,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/img\/icons\/PNG\/icon-workflows.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/assets\/img\/icons\/SF-ICONS-PNG.zip": {
 		"ft": 8192,
@@ -1669,6 +1853,16 @@
 		"oAP": "\/app\/assets\/temp.html",
 		"oF": 0
 		},
+	"\/app\/css\/insurecx_stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/app\/css\/insurecx_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/app\/initialize.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2026,6 +2220,32 @@
 		"oAP": "\/static\/case.html",
 		"oF": 0
 		},
+	"\/static\/claims.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/claims.html",
+		"oF": 0
+		},
+	"\/static\/css\/bootstrap.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/css\/cx-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/cx-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/static\/css\/cx.css": {
 		"aP": 0,
 		"bl": 0,
@@ -2035,6 +2255,12 @@
 		"oAP": "\/static\/css\/cx-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/static\/css\/cx.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/css\/cx.css.map",
+		"oF": 0
 		},
 	"\/static\/css\/font-awesome\/css\/font-awesome.css": {
 		"aP": 0,
@@ -2383,6 +2609,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/static\/css\/serviceactions.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/static\/css\/serviceactions-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/static\/favicon.gif": {
 		"ft": 4194304,
 		"iS": 1236,
@@ -2422,338 +2658,422 @@
 	"\/static\/img\/cx-healthy.png": {
 		"ft": 32768,
 		"iS": 865,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/cx-healthy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/cx-sentiment.png": {
 		"ft": 32768,
 		"iS": 1826,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/cx-sentiment.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/cx-traditional.png": {
 		"ft": 32768,
 		"iS": 739,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/cx-traditional.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/cx-value.png": {
 		"ft": 32768,
 		"iS": 1420,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/cx-value.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/diag.png": {
 		"ft": 32768,
 		"iS": 938,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/diag.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-appeal.png": {
 		"ft": 32768,
 		"iS": 3995,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-appeal.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-atrisk.png": {
 		"ft": 32768,
 		"iS": 3127,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-atrisk.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-claim-dental.png": {
 		"ft": 32768,
 		"iS": 2648,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-dental.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-claim-drug.png": {
 		"ft": 32768,
 		"iS": 2547,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-drug.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-claim-health.png": {
 		"ft": 32768,
 		"iS": 2778,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-health.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-claim-vision.png": {
 		"ft": 32768,
 		"iS": 2928,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-claim-vision.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-claim.png": {
 		"ft": 32768,
 		"iS": 2295,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-claim.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-complete-progress.png": {
 		"ft": 32768,
 		"iS": 3387,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-complete-progress.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-controlledchronic.png": {
 		"ft": 32768,
 		"iS": 3101,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-controlledchronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-default-plan.png": {
 		"ft": 32768,
 		"iS": 3061,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-default-plan.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-drug.png": {
 		"ft": 32768,
 		"iS": 2473,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-drug.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-favorites.png": {
 		"ft": 32768,
 		"iS": 3826,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-favorites.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-folder-open.png": {
 		"ft": 32768,
 		"iS": 3029,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-folder-open.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-folder.png": {
 		"ft": 32768,
 		"iS": 2273,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-folder.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-healthy.png": {
 		"ft": 32768,
 		"iS": 3146,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-healthy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-id.png": {
 		"ft": 32768,
 		"iS": 2766,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-id.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-location.png": {
 		"ft": 32768,
 		"iS": 2566,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-location.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-member-patient.png": {
 		"ft": 32768,
 		"iS": 4185,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-member-patient.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-money.png": {
 		"ft": 32768,
 		"iS": 3606,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-money.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-passive.png": {
 		"ft": 32768,
 		"iS": 3199,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-passive.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-prescription.png": {
 		"ft": 32768,
 		"iS": 3057,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-prescription.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-progress.png": {
 		"ft": 32768,
 		"iS": 3841,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-progress.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-provider-doc.png": {
 		"ft": 32768,
 		"iS": 3323,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-provider-doc.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-provider-steth.png": {
 		"ft": 32768,
 		"iS": 3292,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-provider-steth.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-recommendation.png": {
 		"ft": 32768,
 		"iS": 2386,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-recommendation.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-reminders.png": {
 		"ft": 32768,
 		"iS": 4315,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-reminders.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-schedule.png": {
 		"ft": 32768,
 		"iS": 2228,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-schedule.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-search.png": {
 		"ft": 32768,
 		"iS": 2905,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-search.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-sentiment.png": {
 		"ft": 32768,
 		"iS": 5822,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-sentiment.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-start-progress.png": {
 		"ft": 32768,
 		"iS": 3635,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-start-progress.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-task.png": {
 		"ft": 32768,
 		"iS": 2100,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-task.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-tasks.png": {
 		"ft": 32768,
 		"iS": 1974,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-tasks.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-techsavy.png": {
 		"ft": 32768,
 		"iS": 2993,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-techsavy.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-traditional.png": {
 		"ft": 32768,
 		"iS": 2046,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-traditional.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-uncontrolledchronic.png": {
 		"ft": 32768,
 		"iS": 3102,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-uncontrolledchronic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-value.png": {
 		"ft": 32768,
 		"iS": 4122,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-value.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/PNG\/icon-workflows.png": {
 		"ft": 32768,
 		"iS": 3526,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/icons\/PNG\/icon-workflows.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/img\/icons\/SF-ICONS-PNG.zip": {
 		"ft": 8192,
@@ -3151,6 +3471,15 @@
 		"oA": 2,
 		"oAP": "\/static\/js\/full.js.map",
 		"oF": 0
+		},
+	"\/static\/js\/min\/vendor-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/js\/min\/min\/vendor-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/static\/js\/vendor.js": {
 		"ft": 64,
@@ -3860,6 +4189,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -4057,6 +4390,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4336,6 +4673,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -4387,6 +4728,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4481,6 +4826,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -4927,7 +5276,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5020,7 +5370,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

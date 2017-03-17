@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>InsureCX</title>
+    <link rel="icon" href="/favicon.gif">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/serviceactions.css">
+    <link rel="stylesheet" type="text/css" href="../css/cx.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+  </head>
+  <body>
+    <div id="cx-base-temp">
+      <section class="base">
+
+        <aside class="profile">
+          <header>
+            <span class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </header>
+          <div class="card">
+            <h2>Dave Johnson</h2>
+            <ul class="card-info">
+              <li><strong>ID:</strong> <span>Jb364eb</span></li>
+              <li><span class="active">Active Member</span></li>
+            </ul> 
+            
+            <div class="sc">
+              <a href="/" class="action-bttn">Create Case</a>
+              <a href="/" class="action-bttn">Create Task</a>
+              <a href="/" class="action-bttn">Attach File</a>
+              <a href="/" class="action-bttn">Send Email</a>
+              <a href="/" class="action-bttn">Log Call</a>
+            </div>
+          </div>
+
+          
+          <nav>  
+            <ul>
+              <li class="active"><a href="/">Overview</a></li>
+              <li><a href="/">Policies</a></li>
+              <li><a href="/">Claims</a></li>
+              <li><a href="/">Providers</a></li>
+              <li><a href="/">Formularies</a></li>
+              <li><a href="/">Workflows</a></li>
+              <li><a href="/">Recommendations</a></li>
+              <li><a href="/">Cases</a></li>
+              <li><a href="/">Tasks</a></li>
+              <li><a href="/">Attachments</a></li>
+              <li><a href="/">Appeals</a></li>
+              <li><a href="/">Campaigns</a></li>
+              <li><a href="/">Shopping</a></li>
+              <li><a href="/">Clinical Summary</a></li>
+              <li><a href="/">Billing</a></li>
+              <li><a href="/">Summary</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <main>
+          <section class="panel panel-default padded-full">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <h2 class="divide spacer">Claims Summary</h2>
+            <div class="panel panel-warning">
+              <h4 class="panel-heading">Search Claims</h4>
+              <div class="panel-body">
+                <input type="search" ng-model="claimTextFilter" placeholder="Search Claims" class="form-control" />
+                <ul class="flex-list row-wrap padded-top-bottom">
+                  <li class="right-spacer">
+                    <label>Member Type: </label>
+                    <div class="select-wrap">
+                      <select ng-model="claimMemberType" data-ng-change="claimsFilter()">
+                          <option value="all members">All Members</option>
+                          <option value="open">Subscriber</option>
+                          <option value="dependents">Dependents</option>
+                      </select>
+                    </div>
+                  </li>
+                  
+                  <li class="right-spacer">
+                    <label>Claim Type: </label>
+                    <div class="select-wrap">
+                      <select ng-model="claimType" data-ng-change="claimsFilter()">
+                          <option value="all types">All Types</option>
+                          <option value="medical">Medical</option>
+                          <option value="formulary">Formulary</option>
+                      </select>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <label>Service on or after: </label>
+                    <input type="date" ng-model="claim.date" data-ng-change="claimsFilter()" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="divide spacer">Claims Results</h3>
+          </div>
+          <!-- Claim 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="panel panel-info">
+              <h4 class="panel-heading">
+                <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 3222</a>
+              </h4>
+              <div class="panel-body">
+                <h5>Claim Lines</h5>
+                <ul class="list-group">
+                  <li class="list-group-item"><label class="inline">Date of Service: </label>March 19, 2016</li>
+                  <li class="list-group-item"><label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a></li>
+                  <li class="list-group-item"><label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a></li>
+                  <li class="list-group-item"><label class="inline">Status: </label>Paid</li>
+                  <li class="list-group-item"><label class="inline">Claim Amount: </label>$253.57</li>
+                  <li class="list-group-item"><label class="inline">Covered Amount: </label>$250.00</li>
+                  <li class="list-group-item"><label class="inline">Patient Responsible Amount: </label>$0.00</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Claim 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="panel panel-info">
+              <h4 class="panel-heading">
+                <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 9808</a>
+              </h4>
+              <div class="panel-body">
+                <h5>Claim Lines</h5>
+                <ul class="list-group">
+                  <li class="list-group-item"><label class="inline">Date of Service: </label>September 1, 2015</li>
+                  <li class="list-group-item"><label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a></li>
+                  <li class="list-group-item"><label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a></li>
+                  <li class="list-group-item"><label class="inline">Status: </label>Paid</li>
+                  <li class="list-group-item"><label class="inline">Claim Amount: </label>$62.21</li>
+                  <li class="list-group-item"><label class="inline">Covered Amount: </label>$62.21</li>
+                  <li class="list-group-item"><label class="inline">Patient Responsible Amount: </label>$0.00</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Claim 3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="panel panel-info">
+              <h4 class="panel-heading">
+                <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 2505</a>
+              </h4>
+              <div class="panel-body">
+                <h5>Claim Lines</h5>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <label class="inline">Date of Service:</label>August 29, 2015
+                  </li>
+                  <li class="list-group-item">
+                    <label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a>
+                  </li>
+                  <li class="list-group-item">
+                    <label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a>
+                  </li>
+                  <li class="list-group-item">
+                    <label class="inline">Status: </label>Paid
+                  </li>
+                  <li class="list-group-item">
+                    <label class="inline">Claim Amount: </label>$24.78
+                  </li>
+                  <li class="list-group-item">
+                    <label class="inline">Covered Amount: </label>$24.78
+                  </li>
+                  <li class="list-group-item">
+                    <label class="inline">Patient Responsible Amount: </label>$0.00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <p><a href="" class="btn btn-lg btn-info">Submit</a></p>
+          </div>
+        </div>
+      </div><!-- container -->
+    </section><!-- panel -->
+
+        </main>
+      </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var min = $(window).height();
+        var wid = $(window).width();     
+
+        $('.menu-btn').on('click', function(){
+          if($('nav').hasClass('mobile')){
+            $('nav').animate({left:"-800px"}).removeClass('mobile');
+          } else {
+            $('nav').animate({left:"-0px"}).addClass('mobile');
+          }
+        });
+
+        $('.collapse-card').on('click', function(){
+          $('.card-info').fadeToggle("fast");
+        });
+
+        $('.workflow .completed-step b, .workflow .active-step b').on('click', function(){
+          $(this).next('.viewDesc').slideToggle();
+        });
+
+        $('.accordion-header').on('click', function(){
+          $(this).closest('.accordion-ui').find('.accodion-content').slideToggle();
+        });
+
+      });
+    </script>
+  </body>
+</html>
