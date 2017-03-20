@@ -4,13 +4,16 @@
     <title>InsureCX</title>
     <link rel="icon" href="/favicon.gif">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/serviceactions.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/serviceactions.css"> -->
     <link rel="stylesheet" type="text/css" href="../css/cx.css">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   </head>
   <body>
     <div id="cx-base-temp">
+      <style type="text/css">
+
+      </style>
       <section class="base">
 
         <aside class="profile">
@@ -22,10 +25,11 @@
             </span>
           </header>
           <div class="card">
+
             <h2>Dave Johnson</h2>
             <ul class="card-info">
               <li><strong>ID:</strong> <span>Jb364eb</span></li>
-              <li><span class="active">Active Member</span></li>
+              <li><label>Active Member</label></li>
             </ul> 
             
             <div class="sc">
@@ -62,142 +66,145 @@
 
         <main>
           <section class="panel panel-default padded-full">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            
-            <h2 class="divide spacer">Claims Summary</h2>
-            <div class="panel panel-warning">
-              <h4 class="panel-heading">Search Claims</h4>
-              <div class="panel-body">
-                <input type="search" ng-model="claimTextFilter" placeholder="Search Claims" class="form-control" />
-                <ul class="flex-list row-wrap padded-top-bottom">
-                  <li class="right-spacer">
-                    <label>Member Type: </label>
-                    <div class="select-wrap">
-                      <select ng-model="claimMemberType" data-ng-change="claimsFilter()">
-                          <option value="all members">All Members</option>
-                          <option value="open">Subscriber</option>
-                          <option value="dependents">Dependents</option>
-                      </select>
-                    </div>
-                  </li>
+            <style type="text/css">
+            h1,h2,h3,h4,h5,h6{margin:0 0 10px 0;display:block;position:relative;font-family:'Roboto Condensed',sans-serif}h1{font-size:3em}h2{font-size:2em}h3{font-size:1.5em}h4{font-size:1.4em}h5{font-size:1.275em}h6{font-size:1.2em}body{font-family:Roboto,sans-serif}.flex-display{display:-webkit-box;display:-moz-box;display:box;display:-o-flex;display:-ms-flexbox;display:flexbox;display:-webkit-flex;display:flex}.flex-list{display:-webkit-box;display:-moz-box;display:box;display:-o-flex;display:-ms-flexbox;display:flexbox;display:-webkit-flex;display:flex;padding:0;margin:0;list-style:none}.flex-list.row-wrap{flex-flow:row wrap}.flex-list.row-wrap li.full{flex:1 0 100%;-webkit-box-flex:1 0 100%;-moz-box-flex:1 0 100%;-webkit-flex:1 0 100%;-ms-flex:1 0 100%}.flex-list.row-wrap.three-up li{flex:1 0 30%;-webkit-box-flex:1 0 30%;-moz-box-flex:1 0 30%;-webkit-flex:1 0 30%;-ms-flex:1 0 30%;margin:0 5px}.flex-list.row-wrap.two-up li{flex:1 0 50%;-webkit-box-flex:1 0 50%;-moz-box-flex:1 0 50%;-webkit-flex:1 0 50%;-ms-flex:1 0 50%;padding:10px}.flex-list.column{flex-flow:column}.flex-list li{flex:1;-webkit-box-flex:1;-moz-box-flex:1;-webkit-flex:1;-ms-flex:1}.right-spacer{padding-right:10px}.switch{position:relative;display:inline-block;width:60px;height:34px}.switch input{display:none}.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s}.slider.round{-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px}.slider.round:before{-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%}.slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:#fff;-webkit-transition:.4s;transition:.4s;box-shadow:0 2px 2px -2px rgba(0,0,0,.3)}input:checked+.slider{background-color:#3fed26}input:focus+.slider{box-shadow:0 0 1px #3fed26}input:checked+.slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px)}.padded-top{padding-top:18px}.padded-bottom{padding-bottom:18px}.padded-left{padding-left:18px}.padded-right{padding-right:18px}.padded-top-bottom{padding:18px 0}.padded-left-right{padding:0 18px}.padded-full{padding:18px}.divide{border-bottom:1px solid #ddd}.divide.spacer{padding-bottom:16px;margin-bottom:16px}.divide.spacer-sm{padding-bottom:10px;margin-bottom:10px}.padded-list li{padding:8px}.padded-list.heavy li{padding:12px}.rounded-3{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.rounded-5{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.rounded-7{-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px}.rounded-9{-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px}.rounded-11{-webkit-border-radius:11px;-moz-border-radius:11px;border-radius:11px}.resess-panel{background-color:#f4f4f4;z-index:1}.fore-panel{background-color:#fff;position:relative;-webkit-box-shadow:0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset;box-shadow:0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset;z-index:2}.fore-panel:after,.fore-panel:before{content:"";position:absolute;z-index:-1;-webkit-box-shadow:0 0 20px rgba(0,0,0,.8);-moz-box-shadow:0 0 20px rgba(0,0,0,.8);box-shadow:0 0 20px rgba(0,0,0,.8);top:10px;bottom:10px;left:0;right:0;-moz-border-radius:10px;border-radius:10px}.fore-panel:after{right:10px;left:auto;-webkit-transform:skew(8deg) rotate(3deg);-moz-transform:skew(8deg) rotate(3deg);-ms-transform:skew(8deg) rotate(3deg);-o-transform:skew(8deg) rotate(3deg);transform:skew(8deg) rotate(3deg)}input[type=text],input[type=password],input[type=date],input[type=search]{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #ddd;display:inline-block;height:40px;padding:8px;color:#ddd;width:100%}input[type=text]:focus,input[type=password]:focus,input[type=date]:focus,input[type=search]:focus{border-color:#00bef5}input[type=checkbox]{display:inline}label{display:block;color:#444;font-weight:500}label.inline{display:inline-block;margin-right:10px}.button,button{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;height:40px;text-align:center;text-transform:uppercase}.select-wrap{display:block;position:relative;cursor:pointer}.select-wrap:after{content:"";color:#000;font-size:1.1em;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:8px solid #000;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;position:absolute;right:10px;top:0;bottom:0;margin:auto;display:block}.select-wrap select{appearance:none;-webkit-appearance:none;width:100%;border:none;background-color:#fff;height:40px;color:#000;border:1px solid #ddd;padding:8px;display:block;outline:0}.select-wrap select:focus{box-shadow:0 2px 2px -2px rgba(0,0,0,.3)}@media screen and (min-width:300px) and (max-width:600px){.flex-list.row-wrap{flex-flow:column}.flex-list.row-wrap li{margin-bottom:10px}.flex-list.row-wrap li.right-spacer{padding:0;}}
+            </style>
+            <div class="_container">
+              <div class="row">
+                <div class="col-lg-12">
                   
-                  <li class="right-spacer">
-                    <label>Claim Type: </label>
-                    <div class="select-wrap">
-                      <select ng-model="claimType" data-ng-change="claimsFilter()">
-                          <option value="all types">All Types</option>
-                          <option value="medical">Medical</option>
-                          <option value="formulary">Formulary</option>
-                      </select>
+                  <h2 class="divide spacer">Claims Summary</h2>
+                  <div class="panel panel-warning">
+                    <h4 class="panel-heading">Search Claims</h4>
+                    <div class="panel-body">
+                      <input type="search" ng-model="claimTextFilter" placeholder="Search Claims" class="form-control" />
+                      <ul class="flex-list row-wrap padded-top-bottom">
+                        <li class="right-spacer">
+                          <label>Member Type: </label>
+                          <div class="select-wrap">
+                            <select ng-model="claimMemberType" data-ng-change="claimsFilter()">
+                                <option value="all members">All Members</option>
+                                <option value="open">Subscriber</option>
+                                <option value="dependents">Dependents</option>
+                            </select>
+                          </div>
+                        </li>
+                        
+                        <li class="right-spacer">
+                          <label>Claim Type: </label>
+                          <div class="select-wrap">
+                            <select ng-model="claimType" data-ng-change="claimsFilter()">
+                                <option value="all types">All Types</option>
+                                <option value="medical">Medical</option>
+                                <option value="formulary">Formulary</option>
+                            </select>
+                          </div>
+                        </li>
+                      
+                        <li>
+                          <label>Service on or after: </label>
+                          <input type="date" ng-model="claim.date" data-ng-change="claimsFilter()" />
+                        </li>
+                      </ul>
                     </div>
-                  </li>
-                
-                  <li>
-                    <label>Service on or after: </label>
-                    <input type="date" ng-model="claim.date" data-ng-change="claimsFilter()" />
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-12">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="divide spacer">Claims Results</h3>
-          </div>
-          <!-- Claim 1 -->
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="panel panel-info">
-              <h4 class="panel-heading">
-                <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 3222</a>
-              </h4>
-              <div class="panel-body">
-                <h5>Claim Lines</h5>
-                <ul class="list-group">
-                  <li class="list-group-item"><label class="inline">Date of Service: </label>March 19, 2016</li>
-                  <li class="list-group-item"><label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a></li>
-                  <li class="list-group-item"><label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a></li>
-                  <li class="list-group-item"><label class="inline">Status: </label>Paid</li>
-                  <li class="list-group-item"><label class="inline">Claim Amount: </label>$253.57</li>
-                  <li class="list-group-item"><label class="inline">Covered Amount: </label>$250.00</li>
-                  <li class="list-group-item"><label class="inline">Patient Responsible Amount: </label>$0.00</li>
-                </ul>
+              <div class="row">
+                <div class="col-lg-12">
+                </div>
               </div>
-            </div>
-          </div>
 
-          <!-- Claim 2 -->
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="panel panel-info">
-              <h4 class="panel-heading">
-                <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 9808</a>
-              </h4>
-              <div class="panel-body">
-                <h5>Claim Lines</h5>
-                <ul class="list-group">
-                  <li class="list-group-item"><label class="inline">Date of Service: </label>September 1, 2015</li>
-                  <li class="list-group-item"><label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a></li>
-                  <li class="list-group-item"><label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a></li>
-                  <li class="list-group-item"><label class="inline">Status: </label>Paid</li>
-                  <li class="list-group-item"><label class="inline">Claim Amount: </label>$62.21</li>
-                  <li class="list-group-item"><label class="inline">Covered Amount: </label>$62.21</li>
-                  <li class="list-group-item"><label class="inline">Patient Responsible Amount: </label>$0.00</li>
-                </ul>
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="divide spacer">Claims Results</h3>
+                </div>
+                <!-- Claim 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                  <div class="panel panel-info">
+                    <h4 class="panel-heading">
+                      <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 3222</a>
+                    </h4>
+                    <div class="panel-body">
+                      <h5>Claim Lines</h5>
+                      <ul class="list-group">
+                        <li class="list-group-item"><label class="inline">Date of Service: </label>March 19, 2016</li>
+                        <li class="list-group-item"><label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a></li>
+                        <li class="list-group-item"><label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a></li>
+                        <li class="list-group-item"><label class="inline">Status: </label>Paid</li>
+                        <li class="list-group-item"><label class="inline">Claim Amount: </label>$253.57</li>
+                        <li class="list-group-item"><label class="inline">Covered Amount: </label>$250.00</li>
+                        <li class="list-group-item"><label class="inline">Patient Responsible Amount: </label>$0.00</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Claim 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                  <div class="panel panel-info">
+                    <h4 class="panel-heading">
+                      <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 9808</a>
+                    </h4>
+                    <div class="panel-body">
+                      <h5>Claim Lines</h5>
+                      <ul class="list-group">
+                        <li class="list-group-item"><label class="inline">Date of Service: </label>September 1, 2015</li>
+                        <li class="list-group-item"><label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a></li>
+                        <li class="list-group-item"><label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a></li>
+                        <li class="list-group-item"><label class="inline">Status: </label>Paid</li>
+                        <li class="list-group-item"><label class="inline">Claim Amount: </label>$62.21</li>
+                        <li class="list-group-item"><label class="inline">Covered Amount: </label>$62.21</li>
+                        <li class="list-group-item"><label class="inline">Patient Responsible Amount: </label>$0.00</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Claim 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                  <div class="panel panel-info">
+                    <h4 class="panel-heading">
+                      <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 2505</a>
+                    </h4>
+                    <div class="panel-body">
+                      <h5>Claim Lines</h5>
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <label class="inline">Date of Service:</label>August 29, 2015
+                        </li>
+                        <li class="list-group-item">
+                          <label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a>
+                        </li>
+                        <li class="list-group-item">
+                          <label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a>
+                        </li>
+                        <li class="list-group-item">
+                          <label class="inline">Status: </label>Paid
+                        </li>
+                        <li class="list-group-item">
+                          <label class="inline">Claim Amount: </label>$24.78
+                        </li>
+                        <li class="list-group-item">
+                          <label class="inline">Covered Amount: </label>$24.78
+                        </li>
+                        <li class="list-group-item">
+                          <label class="inline">Patient Responsible Amount: </label>$0.00
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <!-- Claim 3 -->
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="panel panel-info">
-              <h4 class="panel-heading">
-                <a href="#" ng-click="openRelatedRecord(current.Id, current.Name)">Claim 2505</a>
-              </h4>
-              <div class="panel-body">
-                <h5>Claim Lines</h5>
-                <ul class="list-group">
-                  <li class="list-group-item">
-                    <label class="inline">Date of Service:</label>August 29, 2015
-                  </li>
-                  <li class="list-group-item">
-                    <label class="inline">Member: </label><a href="/{{current.Claim_Patient__c}}">Dave Johnson</a>
-                  </li>
-                  <li class="list-group-item">
-                    <label class="inline">Provider: </label><a href="/{{current.Claim_Provider__c}}">Cristi M Egenolf</a>
-                  </li>
-                  <li class="list-group-item">
-                    <label class="inline">Status: </label>Paid
-                  </li>
-                  <li class="list-group-item">
-                    <label class="inline">Claim Amount: </label>$24.78
-                  </li>
-                  <li class="list-group-item">
-                    <label class="inline">Covered Amount: </label>$24.78
-                  </li>
-                  <li class="list-group-item">
-                    <label class="inline">Patient Responsible Amount: </label>$0.00
-                  </li>
-                </ul>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p><a href="" class="btn btn-lg btn-info">Submit</a></p>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <p><a href="" class="btn btn-lg btn-info">Submit</a></p>
-          </div>
-        </div>
-      </div><!-- container -->
-    </section><!-- panel -->
+            </div><!-- container -->
+          </section><!-- panel -->
 
         </main>
       </section>
