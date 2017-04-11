@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "insurecx";
+  src:url("../fonts/insurecx.eot");
+  src:url("../fonts/insurecx.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/insurecx.woff") format("woff"),
+    url("../fonts/insurecx.ttf") format("truetype"),
+    url("../fonts/insurecx.svg#insurecx") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "insurecx" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="cx-"]:before,
+[class*=" cx-"]:before {
+  font-family: "insurecx" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cx-list:before {
+  content: "\61";
+}
+.cx-address-book:before {
+  content: "\62";
+}
+.cx-at-sign:before {
+  content: "\63";
+}
+.cx-calendar:before {
+  content: "\64";
+}
+.cx-like:before {
+  content: "\65";
+}
+.cx-info:before {
+  content: "\66";
+}
+.cx-page-multiple:before {
+  content: "\67";
+}
+.cx-clipboard-pencil:before {
+  content: "\68";
+}
+.cx-pencil:before {
+  content: "\69";
+}
+.cx-paperclip:before {
+  content: "\6a";
+}
+.cx-social-stack-overflow:before {
+  content: "\6b";
+}
+.cx-star:before {
+  content: "\6c";
+}
+.cx-torsos-all:before {
+  content: "\6d";
+}
+.cx-torso:before {
+  content: "\6e";
+}
+.cx-trophy:before {
+  content: "\6f";
+}
+.cx-widget:before {
+  content: "\70";
+}
+.cx-x:before {
+  content: "\71";
+}
+.cx-map:before {
+  content: "\72";
+}
+.cx-plus:before {
+  content: "\73";
+}
+.cx-filter:before {
+  content: "\74";
+}
+.cx-archive:before {
+  content: "\75";
+}
