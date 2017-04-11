@@ -132,10 +132,11 @@
   position: relative;
 }
 
-.header {
+.toolbar {
   height: 60px;
   display: block;
   border-bottom: 1px solid $gray;
   background-color: inherit;
   position: relative;
+  background-color: rgba(0,0,0,.025);
 }

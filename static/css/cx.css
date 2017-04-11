@@ -154,13 +154,14 @@ ul {
       border-bottom: 0; }
 
 .inline, h1.inline, h2.inline, h3.inline, h4.inline, h5.inline, h6.inline {
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: middle; }
 
 h1, h2, h3, h4, h5, h6 {
   display: block;
   color: #000;
   font-family: 'Roboto', sans-serif; }
-  h1 .title, h2 .title, h3 .title, h4 .title, h5 .title, h6 .title {
+  h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
     font-weight: 900; }
   h1.inline, h2.inline, h3.inline, h4.inline, h5.inline, h6.inline {
     margin-right: 1em; }
@@ -235,6 +236,17 @@ h1, h2, h3, h4, h5, h6 {
   .cc-button.disabled-btn, button.disabled-btn {
     background-color: #dcdcdc !important;
     color: #fff; }
+
+.no-margin {
+  margin: 0; }
+
+.profile-img {
+  background-image: url(../img/360-icon.svg);
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle; }
 
 .menu-btn {
   position: absolute;
@@ -363,12 +375,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   position: relative; }
 
-.header {
+.toolbar {
   height: 60px;
   display: block;
   border-bottom: 1px solid #ddd;
   background-color: inherit;
-  position: relative; }
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.025); }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
