@@ -240,6 +240,12 @@ h1, h2, h3, h4, h5, h6 {
 .no-margin {
   margin: 0; }
 
+.panel.edit-mode.active {
+  opacity: 1; }
+
+.panel.edit-mode.deactive {
+  opacity: .8; }
+
 .profile-img {
   background-image: url(../img/360-icon.svg);
   width: 40px;
@@ -250,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu-btn {
   position: absolute;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 8px;
   width: 40px;
   height: 40px;
@@ -258,7 +264,8 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 300px;
   -ms-border-radius: 300px;
   border-radius: 300px;
-  background-color: #fff;
+  background-color: #00bef5;
+  color: #fff;
   visibility: hidden;
   opacity: 0;
   cursor: pointer;
@@ -270,7 +277,9 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in; }
   .menu-btn:hover, .menu-btn:focus {
-    background-color: #e91e63; }
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) ;
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) ; }
 
 #icx {
   max-width: 1350px;
@@ -379,9 +388,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   display: block;
   border-bottom: 1px solid #ddd;
-  background-color: inherit;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: rgba(0, 0, 0, 0.015);
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in; }
+  @media (max-width: 800px) and (min-width: 300px) {
+    .toolbar {
+      -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) ;
+      -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) ;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) ; } }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;

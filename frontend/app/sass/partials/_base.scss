@@ -1,11 +1,12 @@
 .menu-btn {
   position: absolute;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 8px;
   width: 40px;
   height: 40px;
   @include radius(300px);
-  background-color: $white;
+  background-color: $blue;
+  color: $white;
   visibility: hidden;
   opacity: 0;
   cursor: pointer;
@@ -14,7 +15,7 @@
   @include transition(all,.4s, ease-in);
 
   &:hover, &:focus {
-    background-color: $red;
+    @include box-shadow(0, 2px, 6px, rgba(0, 0, 0, 0.25));
   }
 }
 
@@ -136,7 +137,11 @@
   height: 60px;
   display: block;
   border-bottom: 1px solid $gray;
-  background-color: inherit;
   position: relative;
-  background-color: rgba(0,0,0,.025);
+  background-color: rgba(0,0,0,.015);
+  @include transition(all,.4s, ease-in);
+
+  @media (max-width: 800px) and (min-width: 300px) {
+    @include box-shadow(0, 2px, 6px, rgba(0, 0, 0, 0.25));
+  }
 }

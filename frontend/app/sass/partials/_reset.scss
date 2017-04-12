@@ -194,6 +194,17 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
 
+.panel {
+  &.edit-mode {
+    &.active {
+      opacity: 1;
+    }
+    &.deactive {
+      opacity: .8;
+    }
+  }
+}
+
 .profile-img {
   background-image: url(../img/360-icon.svg);
   width: 40px;
