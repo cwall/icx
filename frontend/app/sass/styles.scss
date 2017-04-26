@@ -7,6 +7,9 @@
 @import 'partials/reset';
 @import 'partials/base';
 
+// Edit mode
+@import 'partials/edit-mode';
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

@@ -131,6 +131,12 @@
   width: auto;
   z-index: 1;
   position: relative;
+
+  .panel {
+    padding: 20px;
+    border-bottom: 1px solid $base;
+    //@include box-shadow(0, 6px, 6px, -6px, rgba(0, 0, 0, 0.25));
+  }
 }
 
 .toolbar {
@@ -143,5 +149,37 @@
 
   @media (max-width: 800px) and (min-width: 300px) {
     @include box-shadow(0, 2px, 6px, rgba(0, 0, 0, 0.25));
+  }
+}
+
+.tabs-wrapper {
+  display: block;
+  position: relative;
+  padding: 10px;
+  height: 60px;
+  margin: 0;
+  list-style: none outside none;
+}
+
+.tab {
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+  color: $gray;
+  cursor: pointer;
+  text-align: center;
+  font-size: .9rem;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  @include transition(all,.2s, ease-in);
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &.active, &:hover {
+    color: $black;
+    font-weight: 900;
+    border-bottom-color: $red;
   }
 }
