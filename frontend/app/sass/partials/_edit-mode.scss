@@ -1,0 +1,56 @@
+.edit {
+  @include radius(3px);
+  border: 1px solid $gray;
+  @include transition(all,.4s, ease-in);
+  opacity: .6;
+  cursor: pointer;
+
+  &.active, &:hover {
+    opacity: 1;
+    border: 1px solid $blue;
+  }
+}
+
+.edit-panel {
+  width: 100%;
+  background-color: $white;
+  display: block;
+  height: auto;
+  min-height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  .edit-panel-header {
+    @include flex(1 0 100%);
+    border-bottom: 1px solid $base;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .edit-panel-body {
+    padding: 10px;
+    @include flex-box;
+    @include flex(1 1 100%);
+    flex-flow: row wrap;
+  }
+
+  .edit-panel-item {
+    @include flex(0 1 auto);
+    width: auto;
+    padding: 4px;
+    @include radius(3px);
+    background-color: $base;
+    color: $blue;
+    text-align: center;
+    margin: 0 8px 8px 0;
+    font-size: .825rem;
+    font-weight: bold;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
